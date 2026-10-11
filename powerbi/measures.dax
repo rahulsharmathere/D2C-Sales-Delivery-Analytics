@@ -1,0 +1,271 @@
+// ==============================================================================
+// UrbanNest D2C Analytics - Power BI DAX Measures Repository
+// Architecture: Clean DAX using VAR / RETURN, DIVIDE, Time Intelligence,
+//               CALCULATE filter context modifiers, and dynamic SWITCH formatting.
+//
+// Model Structure Required:
+//   - Fact Tables: fact_orders, fact_marketing_spend
+//   - Dimension Tables: dim_date, dim_channel, dim_customers, dim_products
+//   - Analytics Mart: customer_rfm
+// ==============================================================================
+
+
+// ==============================================================================
+// FOLDER: 01 Core Sales & Volume
+// ==============================================================================
+
+Total Orders = 
+DISTINCTCOUNT(fact_orders[order_id])
+
+Delivered Orders = 
+CALCULATE(
+    [Total Orders],
+    fact_orders[order_status] = "Delivered"
+)
+
+Returned Orders = 
+CALCULATE(
+    [Total Orders],
+    fact_orders[order_status] = "Returned"
+)
+
+Cancelled Orders = 
+CALCULATE(
+    [Total Orders],
+    fact_orders[order_status] = "Cancelled"
+)
+
+Gross Revenue = 
+SUM(fact_orders[selling_price])
+
+Net Delivered Revenue = 
+CALCULATE(
+    [Gross Revenue],
+    fact_orders[order_status] = "Delivered"
+)
+
+Average Order Value (AOV) = 
+DIVIDE(
+    [Gross Revenue],
+    [Total Orders],
+    0
+)
+
+
+// ==============================================================================
+// FOLDER: 02 Margins & Profitability
+// ==============================================================================
+
+Total COGS = 
+SUMX(
+    fact_orders,
+    RELATED(dim_products[cost_price]) * fact_orders[quantity]
+)
+
+Total Freight Cost = 
+SUM(fact_orders[shipping_cost])
+
+Gross Profit = 
+[Gross Revenue] - [Total COGS]
+
+Gross Margin % = 
+DIVIDE(
+    [Gross Profit],
+    [Gross Revenue],
+    0
+)
+
+Contribution Profit = 
+[Gross Profit] - [Total Freight Cost]
+
+Contribution Margin % = 
+DIVIDE(
+    [Contribution Profit],
+    [Gross Revenue],
+    0
+)
+
+Discount Leakage = 
+VAR TotalMRP = 
+    SUMX(
+        fact_orders,
+        RELATED(dim_products[mrp]) * fact_orders[quantity]
+    )
+VAR ActualRevenue = [Gross Revenue]
+RETURN
+    TotalMRP - ActualRevenue
+
+
+// ==============================================================================
+// FOLDER: 03 Logistics & SLA Performance
+// ==============================================================================
+
+On-Time Delivery % = 
+// Evaluates shipments delivered on or before the promised delivery date.
+// Restricts evaluation to dispatched non-cancelled orders with recorded transit days.
+// Uses FILTER over fact_orders to compare actual_days vs promised_days validly in DAX.
+VAR DispatchedWithTracking = 
+    FILTER(
+        fact_orders,
+        fact_orders[order_status] IN {"Delivered", "Returned"} 
+            && NOT ISBLANK(fact_orders[actual_days])
+    )
+VAR TotalFulfilled = COUNTROWS(DispatchedWithTracking)
+VAR OnTimeOrders = 
+    COUNTROWS(
+        FILTER(
+            DispatchedWithTracking,
+            fact_orders[actual_days] <= fact_orders[promised_days]
+        )
+    )
+RETURN
+    DIVIDE(OnTimeOrders, TotalFulfilled, 0)
+
+Return Rate % = 
+VAR DispatchedOrders = 
+    CALCULATE(
+        [Total Orders],
+        fact_orders[order_status] IN {"Delivered", "Returned"}
+    )
+VAR Returns = [Returned Orders]
+RETURN
+    DIVIDE(Returns, DispatchedOrders, 0)
+
+Cancellation Rate % = 
+VAR Orders = [Total Orders]
+VAR Cancels = [Cancelled Orders]
+RETURN
+    DIVIDE(Cancels, Orders, 0)
+
+Order Failure Rate % = 
+// Total failed transactions (Returned + Cancelled) divided by total placed orders.
+VAR Orders = [Total Orders]
+VAR Failures = [Returned Orders] + [Cancelled Orders]
+RETURN
+    DIVIDE(Failures, Orders, 0)
+
+
+// ==============================================================================
+// FOLDER: 04 Marketing & Customer Retention
+// ==============================================================================
+
+Total Marketing Spend = 
+SUM(fact_marketing_spend[spend])
+
+New Customers = 
+// Activates the secondary inactive relationship between dim_date and dim_customers[signup_date]
+// to calculate newly acquired cohorts in any selected calendar timeframe.
+CALCULATE(
+    DISTINCTCOUNT(dim_customers[customer_id]),
+    USERELATIONSHIP(dim_date[date_key], dim_customers[signup_date])
+)
+
+CAC = 
+// Customer Acquisition Cost = Marketing Spend divided by NEW customers acquired in the period.
+VAR AdSpend = [Total Marketing Spend]
+VAR AcquiredCustomers = [New Customers]
+RETURN
+    DIVIDE(AdSpend, AcquiredCustomers, 0)
+
+ROAS = 
+// Return on Ad Spend = Gross Revenue / Marketing Spend.
+//
+// Filter Flow Architecture with dim_channel:
+// 1. When filtering/slicing by dim_channel[channel_name], dim_channel propagates filters 
+//    downstream to dim_customers (1:*) on acquisition_channel.
+// 2. dim_customers propagates downstream to fact_orders (1:*) on customer_id, so [Gross Revenue] 
+//    accurately aggregates revenue from customers acquired via that channel.
+// 3. Simultaneously, dim_channel filters fact_marketing_spend (1:*) on channel, isolating that channel's spend.
+// 4. DIVIDE([Gross Revenue], [Total Marketing Spend]) computes exact channel ROAS.
+// Note: Organic is an unpaid channel; ROAS should be presented as N/A in report visuals.
+VAR Revenue = [Gross Revenue]
+VAR AdSpend = [Total Marketing Spend]
+RETURN
+    DIVIDE(Revenue, AdSpend, 0)
+
+Repeat Customer % = 
+// Share of active customers with more than 1 placed order.
+VAR CustomersWithOrders = 
+    ADDCOLUMNS(
+        VALUES(dim_customers[customer_id]),
+        "@Orders", CALCULATE([Total Orders])
+    )
+VAR TotalActiveCustomers = 
+    COUNTROWS(FILTER(CustomersWithOrders, [@Orders] >= 1))
+VAR RepeatCustomers = 
+    COUNTROWS(FILTER(CustomersWithOrders, [@Orders] > 1))
+RETURN
+    DIVIDE(RepeatCustomers, TotalActiveCustomers, 0)
+
+
+// ==============================================================================
+// FOLDER: 05 Time Intelligence
+// ==============================================================================
+
+Revenue MoM % = 
+VAR CurrentRevenue = [Gross Revenue]
+VAR PreviousMonthRevenue = 
+    CALCULATE(
+        [Gross Revenue],
+        DATEADD(dim_date[date_key], -1, MONTH)
+    )
+RETURN
+    DIVIDE(
+        CurrentRevenue - PreviousMonthRevenue,
+        PreviousMonthRevenue,
+        0
+    )
+
+Revenue YoY % = 
+VAR CurrentRevenue = [Gross Revenue]
+VAR PreviousYearRevenue = 
+    CALCULATE(
+        [Gross Revenue],
+        SAMEPERIODLASTYEAR(dim_date[date_key])
+    )
+RETURN
+    DIVIDE(
+        CurrentRevenue - PreviousYearRevenue,
+        PreviousYearRevenue,
+        0
+    )
+
+Revenue YTD = 
+TOTALYTD(
+    [Gross Revenue],
+    dim_date[date_key]
+)
+
+
+// ==============================================================================
+// FOLDER: 06 UI & Conditional Formatting
+// ==============================================================================
+
+Dynamic Report Title = 
+VAR SelectedYear = SELECTEDVALUE(dim_date[year], "2024 - 2025")
+VAR SelectedCategory = SELECTEDVALUE(dim_products[category], "All Categories")
+VAR SelectedTier = SELECTEDVALUE(dim_customers[city_tier], "National")
+RETURN
+    "UrbanNest Sales & Delivery Diagnostic | " & SelectedCategory & " | " & SelectedTier & " (" & SelectedYear & ")"
+
+CF_GrossMargin_Color = 
+VAR Margin = [Gross Margin %]
+RETURN
+    SWITCH(
+        TRUE(),
+        ISBLANK(Margin), "#94A3B8", -- Neutral Slate
+        Margin < 0.15, "#DC2626",   -- Critical Dilution Red (<15%)
+        Margin < 0.30, "#D97706",   -- Warning Amber (15-30%)
+        "#059669"                   -- Healthy Green (>=30%)
+    )
+
+CF_OnTimeDelivery_Color = 
+VAR OnTime = [On-Time Delivery %]
+RETURN
+    SWITCH(
+        TRUE(),
+        ISBLANK(OnTime), "#94A3B8", -- Neutral Slate
+        OnTime < 0.75, "#DC2626",   -- SLA Breach Red (<75%)
+        OnTime < 0.90, "#D97706",   -- SLA Warning Amber (75-90%)
+        "#059669"                   -- SLA Compliant Green (>=90%)
+    )

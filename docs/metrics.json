@@ -1,0 +1,545 @@
+{
+  "metadata": {
+    "project": "UrbanNest D2C Analytics",
+    "timeframe": "2024-01-01 to 2025-12-31",
+    "currency": "INR",
+    "random_seed": 42
+  },
+  "overall_financials": {
+    "total_orders": 15000,
+    "delivered_orders": 13095,
+    "delivered_orders_pct": 87.3,
+    "returned_orders": 1193,
+    "returned_orders_pct": 7.95,
+    "cancelled_orders": 712,
+    "cancelled_orders_pct": 4.75,
+    "gross_revenue_inr": 70273362.0,
+    "gross_revenue_cr": 7.03,
+    "gross_revenue_lakhs": 702.73,
+    "delivered_revenue_inr": 61230825.0,
+    "delivered_revenue_cr": 6.12,
+    "delivered_revenue_lakhs": 612.31,
+    "revenue_erosion_inr": 9042537.0,
+    "revenue_erosion_cr": 0.9,
+    "revenue_erosion_lakhs": 90.43,
+    "total_cogs_inr": 48769886.0,
+    "total_cogs_lakhs": 487.7,
+    "total_shipping_cost_inr": 4889664.0,
+    "total_shipping_cost_lakhs": 48.9,
+    "gross_profit_inr": 21503476.0,
+    "gross_profit_lakhs": 215.03,
+    "gross_margin_pct": 30.6,
+    "contribution_profit_inr": 16613812.0,
+    "contribution_profit_lakhs": 166.14,
+    "contribution_margin_pct": 23.64,
+    "aov_inr": 4684.89,
+    "discount_leakage_inr": 17204474.0,
+    "discount_leakage_cr": 1.72,
+    "discount_leakage_lakhs": 172.04,
+    "total_marketing_spend_inr": 5215620.0,
+    "paid_marketing_spend_inr": 4658006.0,
+    "blended_roas": 13.47,
+    "paid_blended_roas": 15.09
+  },
+  "quarterly_financials": [
+    {
+      "quarter": "2024 Q1",
+      "orders": 283,
+      "gross_revenue_inr": 1355407.0,
+      "gross_revenue_lakhs": 13.55,
+      "cogs_inr": 859344.0,
+      "gross_margin_pct": 36.6
+    },
+    {
+      "quarter": "2024 Q2",
+      "orders": 528,
+      "gross_revenue_inr": 2820688.0,
+      "gross_revenue_lakhs": 28.21,
+      "cogs_inr": 1778394.0,
+      "gross_margin_pct": 36.95
+    },
+    {
+      "quarter": "2024 Q3",
+      "orders": 760,
+      "gross_revenue_inr": 3752634.0,
+      "gross_revenue_lakhs": 37.53,
+      "cogs_inr": 2329357.0,
+      "gross_margin_pct": 37.93
+    },
+    {
+      "quarter": "2024 Q4",
+      "orders": 1087,
+      "gross_revenue_inr": 4674648.0,
+      "gross_revenue_lakhs": 46.75,
+      "cogs_inr": 3781433.0,
+      "gross_margin_pct": 19.11
+    },
+    {
+      "quarter": "2025 Q1",
+      "orders": 1512,
+      "gross_revenue_inr": 7846913.0,
+      "gross_revenue_lakhs": 78.47,
+      "cogs_inr": 4927429.0,
+      "gross_margin_pct": 37.21
+    },
+    {
+      "quarter": "2025 Q2",
+      "orders": 2254,
+      "gross_revenue_inr": 11327915.0,
+      "gross_revenue_lakhs": 113.28,
+      "cogs_inr": 7100460.0,
+      "gross_margin_pct": 37.32
+    },
+    {
+      "quarter": "2025 Q3",
+      "orders": 3056,
+      "gross_revenue_inr": 15869419.0,
+      "gross_revenue_lakhs": 158.69,
+      "cogs_inr": 9970163.0,
+      "gross_margin_pct": 37.17
+    },
+    {
+      "quarter": "2025 Q4",
+      "orders": 5520,
+      "gross_revenue_inr": 22625738.0,
+      "gross_revenue_lakhs": 226.26,
+      "cogs_inr": 18023306.0,
+      "gross_margin_pct": 20.34
+    }
+  ],
+  "category_margins": [
+    {
+      "category": "Decor",
+      "total_orders": 2927,
+      "revenue_inr": 5531311.0,
+      "revenue_lakhs": 55.31,
+      "gross_margin_pct": 50.24,
+      "net_margin_pct": 40.97
+    },
+    {
+      "category": "Kitchen",
+      "total_orders": 2830,
+      "revenue_inr": 6924034.0,
+      "revenue_lakhs": 69.24,
+      "gross_margin_pct": 47.85,
+      "net_margin_pct": 39.37
+    },
+    {
+      "category": "Bedding",
+      "total_orders": 2778,
+      "revenue_inr": 8888068.0,
+      "revenue_lakhs": 88.88,
+      "gross_margin_pct": 44.28,
+      "net_margin_pct": 37.03
+    },
+    {
+      "category": "Lighting",
+      "total_orders": 2858,
+      "revenue_inr": 9144231.0,
+      "revenue_lakhs": 91.44,
+      "gross_margin_pct": 24.45,
+      "net_margin_pct": 14.82
+    },
+    {
+      "category": "Furniture",
+      "total_orders": 2895,
+      "revenue_inr": 36525409.0,
+      "revenue_lakhs": 365.25,
+      "gross_margin_pct": 22.6,
+      "net_margin_pct": 17.03
+    }
+  ],
+  "discount_buckets_furniture_lighting": [
+    {
+      "category": "Furniture",
+      "discount_bucket": "0-10%",
+      "orders": 875,
+      "revenue_inr": 12707462.0,
+      "revenue_lakhs": 127.07,
+      "gross_margin_pct": 36.05,
+      "net_after_ship_pct": 31.31
+    },
+    {
+      "category": "Furniture",
+      "discount_bucket": "10-20%",
+      "orders": 737,
+      "revenue_inr": 9751648.0,
+      "revenue_lakhs": 97.52,
+      "gross_margin_pct": 26.17,
+      "net_after_ship_pct": 20.89
+    },
+    {
+      "category": "Furniture",
+      "discount_bucket": "20-30%",
+      "orders": 595,
+      "revenue_inr": 7001314.0,
+      "revenue_lakhs": 70.01,
+      "gross_margin_pct": 15.06,
+      "net_after_ship_pct": 9.03
+    },
+    {
+      "category": "Furniture",
+      "discount_bucket": "30%+",
+      "orders": 688,
+      "revenue_inr": 7064985.0,
+      "revenue_lakhs": 70.65,
+      "gross_margin_pct": 0.93,
+      "net_after_ship_pct": -6.05
+    },
+    {
+      "category": "Lighting",
+      "discount_bucket": "0-10%",
+      "orders": 900,
+      "revenue_inr": 3372078.0,
+      "revenue_lakhs": 33.72,
+      "gross_margin_pct": 37.27,
+      "net_after_ship_pct": 29.01
+    },
+    {
+      "category": "Lighting",
+      "discount_bucket": "10-20%",
+      "orders": 687,
+      "revenue_inr": 2281036.0,
+      "revenue_lakhs": 22.81,
+      "gross_margin_pct": 27.43,
+      "net_after_ship_pct": 18.21
+    },
+    {
+      "category": "Lighting",
+      "discount_bucket": "20-30%",
+      "orders": 611,
+      "revenue_inr": 1812083.0,
+      "revenue_lakhs": 18.12,
+      "gross_margin_pct": 16.61,
+      "net_after_ship_pct": 6.06
+    },
+    {
+      "category": "Lighting",
+      "discount_bucket": "30%+",
+      "orders": 660,
+      "revenue_inr": 1679034.0,
+      "revenue_lakhs": 16.79,
+      "gross_margin_pct": 3.12,
+      "net_after_ship_pct": -8.82
+    }
+  ],
+  "payment_method_by_tier": [
+    {
+      "payment_group": "COD",
+      "city_tier": "Metro",
+      "total_orders": 916,
+      "delivered_orders": 731.0,
+      "returned_orders": 126.0,
+      "cancelled_orders": 59.0,
+      "return_rate_pct": 13.76,
+      "cancel_rate_pct": 6.44,
+      "failure_rate_pct": 20.2
+    },
+    {
+      "payment_group": "COD",
+      "city_tier": "Tier-2",
+      "total_orders": 1553,
+      "delivered_orders": 1194.0,
+      "returned_orders": 214.0,
+      "cancelled_orders": 145.0,
+      "return_rate_pct": 13.78,
+      "cancel_rate_pct": 9.34,
+      "failure_rate_pct": 23.12
+    },
+    {
+      "payment_group": "COD",
+      "city_tier": "Tier-3",
+      "total_orders": 1601,
+      "delivered_orders": 1191.0,
+      "returned_orders": 213.0,
+      "cancelled_orders": 197.0,
+      "return_rate_pct": 13.3,
+      "cancel_rate_pct": 12.3,
+      "failure_rate_pct": 25.61
+    },
+    {
+      "payment_group": "Prepaid",
+      "city_tier": "Metro",
+      "total_orders": 5557,
+      "delivered_orders": 5076.0,
+      "returned_orders": 331.0,
+      "cancelled_orders": 150.0,
+      "return_rate_pct": 5.96,
+      "cancel_rate_pct": 2.7,
+      "failure_rate_pct": 8.66
+    },
+    {
+      "payment_group": "Prepaid",
+      "city_tier": "Tier-2",
+      "total_orders": 3932,
+      "delivered_orders": 3582.0,
+      "returned_orders": 241.0,
+      "cancelled_orders": 109.0,
+      "return_rate_pct": 6.13,
+      "cancel_rate_pct": 2.77,
+      "failure_rate_pct": 8.9
+    },
+    {
+      "payment_group": "Prepaid",
+      "city_tier": "Tier-3",
+      "total_orders": 1441,
+      "delivered_orders": 1321.0,
+      "returned_orders": 68.0,
+      "cancelled_orders": 52.0,
+      "return_rate_pct": 4.72,
+      "cancel_rate_pct": 3.61,
+      "failure_rate_pct": 8.33
+    }
+  ],
+  "payment_summary": {
+    "cod_orders": 4070,
+    "cod_failure_rate_pct": 23.44,
+    "cod_return_rate_pct": 13.59,
+    "cod_cancellation_rate_pct": 9.85,
+    "prepaid_orders": 10930,
+    "prepaid_failure_rate_pct": 8.7,
+    "prepaid_return_rate_pct": 5.86,
+    "prepaid_cancellation_rate_pct": 2.85,
+    "cod_to_prepaid_failure_ratio": 2.69,
+    "tier3_cod_orders": 1601,
+    "tier3_cod_return_pct": 13.3,
+    "tier3_cod_cancellation_pct": 12.3,
+    "tier3_cod_failure_pct": 25.61
+  },
+  "warehouse_operations": [
+    {
+      "warehouse": "Delhi",
+      "fulfilled_orders": 5881,
+      "on_time_orders": 5369.0,
+      "delayed_orders": 512.0,
+      "on_time_delivery_pct": 91.29,
+      "avg_promised_days": 4.0,
+      "avg_actual_days": 3.28,
+      "avg_delay_days": -0.73,
+      "return_rate_pct": 8.06
+    },
+    {
+      "warehouse": "Mumbai",
+      "fulfilled_orders": 5512,
+      "on_time_orders": 5023.0,
+      "delayed_orders": 489.0,
+      "on_time_delivery_pct": 91.13,
+      "avg_promised_days": 4.0,
+      "avg_actual_days": 3.26,
+      "avg_delay_days": -0.73,
+      "return_rate_pct": 7.71
+    },
+    {
+      "warehouse": "Kolkata",
+      "fulfilled_orders": 2895,
+      "on_time_orders": 1785.0,
+      "delayed_orders": 1110.0,
+      "on_time_delivery_pct": 61.66,
+      "avg_promised_days": 5.0,
+      "avg_actual_days": 6.07,
+      "avg_delay_days": 1.08,
+      "return_rate_pct": 10.16
+    }
+  ],
+  "delay_return_impact": {
+    "on_time_return_rate_pct": 6.89,
+    "late_return_rate_pct": 16.77,
+    "delay_surge_ratio": 2.43
+  },
+  "channel_performance": [
+    {
+      "channel": "Google Ads",
+      "is_paid": true,
+      "customers_acquired": 786,
+      "total_spend_inr": 1815604.0,
+      "cac_inr": 2309.93,
+      "total_revenue_inr": 18451428.0,
+      "total_revenue_lakhs": 184.51,
+      "roas": 10.16,
+      "roas_display": "10.16x",
+      "repeat_customers": 237.0,
+      "repeat_purchase_rate_pct": 30.15,
+      "avg_orders_per_customer": 5.19
+    },
+    {
+      "channel": "Instagram Ads",
+      "is_paid": true,
+      "customers_acquired": 1357,
+      "total_spend_inr": 2842402.0,
+      "cac_inr": 2094.62,
+      "total_revenue_inr": 9149941.0,
+      "total_revenue_lakhs": 91.5,
+      "roas": 3.22,
+      "roas_display": "3.22x",
+      "repeat_customers": 167.0,
+      "repeat_purchase_rate_pct": 12.31,
+      "avg_orders_per_customer": 1.46
+    },
+    {
+      "channel": "Organic",
+      "is_paid": false,
+      "customers_acquired": 600,
+      "total_spend_inr": 223439.0,
+      "cac_inr": 372.4,
+      "total_revenue_inr": 24327177.0,
+      "total_revenue_lakhs": 243.27,
+      "roas": NaN,
+      "roas_display": "N/A (Unpaid)",
+      "repeat_customers": 244.0,
+      "repeat_purchase_rate_pct": 40.67,
+      "avg_orders_per_customer": 9.22
+    },
+    {
+      "channel": "Referral",
+      "is_paid": false,
+      "customers_acquired": 307,
+      "total_spend_inr": 334175.0,
+      "cac_inr": 1088.52,
+      "total_revenue_inr": 15084507.0,
+      "total_revenue_lakhs": 150.85,
+      "roas": 45.14,
+      "roas_display": "45.14x (Low spend incentives)",
+      "repeat_customers": 131.0,
+      "repeat_purchase_rate_pct": 42.67,
+      "avg_orders_per_customer": 11.08
+    }
+  ],
+  "rfm_segmentation": [
+    {
+      "rfm_segment": "Champions",
+      "customer_count": 566,
+      "customer_share_pct": 18.56,
+      "avg_recency_days": 16.9,
+      "avg_frequency": 19.71,
+      "avg_monetary_inr": 91173.47,
+      "total_revenue_inr": 51604186.0,
+      "total_revenue_lakhs": 516.04,
+      "revenue_share_pct": 77.01
+    },
+    {
+      "rfm_segment": "Lost",
+      "customer_count": 2171,
+      "customer_share_pct": 71.18,
+      "avg_recency_days": 334.0,
+      "avg_frequency": 1.0,
+      "avg_monetary_inr": 4880.76,
+      "total_revenue_inr": 10596134.0,
+      "total_revenue_lakhs": 105.96,
+      "revenue_share_pct": 15.81
+    },
+    {
+      "rfm_segment": "Loyal",
+      "customer_count": 136,
+      "customer_share_pct": 4.46,
+      "avg_recency_days": 77.9,
+      "avg_frequency": 5.15,
+      "avg_monetary_inr": 25924.77,
+      "total_revenue_inr": 3525769.0,
+      "total_revenue_lakhs": 35.26,
+      "revenue_share_pct": 5.26
+    },
+    {
+      "rfm_segment": "At Risk",
+      "customer_count": 76,
+      "customer_share_pct": 2.49,
+      "avg_recency_days": 254.9,
+      "avg_frequency": 3.42,
+      "avg_monetary_inr": 16933.74,
+      "total_revenue_inr": 1286964.0,
+      "total_revenue_lakhs": 12.87,
+      "revenue_share_pct": 1.92
+    },
+    {
+      "rfm_segment": "No Purchase",
+      "customer_count": 101,
+      "customer_share_pct": 3.31,
+      "avg_recency_days": 999.0,
+      "avg_frequency": 0.0,
+      "avg_monetary_inr": 0.0,
+      "total_revenue_inr": 0.0,
+      "total_revenue_lakhs": 0.0,
+      "revenue_share_pct": 0.0
+    }
+  ],
+  "what_if_estimates": {
+    "P1_discount_cap": {
+      "initiative": "P1: Category-Specific Discount Guardrails (20% Max on Furniture & Lighting)",
+      "affected_orders_count": 2554,
+      "affected_revenue_inr": 17557416.0,
+      "affected_revenue_lakhs": 175.57,
+      "original_contribution_profit_inr": 166182.0,
+      "original_contribution_profit_lakhs": 1.66,
+      "case_a_0pct_volume_drop": {
+        "new_contribution_profit_inr": 3813316.0,
+        "new_contribution_profit_lakhs": 38.13,
+        "two_year_delta_profit_inr": 3647134.0,
+        "two_year_delta_profit_lakhs": 36.47,
+        "annualized_delta_profit_inr": 1823567.0,
+        "annualized_delta_profit_lakhs": 18.24
+      },
+      "case_b_15pct_volume_drop": {
+        "two_year_delta_profit_inr": 3075136.6,
+        "two_year_delta_profit_lakhs": 30.75,
+        "annualized_delta_profit_inr": 1537568.3,
+        "annualized_delta_profit_lakhs": 15.38
+      },
+      "key_assumption": "Caps promotional markdowns at 20% on bulky categories. Case A assumes 0% volume drop; Case B conservatively models a 15% volume reduction from price elasticity."
+    },
+    "P2_cod_derisking": {
+      "initiative": "P2: De-Risk Tier-3 Cash-on-Delivery (Prepaid Incentive + WhatsApp OTP)",
+      "tier3_cod_total_orders": 1601,
+      "baseline_cancelled_orders": 197,
+      "baseline_returned_orders": 213,
+      "baseline_freight_loss_inr": 221394.0,
+      "baseline_freight_loss_lakhs": 2.21,
+      "assumptions": {
+        "prepaid_conversion_share": 0.35,
+        "verification_deterrence_share": 0.15
+      },
+      "modeled_outcomes": {
+        "total_failures_prevented": 159,
+        "two_year_freight_saved_inr": 87174.66,
+        "two_year_freight_saved_lakhs": 0.87,
+        "two_year_delivered_revenue_recovered_inr": 452535.38,
+        "two_year_delivered_revenue_recovered_lakhs": 4.53,
+        "two_year_net_profit_impact_inr": 194154.02,
+        "two_year_net_profit_impact_lakhs": 1.94,
+        "annualized_net_profit_impact_lakhs": 0.97
+      }
+    },
+    "P3_kolkata_sla": {
+      "initiative": "P3: Eastern Fulfillment & Kolkata 3PL SLA Overhaul",
+      "kolkata_fulfilled_orders": 2895,
+      "kolkata_baseline_delayed_orders": 1110,
+      "kolkata_baseline_on_time_pct": 61.59,
+      "target_benchmark_on_time_pct": 91.21,
+      "delayed_orders_eliminated": 856,
+      "returns_avoided_count": 85,
+      "two_year_freight_saved_inr": 61867.32,
+      "two_year_freight_saved_lakhs": 0.62,
+      "two_year_merchandise_value_preserved_inr": 406654.24,
+      "two_year_merchandise_value_preserved_lakhs": 4.07,
+      "two_year_net_profit_impact_inr": 158000.38,
+      "two_year_net_profit_impact_lakhs": 1.58,
+      "annualized_net_profit_impact_lakhs": 0.79,
+      "key_assumption": "Kolkata on-time SLA reaches Delhi/Mumbai peer benchmark (91.21%), reducing return rates on converted on-time shipments by the observed 9.88% delta."
+    },
+    "P4_marketing_reallocation": {
+      "initiative": "P4: Marketing Spend Reallocation (30% Instagram Spend to Google Ads)",
+      "reallocated_budget_2yr_inr": 852720.6,
+      "reallocated_budget_2yr_lakhs": 8.53,
+      "reallocated_budget_monthly_inr": 35530.03,
+      "customers_lost_instagram": 407,
+      "customers_gained_google": 369,
+      "revenue_lost_instagram_inr": 2744308.02,
+      "revenue_gained_google_inr": 8662311.62,
+      "theoretical_net_revenue_delta_inr": 5918003.6,
+      "theoretical_net_revenue_delta_lakhs": 59.18,
+      "conservative_net_revenue_delta_inr": 2959001.8,
+      "conservative_net_revenue_delta_lakhs": 29.59,
+      "annualized_conservative_revenue_delta_lakhs": 14.8,
+      "annualized_contribution_profit_delta_lakhs": 3.5,
+      "key_assumption": "Shifts 30% of Instagram spend (\u20b935.5k/month) into Google Ads. Applies a 50% haircut to modeled gains to account for diminishing marginal returns on search ad scale."
+    }
+  }
+}

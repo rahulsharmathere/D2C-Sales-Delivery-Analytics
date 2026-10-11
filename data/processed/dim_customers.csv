@@ -1,0 +1,3051 @@
+customer_id,city,city_tier,signup_date,acquisition_channel,order_cnt,ltv_rev,is_repeat
+CUST-10001,Kolkata,Metro,2025-10-13,Referral,1,1124.0,False
+CUST-10002,Delhi,Metro,2025-06-03,Organic,3,4698.0,True
+CUST-10003,Delhi,Metro,2025-05-27,Referral,9,31160.0,True
+CUST-10004,Kolkata,Metro,2025-08-06,Google Ads,1,3654.0,False
+CUST-10005,Chandigarh,Tier-2,2024-04-16,Instagram Ads,1,0.0,False
+CUST-10006,Mumbai,Metro,2025-05-10,Google Ads,1,2499.0,False
+CUST-10007,Lucknow,Tier-2,2024-10-29,Instagram Ads,1,5849.0,False
+CUST-10008,Mumbai,Metro,2024-05-28,Google Ads,1,1539.0,False
+CUST-10009,Kolkata,Metro,2025-08-28,Google Ads,1,1899.0,False
+CUST-10010,Patna,Tier-3,2025-10-25,Organic,59,245724.0,True
+CUST-10011,Kolkata,Metro,2025-07-30,Instagram Ads,1,1299.0,False
+CUST-10012,Kolkata,Metro,2024-11-14,Organic,1,3749.0,False
+CUST-10013,Raipur,Tier-3,2024-04-23,Instagram Ads,1,2158.0,False
+CUST-10014,Delhi,Metro,2025-01-01,Instagram Ads,1,1599.0,False
+CUST-10015,Hyderabad,Metro,2024-12-25,Instagram Ads,1,0.0,False
+CUST-10016,Kochi,Tier-2,2024-09-10,Instagram Ads,1,809.0,False
+CUST-10017,Pune,Tier-2,2025-08-05,Organic,6,16758.0,True
+CUST-10018,Pune,Tier-2,2025-08-05,Organic,1,7499.0,False
+CUST-10019,Delhi,Metro,2025-12-02,Instagram Ads,1,2799.0,False
+CUST-10020,Lucknow,Tier-2,2025-07-24,Instagram Ads,1,2124.0,False
+CUST-10021,Lucknow,Tier-2,2025-06-03,Instagram Ads,1,3149.0,False
+CUST-10022,Hyderabad,Metro,2024-12-01,Referral,1,2099.0,False
+CUST-10023,Hyderabad,Metro,2025-03-06,Organic,1,1869.0,False
+CUST-10024,Bhopal,Tier-3,2024-07-17,Instagram Ads,1,2499.0,False
+CUST-10025,Raipur,Tier-3,2025-01-03,Instagram Ads,1,1039.0,False
+CUST-10026,Mumbai,Metro,2025-04-13,Instagram Ads,1,5999.0,False
+CUST-10027,Kochi,Tier-2,2024-05-09,Instagram Ads,1,1869.0,False
+CUST-10028,Mumbai,Metro,2024-05-07,Google Ads,1,2499.0,False
+CUST-10029,Surat,Tier-2,2024-03-04,Instagram Ads,1,3224.0,False
+CUST-10030,Hyderabad,Metro,2025-01-11,Instagram Ads,1,5849.0,False
+CUST-10031,Chandigarh,Tier-2,2025-04-14,Instagram Ads,1,2549.0,False
+CUST-10032,Pune,Tier-2,2024-10-28,Google Ads,19,207630.0,True
+CUST-10033,Mumbai,Metro,2024-11-22,Instagram Ads,1,5499.0,False
+CUST-10034,Kolkata,Metro,2025-02-21,Google Ads,1,4499.0,False
+CUST-10035,Chennai,Metro,2024-07-13,Referral,22,67344.0,True
+CUST-10036,Bengaluru,Metro,2024-07-01,Referral,20,88520.0,True
+CUST-10037,Chandigarh,Tier-2,2025-11-06,Google Ads,19,77161.0,True
+CUST-10038,Ranchi,Tier-3,2024-02-20,Referral,1,1709.0,False
+CUST-10039,Varanasi,Tier-3,2025-05-26,Organic,8,35941.0,True
+CUST-10040,Bengaluru,Metro,2025-10-17,Instagram Ads,1,629.0,False
+CUST-10041,Ahmedabad,Tier-2,2025-05-23,Instagram Ads,1,1299.0,False
+CUST-10042,Ahmedabad,Tier-2,2025-08-10,Google Ads,1,7199.0,False
+CUST-10043,Kochi,Tier-2,2024-05-14,Google Ads,1,2399.0,False
+CUST-10044,Ahmedabad,Tier-2,2024-01-23,Instagram Ads,1,8499.0,False
+CUST-10045,Bengaluru,Metro,2024-05-03,Organic,8,48505.0,True
+CUST-10046,Indore,Tier-2,2024-06-24,Google Ads,19,117745.0,True
+CUST-10047,Hyderabad,Metro,2024-06-13,Google Ads,41,262335.0,True
+CUST-10048,Agra,Tier-3,2024-05-13,Referral,1,5099.0,False
+CUST-10049,Bhopal,Tier-3,2024-12-11,Instagram Ads,1,3149.0,False
+CUST-10050,Kolkata,Metro,2025-04-27,Instagram Ads,1,4499.0,False
+CUST-10051,Chennai,Metro,2025-09-13,Google Ads,1,1899.0,False
+CUST-10052,Ahmedabad,Tier-2,2025-08-09,Organic,1,1869.0,False
+CUST-10053,Chennai,Metro,2025-01-17,Organic,2,4148.0,True
+CUST-10054,Patna,Tier-3,2025-05-28,Google Ads,1,1999.0,False
+CUST-10055,Chandigarh,Tier-2,2025-04-12,Organic,85,395292.0,True
+CUST-10056,Kolkata,Metro,2025-05-26,Google Ads,1,4299.0,False
+CUST-10057,Indore,Tier-2,2024-05-30,Instagram Ads,1,3057.0,False
+CUST-10058,Hyderabad,Metro,2025-07-09,Instagram Ads,1,6749.0,False
+CUST-10059,Mumbai,Metro,2025-02-07,Instagram Ads,1,0.0,False
+CUST-10060,Ahmedabad,Tier-2,2024-09-14,Organic,36,145454.0,True
+CUST-10061,Delhi,Metro,2025-12-07,Instagram Ads,1,9749.0,False
+CUST-10062,Varanasi,Tier-3,2025-04-19,Organic,1,8998.0,False
+CUST-10063,Bengaluru,Metro,2025-07-04,Google Ads,3,15372.0,True
+CUST-10064,Delhi,Metro,2025-05-18,Referral,1,1709.0,False
+CUST-10065,Mumbai,Metro,2025-12-18,Instagram Ads,1,4674.0,False
+CUST-10066,Delhi,Metro,2024-12-22,Instagram Ads,1,1649.0,False
+CUST-10067,Kochi,Tier-2,2025-10-01,Instagram Ads,1,3999.0,False
+CUST-10068,Chandigarh,Tier-2,2025-01-08,Google Ads,1,2699.0,False
+CUST-10069,Jodhpur,Tier-3,2025-09-20,Google Ads,1,1274.0,False
+CUST-10070,Indore,Tier-2,2025-07-06,Instagram Ads,1,3149.0,False
+CUST-10071,Jaipur,Tier-2,2024-07-05,Google Ads,1,1799.0,False
+CUST-10072,Bengaluru,Metro,2024-05-29,Referral,1,2974.0,False
+CUST-10073,Bengaluru,Metro,2025-10-06,Organic,4,18761.0,True
+CUST-10074,Lucknow,Tier-2,2025-07-23,Google Ads,10,109361.0,True
+CUST-10075,Kolkata,Metro,2024-06-26,Organic,1,7499.0,False
+CUST-10076,Bengaluru,Metro,2024-04-27,Instagram Ads,1,13498.0,False
+CUST-10077,Kolkata,Metro,2025-11-20,Organic,1,3149.0,False
+CUST-10078,Patna,Tier-3,2024-12-15,Google Ads,11,50736.0,True
+CUST-10079,Hyderabad,Metro,2025-08-30,Referral,23,94160.0,True
+CUST-10080,Ranchi,Tier-3,2025-10-26,Referral,1,9899.0,False
+CUST-10081,Hyderabad,Metro,2025-03-02,Google Ads,1,1799.0,False
+CUST-10082,Lucknow,Tier-2,2024-10-04,Instagram Ads,1,1759.0,False
+CUST-10083,Ranchi,Tier-3,2025-09-02,Instagram Ads,1,4499.0,False
+CUST-10084,Surat,Tier-2,2024-08-03,Google Ads,4,20194.0,True
+CUST-10085,Chennai,Metro,2025-05-15,Instagram Ads,1,3199.0,False
+CUST-10086,Bengaluru,Metro,2024-05-26,Organic,5,25795.0,True
+CUST-10087,Lucknow,Tier-2,2025-11-22,Instagram Ads,1,2999.0,False
+CUST-10088,Indore,Tier-2,2025-06-23,Instagram Ads,1,1709.0,False
+CUST-10089,Pune,Tier-2,2024-05-24,Organic,8,29874.0,True
+CUST-10090,Mumbai,Metro,2025-12-06,Instagram Ads,1,1599.0,False
+CUST-10091,Bhopal,Tier-3,2025-04-09,Instagram Ads,1,1529.0,False
+CUST-10092,Dehradun,Tier-3,2025-02-23,Instagram Ads,1,3299.0,False
+CUST-10093,Kochi,Tier-2,2025-01-03,Google Ads,1,0.0,False
+CUST-10094,Agra,Tier-3,2025-05-20,Instagram Ads,1,4499.0,False
+CUST-10095,Delhi,Metro,2025-05-25,Google Ads,9,44779.0,True
+CUST-10096,Mumbai,Metro,2025-09-22,Referral,1,4299.0,False
+CUST-10097,Gwalior,Tier-3,2024-02-12,Organic,6,17293.0,True
+CUST-10098,Kolkata,Metro,2025-05-21,Instagram Ads,7,9894.0,True
+CUST-10099,Dehradun,Tier-3,2025-03-14,Instagram Ads,1,2499.0,False
+CUST-10100,Lucknow,Tier-2,2024-08-14,Instagram Ads,1,1799.0,False
+CUST-10101,Jodhpur,Tier-3,2024-09-14,Referral,1,0.0,False
+CUST-10102,Meerut,Tier-3,2024-04-28,Organic,1,1079.0,False
+CUST-10103,Surat,Tier-2,2024-02-17,Instagram Ads,1,1619.0,False
+CUST-10104,Mumbai,Metro,2025-03-09,Instagram Ads,1,1979.0,False
+CUST-10105,Agra,Tier-3,2025-05-06,Google Ads,1,59397.0,False
+CUST-10106,Mumbai,Metro,2025-11-18,Instagram Ads,1,1499.0,False
+CUST-10107,Mumbai,Metro,2025-07-28,Instagram Ads,3,14287.0,True
+CUST-10108,Kolkata,Metro,2025-05-03,Referral,1,4998.0,False
+CUST-10109,Chandigarh,Tier-2,2024-01-10,Organic,1,2399.0,False
+CUST-10110,Kochi,Tier-2,2025-06-22,Instagram Ads,1,14999.0,False
+CUST-10111,Hyderabad,Metro,2025-06-22,Instagram Ads,1,4999.0,False
+CUST-10112,Meerut,Tier-3,2025-02-16,Google Ads,1,3439.0,False
+CUST-10113,Bengaluru,Metro,2025-08-22,Instagram Ads,1,4299.0,False
+CUST-10114,Mumbai,Metro,2024-10-24,Google Ads,1,629.0,False
+CUST-10115,Jaipur,Tier-2,2024-03-31,Google Ads,46,279437.0,True
+CUST-10116,Hyderabad,Metro,2024-11-12,Instagram Ads,1,1874.0,False
+CUST-10117,Chennai,Metro,2025-02-21,Instagram Ads,1,4224.0,False
+CUST-10118,Ahmedabad,Tier-2,2024-01-12,Organic,5,19745.0,True
+CUST-10119,Pune,Tier-2,2025-11-01,Organic,1,1274.0,False
+CUST-10120,Ahmedabad,Tier-2,2025-08-23,Instagram Ads,1,6299.0,False
+CUST-10121,Mumbai,Metro,2024-04-18,Instagram Ads,1,959.0,False
+CUST-10122,Jaipur,Tier-2,2024-06-10,Google Ads,1,1819.0,False
+CUST-10123,Kolkata,Metro,2025-11-21,Google Ads,1,4674.0,False
+CUST-10124,Chennai,Metro,2025-04-02,Instagram Ads,1,3749.0,False
+CUST-10125,Hyderabad,Metro,2024-10-10,Referral,15,45739.0,True
+CUST-10126,Delhi,Metro,2025-08-11,Instagram Ads,1,2199.0,False
+CUST-10127,Chennai,Metro,2024-05-12,Organic,1,2199.0,False
+CUST-10128,Chennai,Metro,2024-04-03,Instagram Ads,1,2249.0,False
+CUST-10129,Gwalior,Tier-3,2025-04-02,Instagram Ads,1,2699.0,False
+CUST-10130,Surat,Tier-2,2025-01-20,Instagram Ads,1,4999.0,False
+CUST-10131,Hyderabad,Metro,2024-02-15,Instagram Ads,3,20122.0,True
+CUST-10132,Bengaluru,Metro,2025-02-22,Google Ads,4,19691.0,True
+CUST-10133,Pune,Tier-2,2024-02-12,Instagram Ads,1,2399.0,False
+CUST-10134,Kolkata,Metro,2024-08-23,Organic,65,214492.0,True
+CUST-10135,Ahmedabad,Tier-2,2024-04-18,Google Ads,1,2924.0,False
+CUST-10136,Raipur,Tier-3,2025-11-06,Instagram Ads,1,2124.0,False
+CUST-10137,Chandigarh,Tier-2,2025-09-13,Google Ads,1,8097.0,False
+CUST-10138,Indore,Tier-2,2024-09-12,Instagram Ads,1,1529.0,False
+CUST-10139,Ahmedabad,Tier-2,2025-01-29,Instagram Ads,1,2249.0,False
+CUST-10140,Agra,Tier-3,2024-06-03,Instagram Ads,1,13499.0,False
+CUST-10141,Kochi,Tier-2,2025-04-19,Instagram Ads,5,14460.0,True
+CUST-10142,Mumbai,Metro,2024-06-10,Referral,1,1599.0,False
+CUST-10143,Surat,Tier-2,2025-07-07,Organic,1,1529.0,False
+CUST-10144,Delhi,Metro,2025-09-27,Instagram Ads,1,1539.0,False
+CUST-10145,Agra,Tier-3,2025-10-13,Instagram Ads,1,4199.0,False
+CUST-10146,Hyderabad,Metro,2024-07-29,Organic,1,8099.0,False
+CUST-10147,Jaipur,Tier-2,2025-03-12,Google Ads,1,8999.0,False
+CUST-10148,Hyderabad,Metro,2025-03-26,Instagram Ads,1,3149.0,False
+CUST-10149,Patna,Tier-3,2025-06-09,Instagram Ads,1,1599.0,False
+CUST-10150,Chandigarh,Tier-2,2025-06-28,Instagram Ads,1,1274.0,False
+CUST-10151,Kolkata,Metro,2025-06-14,Google Ads,34,207737.0,True
+CUST-10152,Lucknow,Tier-2,2024-04-23,Referral,1,899.0,False
+CUST-10153,Ranchi,Tier-3,2024-12-05,Instagram Ads,14,73940.0,True
+CUST-10154,Indore,Tier-2,2024-05-29,Google Ads,1,4999.0,False
+CUST-10155,Mumbai,Metro,2024-12-20,Instagram Ads,1,2799.0,False
+CUST-10156,Raipur,Tier-3,2025-10-19,Instagram Ads,5,12947.0,True
+CUST-10157,Hyderabad,Metro,2024-08-09,Instagram Ads,1,5399.0,False
+CUST-10158,Delhi,Metro,2025-12-16,Referral,1,2924.0,False
+CUST-10159,Indore,Tier-2,2024-03-12,Instagram Ads,1,11249.0,False
+CUST-10160,Surat,Tier-2,2024-03-28,Google Ads,1,719.0,False
+CUST-10161,Delhi,Metro,2024-10-18,Organic,37,156351.0,True
+CUST-10162,Ahmedabad,Tier-2,2024-11-03,Instagram Ads,1,1599.0,False
+CUST-10163,Indore,Tier-2,2025-10-30,Instagram Ads,1,8749.0,False
+CUST-10164,Agra,Tier-3,2024-02-02,Referral,11,50794.0,True
+CUST-10165,Lucknow,Tier-2,2025-10-03,Instagram Ads,1,2399.0,False
+CUST-10166,Delhi,Metro,2025-11-22,Google Ads,1,1259.0,False
+CUST-10167,Lucknow,Tier-2,2024-09-13,Instagram Ads,1,1999.0,False
+CUST-10168,Ahmedabad,Tier-2,2025-07-09,Organic,1,6499.0,False
+CUST-10169,Ahmedabad,Tier-2,2025-11-11,Instagram Ads,1,3574.0,False
+CUST-10170,Kolkata,Metro,2024-10-22,Instagram Ads,3,11337.0,True
+CUST-10171,Chennai,Metro,2024-12-21,Organic,1,14299.0,False
+CUST-10172,Ahmedabad,Tier-2,2025-08-06,Instagram Ads,1,1274.0,False
+CUST-10173,Jaipur,Tier-2,2025-09-23,Instagram Ads,1,1079.0,False
+CUST-10174,Ranchi,Tier-3,2024-08-23,Google Ads,1,27999.0,False
+CUST-10175,Kolkata,Metro,2025-07-29,Instagram Ads,1,9999.0,False
+CUST-10176,Chennai,Metro,2025-09-25,Organic,1,0.0,False
+CUST-10177,Raipur,Tier-3,2025-06-24,Instagram Ads,1,0.0,False
+CUST-10178,Jaipur,Tier-2,2025-07-10,Google Ads,13,75176.0,True
+CUST-10179,Agra,Tier-3,2025-03-17,Organic,1,3499.0,False
+CUST-10180,Kochi,Tier-2,2024-12-24,Instagram Ads,1,4199.0,False
+CUST-10181,Mumbai,Metro,2025-11-18,Instagram Ads,1,2859.0,False
+CUST-10182,Lucknow,Tier-2,2024-02-13,Instagram Ads,1,1299.0,False
+CUST-10183,Kolkata,Metro,2024-06-10,Google Ads,1,4999.0,False
+CUST-10184,Agra,Tier-3,2025-05-15,Organic,1,0.0,False
+CUST-10185,Kochi,Tier-2,2024-10-30,Instagram Ads,1,1499.0,False
+CUST-10186,Kolkata,Metro,2025-11-06,Organic,17,63578.0,True
+CUST-10187,Dehradun,Tier-3,2025-06-03,Organic,5,5322.0,True
+CUST-10188,Surat,Tier-2,2024-02-11,Instagram Ads,1,809.0,False
+CUST-10189,Surat,Tier-2,2024-09-18,Organic,58,222493.0,True
+CUST-10190,Patna,Tier-3,2025-11-17,Instagram Ads,1,3199.0,False
+CUST-10191,Lucknow,Tier-2,2025-11-29,Referral,1,1614.0,False
+CUST-10192,Lucknow,Tier-2,2024-01-28,Instagram Ads,1,12499.0,False
+CUST-10193,Patna,Tier-3,2024-08-29,Google Ads,1,22399.0,False
+CUST-10194,Bengaluru,Metro,2025-09-21,Google Ads,1,1619.0,False
+CUST-10195,Delhi,Metro,2025-09-21,Google Ads,1,1599.0,False
+CUST-10196,Lucknow,Tier-2,2024-06-05,Organic,1,1439.0,False
+CUST-10197,Gwalior,Tier-3,2024-09-24,Google Ads,1,1189.0,False
+CUST-10198,Varanasi,Tier-3,2025-08-10,Instagram Ads,1,2799.0,False
+CUST-10199,Pune,Tier-2,2024-07-19,Google Ads,4,15706.0,True
+CUST-10200,Delhi,Metro,2025-10-09,Instagram Ads,1,1259.0,False
+CUST-10201,Kolkata,Metro,2024-10-31,Instagram Ads,1,1529.0,False
+CUST-10202,Kolkata,Metro,2025-10-25,Referral,12,52438.0,True
+CUST-10203,Delhi,Metro,2025-08-11,Organic,1,83997.0,False
+CUST-10204,Varanasi,Tier-3,2025-03-17,Instagram Ads,1,1599.0,False
+CUST-10205,Ahmedabad,Tier-2,2025-04-19,Google Ads,7,36473.0,True
+CUST-10206,Pune,Tier-2,2024-03-25,Instagram Ads,1,1444.0,False
+CUST-10207,Dehradun,Tier-3,2025-11-12,Referral,1,22399.0,False
+CUST-10208,Patna,Tier-3,2024-09-17,Instagram Ads,1,0.0,False
+CUST-10209,Lucknow,Tier-2,2024-03-25,Google Ads,1,12749.0,False
+CUST-10210,Agra,Tier-3,2024-10-21,Organic,1,2799.0,False
+CUST-10211,Kolkata,Metro,2024-04-11,Instagram Ads,1,1899.0,False
+CUST-10212,Chennai,Metro,2025-08-09,Instagram Ads,1,6299.0,False
+CUST-10213,Varanasi,Tier-3,2024-07-27,Google Ads,1,1759.0,False
+CUST-10214,Jaipur,Tier-2,2024-09-22,Instagram Ads,1,4399.0,False
+CUST-10215,Gwalior,Tier-3,2024-12-24,Google Ads,7,41992.0,True
+CUST-10216,Surat,Tier-2,2024-04-25,Google Ads,3,5323.0,True
+CUST-10217,Mumbai,Metro,2025-07-11,Organic,55,199735.0,True
+CUST-10218,Surat,Tier-2,2025-12-17,Instagram Ads,1,2199.0,False
+CUST-10219,Chennai,Metro,2025-02-10,Google Ads,1,4674.0,False
+CUST-10220,Mumbai,Metro,2025-05-09,Google Ads,1,2974.0,False
+CUST-10221,Ahmedabad,Tier-2,2025-01-08,Referral,6,39829.0,True
+CUST-10222,Patna,Tier-3,2025-06-19,Instagram Ads,5,38070.0,True
+CUST-10223,Kochi,Tier-2,2025-06-27,Instagram Ads,1,2804.0,False
+CUST-10224,Indore,Tier-2,2025-12-08,Instagram Ads,1,1749.0,False
+CUST-10225,Chennai,Metro,2024-07-25,Google Ads,1,2338.0,False
+CUST-10226,Chennai,Metro,2024-03-22,Instagram Ads,1,3299.0,False
+CUST-10227,Chennai,Metro,2024-10-15,Instagram Ads,1,959.0,False
+CUST-10228,Kolkata,Metro,2025-02-02,Referral,1,15399.0,False
+CUST-10229,Pune,Tier-2,2024-01-30,Instagram Ads,1,0.0,False
+CUST-10230,Kolkata,Metro,2024-07-01,Organic,1,7873.0,False
+CUST-10231,Kolkata,Metro,2024-03-12,Organic,19,74059.0,True
+CUST-10232,Kolkata,Metro,2025-01-26,Organic,134,672005.0,True
+CUST-10233,Ahmedabad,Tier-2,2024-10-18,Instagram Ads,1,1424.0,False
+CUST-10234,Pune,Tier-2,2024-04-24,Organic,1,899.0,False
+CUST-10235,Chennai,Metro,2025-10-28,Instagram Ads,1,1749.0,False
+CUST-10236,Indore,Tier-2,2025-11-30,Instagram Ads,1,15399.0,False
+CUST-10237,Delhi,Metro,2025-05-20,Instagram Ads,1,5999.0,False
+CUST-10238,Mumbai,Metro,2025-04-18,Google Ads,8,34412.0,True
+CUST-10239,Mumbai,Metro,2025-10-10,Instagram Ads,1,0.0,False
+CUST-10240,Lucknow,Tier-2,2025-07-20,Google Ads,1,2974.0,False
+CUST-10241,Surat,Tier-2,2025-12-14,Instagram Ads,7,26168.0,True
+CUST-10242,Mumbai,Metro,2024-10-12,Instagram Ads,1,15399.0,False
+CUST-10243,Chennai,Metro,2024-05-01,Instagram Ads,1,1529.0,False
+CUST-10244,Jaipur,Tier-2,2025-06-28,Instagram Ads,1,3749.0,False
+CUST-10245,Agra,Tier-3,2025-11-05,Instagram Ads,1,1374.0,False
+CUST-10246,Jodhpur,Tier-3,2024-12-12,Google Ads,1,1499.0,False
+CUST-10247,Lucknow,Tier-2,2025-10-14,Instagram Ads,1,3358.0,False
+CUST-10248,Delhi,Metro,2024-05-01,Organic,1,1799.0,False
+CUST-10249,Surat,Tier-2,2025-04-05,Google Ads,22,134511.0,True
+CUST-10250,Raipur,Tier-3,2025-05-26,Referral,33,146459.0,True
+CUST-10251,Delhi,Metro,2024-11-02,Instagram Ads,1,1999.0,False
+CUST-10252,Pune,Tier-2,2024-01-06,Organic,1,2124.0,False
+CUST-10253,Kolkata,Metro,2024-08-16,Organic,1,1529.0,False
+CUST-10254,Pune,Tier-2,2024-01-18,Google Ads,1,1799.0,False
+CUST-10255,Delhi,Metro,2024-06-27,Google Ads,29,162195.0,True
+CUST-10256,Mumbai,Metro,2025-08-05,Organic,6,35944.0,True
+CUST-10257,Ranchi,Tier-3,2025-02-23,Instagram Ads,1,1529.0,False
+CUST-10258,Kochi,Tier-2,2025-01-25,Instagram Ads,1,4077.0,False
+CUST-10259,Chennai,Metro,2024-05-12,Organic,49,186422.0,True
+CUST-10260,Chennai,Metro,2025-07-28,Instagram Ads,1,1599.0,False
+CUST-10261,Lucknow,Tier-2,2024-08-06,Google Ads,1,2199.0,False
+CUST-10262,Kochi,Tier-2,2024-07-07,Google Ads,1,0.0,False
+CUST-10263,Pune,Tier-2,2025-10-22,Organic,1,1439.0,False
+CUST-10264,Jaipur,Tier-2,2025-08-29,Referral,16,43277.0,True
+CUST-10265,Chennai,Metro,2025-09-07,Referral,1,4999.0,False
+CUST-10266,Bhopal,Tier-3,2024-01-05,Referral,1,2499.0,False
+CUST-10267,Kochi,Tier-2,2025-04-22,Organic,1,4049.0,False
+CUST-10268,Bengaluru,Metro,2025-05-03,Instagram Ads,1,1529.0,False
+CUST-10269,Jodhpur,Tier-3,2024-07-11,Instagram Ads,1,0.0,False
+CUST-10270,Agra,Tier-3,2025-03-29,Instagram Ads,1,2499.0,False
+CUST-10271,Kochi,Tier-2,2025-03-26,Google Ads,1,3998.0,False
+CUST-10272,Kolkata,Metro,2025-05-09,Referral,11,101997.0,True
+CUST-10273,Kolkata,Metro,2025-05-19,Google Ads,1,19799.0,False
+CUST-10274,Raipur,Tier-3,2024-09-06,Instagram Ads,1,3654.0,False
+CUST-10275,Surat,Tier-2,2025-05-19,Organic,1,1529.0,False
+CUST-10276,Mumbai,Metro,2025-06-09,Google Ads,1,0.0,False
+CUST-10277,Varanasi,Tier-3,2025-12-18,Instagram Ads,4,5472.0,True
+CUST-10278,Bengaluru,Metro,2025-09-03,Instagram Ads,1,1799.0,False
+CUST-10279,Mumbai,Metro,2025-07-25,Instagram Ads,1,1979.0,False
+CUST-10280,Pune,Tier-2,2024-04-23,Google Ads,1,4124.0,False
+CUST-10281,Pune,Tier-2,2025-10-27,Google Ads,6,24400.0,True
+CUST-10282,Kolkata,Metro,2025-03-11,Instagram Ads,1,11999.0,False
+CUST-10283,Dehradun,Tier-3,2025-10-19,Organic,1,909.0,False
+CUST-10284,Bhopal,Tier-3,2025-04-19,Instagram Ads,1,1359.0,False
+CUST-10285,Delhi,Metro,2025-09-04,Instagram Ads,1,6749.0,False
+CUST-10286,Surat,Tier-2,2024-11-08,Organic,1,4249.0,False
+CUST-10287,Hyderabad,Metro,2024-04-27,Instagram Ads,1,3149.0,False
+CUST-10288,Hyderabad,Metro,2024-08-11,Google Ads,1,3418.0,False
+CUST-10289,Jaipur,Tier-2,2024-03-30,Organic,1,1529.0,False
+CUST-10290,Pune,Tier-2,2025-07-16,Organic,1,2239.0,False
+CUST-10291,Hyderabad,Metro,2025-09-02,Google Ads,1,21999.0,False
+CUST-10292,Delhi,Metro,2024-07-08,Organic,1,2639.0,False
+CUST-10293,Mumbai,Metro,2025-02-04,Google Ads,12,45922.0,True
+CUST-10294,Delhi,Metro,2025-02-14,Organic,1,2124.0,False
+CUST-10295,Hyderabad,Metro,2025-10-15,Instagram Ads,6,23994.0,True
+CUST-10296,Delhi,Metro,2024-11-11,Google Ads,24,89274.0,True
+CUST-10297,Kolkata,Metro,2024-02-26,Google Ads,1,7499.0,False
+CUST-10298,Varanasi,Tier-3,2024-01-15,Instagram Ads,1,4674.0,False
+CUST-10299,Kochi,Tier-2,2025-06-08,Instagram Ads,1,2999.0,False
+CUST-10300,Ahmedabad,Tier-2,2025-02-17,Instagram Ads,1,1079.0,False
+CUST-10301,Lucknow,Tier-2,2025-07-09,Organic,1,12499.0,False
+CUST-10302,Pune,Tier-2,2025-09-05,Referral,48,206920.0,True
+CUST-10303,Ahmedabad,Tier-2,2025-08-22,Google Ads,1,3654.0,False
+CUST-10304,Kochi,Tier-2,2025-07-20,Instagram Ads,1,1529.0,False
+CUST-10305,Kolkata,Metro,2025-01-04,Organic,49,203715.0,True
+CUST-10306,Hyderabad,Metro,2024-01-23,Instagram Ads,1,9999.0,False
+CUST-10307,Gwalior,Tier-3,2025-10-16,Google Ads,1,2309.0,False
+CUST-10308,Indore,Tier-2,2025-03-28,Instagram Ads,1,3238.0,False
+CUST-10309,Chandigarh,Tier-2,2025-05-11,Instagram Ads,1,1979.0,False
+CUST-10310,Varanasi,Tier-3,2024-09-10,Google Ads,1,13499.0,False
+CUST-10311,Kolkata,Metro,2024-07-21,Google Ads,21,75785.0,True
+CUST-10312,Dehradun,Tier-3,2025-09-24,Instagram Ads,1,2624.0,False
+CUST-10313,Varanasi,Tier-3,2025-11-12,Instagram Ads,1,2274.0,False
+CUST-10314,Bengaluru,Metro,2025-07-19,Instagram Ads,1,1349.0,False
+CUST-10315,Meerut,Tier-3,2024-05-29,Google Ads,1,4999.0,False
+CUST-10316,Jaipur,Tier-2,2025-09-01,Google Ads,1,1519.0,False
+CUST-10317,Chandigarh,Tier-2,2025-11-19,Instagram Ads,1,1274.0,False
+CUST-10318,Chennai,Metro,2024-02-16,Referral,23,109676.0,True
+CUST-10319,Bengaluru,Metro,2025-01-18,Instagram Ads,1,2799.0,False
+CUST-10320,Delhi,Metro,2024-04-09,Google Ads,1,1799.0,False
+CUST-10321,Delhi,Metro,2025-11-19,Instagram Ads,1,8999.0,False
+CUST-10322,Surat,Tier-2,2025-01-30,Referral,14,44795.0,True
+CUST-10323,Hyderabad,Metro,2024-11-05,Google Ads,11,35643.0,True
+CUST-10324,Gwalior,Tier-3,2024-03-09,Organic,1,2499.0,False
+CUST-10325,Delhi,Metro,2025-07-09,Instagram Ads,1,1869.0,False
+CUST-10326,Delhi,Metro,2025-04-01,Instagram Ads,1,1699.0,False
+CUST-10327,Hyderabad,Metro,2025-11-28,Instagram Ads,1,1999.0,False
+CUST-10328,Mumbai,Metro,2025-12-12,Organic,1,959.0,False
+CUST-10329,Hyderabad,Metro,2024-02-09,Referral,1,19799.0,False
+CUST-10330,Chandigarh,Tier-2,2025-09-19,Instagram Ads,1,3149.0,False
+CUST-10331,Mumbai,Metro,2025-02-27,Instagram Ads,12,46111.0,True
+CUST-10332,Bengaluru,Metro,2025-01-23,Organic,1,1979.0,False
+CUST-10333,Ahmedabad,Tier-2,2024-05-12,Instagram Ads,1,2999.0,False
+CUST-10334,Mumbai,Metro,2025-07-26,Referral,5,11235.0,True
+CUST-10335,Indore,Tier-2,2025-07-22,Organic,3,8222.0,True
+CUST-10336,Bengaluru,Metro,2025-06-18,Organic,1,1424.0,False
+CUST-10337,Mumbai,Metro,2025-12-05,Instagram Ads,1,7499.0,False
+CUST-10338,Jodhpur,Tier-3,2025-06-23,Organic,1,1359.0,False
+CUST-10339,Hyderabad,Metro,2025-04-28,Organic,1,2379.0,False
+CUST-10340,Chandigarh,Tier-2,2025-12-10,Organic,1,4124.0,False
+CUST-10341,Hyderabad,Metro,2025-08-12,Referral,1,7499.0,False
+CUST-10342,Kolkata,Metro,2024-05-12,Instagram Ads,1,2249.0,False
+CUST-10343,Pune,Tier-2,2024-08-04,Google Ads,1,6298.0,False
+CUST-10344,Chandigarh,Tier-2,2025-04-18,Organic,1,1979.0,False
+CUST-10345,Kolkata,Metro,2024-05-11,Instagram Ads,1,3299.0,False
+CUST-10346,Patna,Tier-3,2024-03-07,Instagram Ads,4,70396.0,True
+CUST-10347,Ranchi,Tier-3,2025-01-01,Google Ads,1,4949.0,False
+CUST-10348,Agra,Tier-3,2024-10-22,Instagram Ads,1,3499.0,False
+CUST-10349,Patna,Tier-3,2025-05-01,Organic,18,51521.0,True
+CUST-10350,Patna,Tier-3,2025-11-02,Referral,10,43794.0,True
+CUST-10351,Kolkata,Metro,2024-05-24,Organic,15,84942.0,True
+CUST-10352,Jaipur,Tier-2,2025-05-07,Google Ads,1,14999.0,False
+CUST-10353,Bengaluru,Metro,2025-02-02,Google Ads,12,58497.0,True
+CUST-10354,Bengaluru,Metro,2025-08-11,Google Ads,3,6322.0,True
+CUST-10355,Lucknow,Tier-2,2025-06-24,Referral,1,39598.0,False
+CUST-10356,Indore,Tier-2,2025-02-23,Organic,18,91545.0,True
+CUST-10357,Mumbai,Metro,2025-11-17,Organic,5,11446.0,True
+CUST-10358,Chandigarh,Tier-2,2025-04-18,Instagram Ads,1,2974.0,False
+CUST-10359,Hyderabad,Metro,2025-07-22,Instagram Ads,1,26997.0,False
+CUST-10360,Chennai,Metro,2024-10-04,Organic,17,56015.0,True
+CUST-10361,Bengaluru,Metro,2024-11-22,Instagram Ads,1,16499.0,False
+CUST-10362,Pune,Tier-2,2025-12-03,Google Ads,1,1399.0,False
+CUST-10363,Ahmedabad,Tier-2,2025-06-13,Google Ads,15,59083.0,True
+CUST-10364,Kolkata,Metro,2025-11-29,Organic,1,2799.0,False
+CUST-10365,Chennai,Metro,2025-05-18,Instagram Ads,7,34224.0,True
+CUST-10366,Bengaluru,Metro,2025-07-20,Instagram Ads,1,1199.0,False
+CUST-10367,Delhi,Metro,2025-03-13,Instagram Ads,1,13497.0,False
+CUST-10368,Delhi,Metro,2024-06-22,Google Ads,1,1349.0,False
+CUST-10369,Bengaluru,Metro,2025-09-02,Google Ads,1,3824.0,False
+CUST-10370,Mumbai,Metro,2025-02-11,Instagram Ads,1,1999.0,False
+CUST-10371,Agra,Tier-3,2024-12-01,Instagram Ads,1,1819.0,False
+CUST-10372,Ranchi,Tier-3,2025-08-20,Instagram Ads,1,1279.0,False
+CUST-10373,Kolkata,Metro,2025-08-24,Organic,1,5499.0,False
+CUST-10374,Surat,Tier-2,2024-12-05,Organic,11,42385.0,True
+CUST-10375,Kochi,Tier-2,2025-07-06,Referral,1,25199.0,False
+CUST-10376,Hyderabad,Metro,2025-07-27,Instagram Ads,6,19534.0,True
+CUST-10377,Pune,Tier-2,2025-10-16,Instagram Ads,1,5999.0,False
+CUST-10378,Ahmedabad,Tier-2,2025-05-14,Instagram Ads,1,1079.0,False
+CUST-10379,Patna,Tier-3,2024-02-07,Instagram Ads,1,2249.0,False
+CUST-10380,Jaipur,Tier-2,2024-09-22,Referral,1,0.0,False
+CUST-10381,Raipur,Tier-3,2025-04-15,Instagram Ads,6,37296.0,True
+CUST-10382,Pune,Tier-2,2025-09-30,Google Ads,11,48139.0,True
+CUST-10383,Bengaluru,Metro,2024-10-10,Instagram Ads,1,5199.0,False
+CUST-10384,Jaipur,Tier-2,2024-11-13,Google Ads,10,19318.0,True
+CUST-10385,Chennai,Metro,2025-09-03,Google Ads,1,4049.0,False
+CUST-10386,Ranchi,Tier-3,2024-08-23,Organic,1,809.0,False
+CUST-10387,Pune,Tier-2,2025-06-08,Instagram Ads,1,0.0,False
+CUST-10388,Bengaluru,Metro,2025-05-12,Instagram Ads,1,0.0,False
+CUST-10389,Bengaluru,Metro,2025-09-19,Organic,23,134139.0,True
+CUST-10390,Bhopal,Tier-3,2024-03-27,Organic,1,1439.0,False
+CUST-10391,Indore,Tier-2,2025-05-16,Instagram Ads,1,1169.0,False
+CUST-10392,Varanasi,Tier-3,2024-03-28,Google Ads,31,145649.0,True
+CUST-10393,Kolkata,Metro,2025-07-23,Organic,1,1169.0,False
+CUST-10394,Lucknow,Tier-2,2024-11-11,Instagram Ads,1,1699.0,False
+CUST-10395,Kolkata,Metro,2025-11-10,Referral,14,65495.0,True
+CUST-10396,Ahmedabad,Tier-2,2025-09-06,Organic,7,12588.0,True
+CUST-10397,Dehradun,Tier-3,2025-06-03,Instagram Ads,1,8499.0,False
+CUST-10398,Raipur,Tier-3,2025-10-01,Google Ads,1,4874.0,False
+CUST-10399,Meerut,Tier-3,2024-02-04,Organic,1,3999.0,False
+CUST-10400,Hyderabad,Metro,2025-01-18,Referral,1,1709.0,False
+CUST-10401,Kolkata,Metro,2025-07-19,Instagram Ads,1,1999.0,False
+CUST-10402,Jaipur,Tier-2,2024-04-21,Organic,1,2199.0,False
+CUST-10403,Lucknow,Tier-2,2025-05-25,Organic,1,4249.0,False
+CUST-10404,Ranchi,Tier-3,2025-04-18,Google Ads,1,3999.0,False
+CUST-10405,Mumbai,Metro,2025-03-13,Organic,6,17669.0,True
+CUST-10406,Chennai,Metro,2024-09-22,Organic,1,2499.0,False
+CUST-10407,Delhi,Metro,2025-10-14,Organic,1,2099.0,False
+CUST-10408,Jaipur,Tier-2,2025-10-25,Instagram Ads,6,37223.0,True
+CUST-10409,Kolkata,Metro,2025-03-06,Organic,1,2249.0,False
+CUST-10410,Indore,Tier-2,2025-04-30,Google Ads,1,1299.0,False
+CUST-10411,Chennai,Metro,2024-12-24,Instagram Ads,4,17350.0,True
+CUST-10412,Lucknow,Tier-2,2024-08-07,Google Ads,1,3238.0,False
+CUST-10413,Chandigarh,Tier-2,2024-07-15,Google Ads,1,1274.0,False
+CUST-10414,Jaipur,Tier-2,2025-04-28,Instagram Ads,1,4499.0,False
+CUST-10415,Kolkata,Metro,2024-10-02,Instagram Ads,1,8999.0,False
+CUST-10416,Delhi,Metro,2024-10-09,Referral,11,71662.0,True
+CUST-10417,Chennai,Metro,2024-11-09,Referral,1,6749.0,False
+CUST-10418,Bhopal,Tier-3,2025-06-23,Instagram Ads,1,0.0,False
+CUST-10419,Chennai,Metro,2024-12-13,Instagram Ads,1,1539.0,False
+CUST-10420,Mumbai,Metro,2025-10-28,Instagram Ads,7,22687.0,True
+CUST-10421,Varanasi,Tier-3,2025-10-17,Organic,59,221666.0,True
+CUST-10422,Chennai,Metro,2025-12-14,Instagram Ads,1,15399.0,False
+CUST-10423,Indore,Tier-2,2024-09-04,Referral,1,21999.0,False
+CUST-10424,Chandigarh,Tier-2,2024-12-30,Instagram Ads,1,4499.0,False
+CUST-10425,Lucknow,Tier-2,2025-04-14,Organic,15,92953.0,True
+CUST-10426,Mumbai,Metro,2025-05-20,Instagram Ads,1,2804.0,False
+CUST-10427,Bhopal,Tier-3,2025-06-14,Instagram Ads,1,3599.0,False
+CUST-10428,Kolkata,Metro,2025-09-04,Google Ads,1,6499.0,False
+CUST-10429,Lucknow,Tier-2,2025-02-23,Google Ads,1,1899.0,False
+CUST-10430,Kochi,Tier-2,2025-07-07,Instagram Ads,1,2974.0,False
+CUST-10431,Indore,Tier-2,2025-02-11,Instagram Ads,1,4799.0,False
+CUST-10432,Chandigarh,Tier-2,2025-01-15,Instagram Ads,1,2499.0,False
+CUST-10433,Delhi,Metro,2024-10-27,Google Ads,1,7998.0,False
+CUST-10434,Chandigarh,Tier-2,2024-10-15,Instagram Ads,1,20998.0,False
+CUST-10435,Bengaluru,Metro,2024-06-11,Google Ads,1,1979.0,False
+CUST-10436,Kochi,Tier-2,2025-05-13,Google Ads,6,12834.0,True
+CUST-10437,Kolkata,Metro,2024-02-20,Instagram Ads,6,60646.0,True
+CUST-10438,Hyderabad,Metro,2025-10-04,Organic,1,1439.0,False
+CUST-10439,Bengaluru,Metro,2025-07-02,Google Ads,4,12121.0,True
+CUST-10440,Delhi,Metro,2025-02-06,Organic,7,46472.0,True
+CUST-10441,Delhi,Metro,2024-10-26,Google Ads,1,1209.0,False
+CUST-10442,Agra,Tier-3,2024-09-11,Google Ads,6,23564.0,True
+CUST-10443,Mumbai,Metro,2025-12-15,Google Ads,1,1649.0,False
+CUST-10444,Hyderabad,Metro,2025-12-06,Instagram Ads,1,5999.0,False
+CUST-10445,Chandigarh,Tier-2,2024-08-15,Instagram Ads,1,1169.0,False
+CUST-10446,Bhopal,Tier-3,2025-10-21,Google Ads,9,36971.0,True
+CUST-10447,Ahmedabad,Tier-2,2024-04-28,Instagram Ads,1,1899.0,False
+CUST-10448,Gwalior,Tier-3,2024-02-22,Referral,4,15996.0,True
+CUST-10449,Kochi,Tier-2,2024-11-12,Google Ads,1,6999.0,False
+CUST-10450,Bengaluru,Metro,2024-05-16,Instagram Ads,1,16572.0,False
+CUST-10451,Indore,Tier-2,2024-12-25,Instagram Ads,3,6772.0,True
+CUST-10452,Chennai,Metro,2024-01-11,Google Ads,1,1759.0,False
+CUST-10453,Hyderabad,Metro,2025-07-30,Google Ads,16,40634.0,True
+CUST-10454,Hyderabad,Metro,2025-11-22,Google Ads,1,2274.0,False
+CUST-10455,Delhi,Metro,2024-12-12,Instagram Ads,1,3199.0,False
+CUST-10456,Chennai,Metro,2024-11-26,Instagram Ads,1,2309.0,False
+CUST-10457,Gwalior,Tier-3,2024-06-30,Referral,6,28563.0,True
+CUST-10458,Mumbai,Metro,2025-04-08,Instagram Ads,1,3499.0,False
+CUST-10459,Chandigarh,Tier-2,2024-04-19,Organic,1,1699.0,False
+CUST-10460,Delhi,Metro,2024-03-25,Instagram Ads,1,0.0,False
+CUST-10461,Kochi,Tier-2,2024-05-02,Instagram Ads,1,2519.0,False
+CUST-10462,Pune,Tier-2,2024-09-04,Instagram Ads,1,2999.0,False
+CUST-10463,Lucknow,Tier-2,2025-07-23,Google Ads,1,2974.0,False
+CUST-10464,Indore,Tier-2,2024-08-03,Google Ads,1,3499.0,False
+CUST-10465,Meerut,Tier-3,2025-03-06,Organic,1,6749.0,False
+CUST-10466,Delhi,Metro,2024-08-14,Organic,1,3869.0,False
+CUST-10467,Dehradun,Tier-3,2024-10-06,Instagram Ads,1,1749.0,False
+CUST-10468,Indore,Tier-2,2025-07-20,Instagram Ads,1,3749.0,False
+CUST-10469,Ahmedabad,Tier-2,2024-09-16,Instagram Ads,1,8999.0,False
+CUST-10470,Chandigarh,Tier-2,2025-10-16,Referral,34,127138.0,True
+CUST-10471,Raipur,Tier-3,2024-09-24,Instagram Ads,1,11249.0,False
+CUST-10472,Bengaluru,Metro,2025-11-09,Google Ads,1,7199.0,False
+CUST-10473,Kolkata,Metro,2025-09-14,Instagram Ads,1,1599.0,False
+CUST-10474,Chennai,Metro,2025-12-16,Referral,1,764.0,False
+CUST-10475,Indore,Tier-2,2025-10-12,Organic,46,252630.0,True
+CUST-10476,Kochi,Tier-2,2025-06-06,Organic,21,126858.0,True
+CUST-10477,Kolkata,Metro,2025-07-05,Google Ads,1,1599.0,False
+CUST-10478,Bengaluru,Metro,2024-03-11,Instagram Ads,1,0.0,False
+CUST-10479,Hyderabad,Metro,2025-03-30,Referral,1,2499.0,False
+CUST-10480,Mumbai,Metro,2025-11-19,Google Ads,1,719.0,False
+CUST-10481,Mumbai,Metro,2025-09-12,Instagram Ads,1,26998.0,False
+CUST-10482,Meerut,Tier-3,2025-06-20,Referral,9,80234.0,True
+CUST-10483,Kolkata,Metro,2024-11-05,Google Ads,32,148957.0,True
+CUST-10484,Chennai,Metro,2025-01-07,Google Ads,1,2599.0,False
+CUST-10485,Kolkata,Metro,2025-01-18,Google Ads,10,40144.0,True
+CUST-10486,Jaipur,Tier-2,2024-04-09,Google Ads,1,1999.0,False
+CUST-10487,Hyderabad,Metro,2025-09-16,Google Ads,8,26557.0,True
+CUST-10488,Chandigarh,Tier-2,2024-11-05,Instagram Ads,1,3899.0,False
+CUST-10489,Chennai,Metro,2025-12-16,Instagram Ads,1,2144.0,False
+CUST-10490,Hyderabad,Metro,2025-10-13,Organic,1,899.0,False
+CUST-10491,Delhi,Metro,2024-05-10,Instagram Ads,1,5499.0,False
+CUST-10492,Bengaluru,Metro,2024-09-24,Referral,36,117161.0,True
+CUST-10493,Bengaluru,Metro,2025-12-16,Google Ads,1,974.0,False
+CUST-10494,Mumbai,Metro,2024-07-06,Organic,1,1274.0,False
+CUST-10495,Kochi,Tier-2,2024-09-30,Instagram Ads,1,3998.0,False
+CUST-10496,Indore,Tier-2,2025-05-16,Instagram Ads,1,4124.0,False
+CUST-10497,Chennai,Metro,2025-03-22,Instagram Ads,1,8099.0,False
+CUST-10498,Chennai,Metro,2025-10-21,Organic,1,2999.0,False
+CUST-10499,Surat,Tier-2,2025-05-27,Google Ads,1,1709.0,False
+CUST-10500,Lucknow,Tier-2,2024-05-26,Google Ads,1,3228.0,False
+CUST-10501,Hyderabad,Metro,2024-08-03,Google Ads,1,1499.0,False
+CUST-10502,Chennai,Metro,2025-05-20,Organic,1,1979.0,False
+CUST-10503,Jaipur,Tier-2,2025-09-22,Instagram Ads,1,4999.0,False
+CUST-10504,Kolkata,Metro,2024-12-06,Instagram Ads,1,1439.0,False
+CUST-10505,Ahmedabad,Tier-2,2025-05-21,Instagram Ads,3,21123.0,True
+CUST-10506,Chandigarh,Tier-2,2024-07-23,Organic,1,2399.0,False
+CUST-10507,Hyderabad,Metro,2025-08-29,Instagram Ads,1,3499.0,False
+CUST-10508,Kolkata,Metro,2025-05-03,Instagram Ads,5,47418.0,True
+CUST-10509,Kolkata,Metro,2025-12-04,Instagram Ads,1,2533.0,False
+CUST-10510,Gwalior,Tier-3,2025-03-07,Organic,8,55935.0,True
+CUST-10511,Bengaluru,Metro,2025-01-28,Instagram Ads,1,2969.0,False
+CUST-10512,Delhi,Metro,2025-07-03,Referral,33,103736.0,True
+CUST-10513,Mumbai,Metro,2024-12-14,Instagram Ads,1,1649.0,False
+CUST-10514,Chandigarh,Tier-2,2025-05-26,Google Ads,1,4999.0,False
+CUST-10515,Lucknow,Tier-2,2024-05-13,Instagram Ads,1,2519.0,False
+CUST-10516,Mumbai,Metro,2025-09-28,Google Ads,1,1759.0,False
+CUST-10517,Mumbai,Metro,2025-10-21,Google Ads,12,45097.0,True
+CUST-10518,Bhopal,Tier-3,2025-10-21,Google Ads,1,764.0,False
+CUST-10519,Delhi,Metro,2024-02-23,Organic,37,130108.0,True
+CUST-10520,Mumbai,Metro,2025-11-01,Instagram Ads,1,3149.0,False
+CUST-10521,Jodhpur,Tier-3,2024-02-22,Referral,1,5524.0,False
+CUST-10522,Hyderabad,Metro,2025-03-17,Referral,5,25035.0,True
+CUST-10523,Ahmedabad,Tier-2,2024-06-17,Instagram Ads,1,8998.0,False
+CUST-10524,Chennai,Metro,2024-10-05,Organic,1,1539.0,False
+CUST-10525,Chennai,Metro,2025-08-29,Google Ads,1,1349.0,False
+CUST-10526,Lucknow,Tier-2,2025-03-18,Google Ads,1,809.0,False
+CUST-10527,Kolkata,Metro,2024-02-11,Instagram Ads,1,4999.0,False
+CUST-10528,Kolkata,Metro,2024-06-07,Google Ads,1,2699.0,False
+CUST-10529,Chennai,Metro,2024-06-16,Instagram Ads,4,17046.0,True
+CUST-10530,Surat,Tier-2,2024-02-15,Instagram Ads,1,8499.0,False
+CUST-10531,Chennai,Metro,2024-04-02,Organic,1,8999.0,False
+CUST-10532,Lucknow,Tier-2,2024-10-03,Referral,1,1699.0,False
+CUST-10533,Mumbai,Metro,2025-02-28,Google Ads,14,44512.0,True
+CUST-10534,Kolkata,Metro,2025-05-10,Instagram Ads,2,6997.0,True
+CUST-10535,Kolkata,Metro,2024-06-14,Organic,15,53900.0,True
+CUST-10536,Pune,Tier-2,2025-08-11,Instagram Ads,4,26955.0,True
+CUST-10537,Delhi,Metro,2025-01-09,Organic,1,1899.0,False
+CUST-10538,Kochi,Tier-2,2025-10-15,Instagram Ads,1,2974.0,False
+CUST-10539,Mumbai,Metro,2025-06-06,Organic,6,14689.0,True
+CUST-10540,Jaipur,Tier-2,2024-06-23,Organic,1,4049.0,False
+CUST-10541,Kolkata,Metro,2025-10-14,Instagram Ads,1,3749.0,False
+CUST-10542,Surat,Tier-2,2024-08-16,Instagram Ads,6,25319.0,True
+CUST-10543,Delhi,Metro,2024-12-03,Instagram Ads,1,1439.0,False
+CUST-10544,Hyderabad,Metro,2024-03-30,Instagram Ads,1,2249.0,False
+CUST-10545,Varanasi,Tier-3,2024-08-05,Instagram Ads,1,1519.0,False
+CUST-10546,Ahmedabad,Tier-2,2024-09-28,Instagram Ads,1,2474.0,False
+CUST-10547,Chennai,Metro,2024-07-02,Google Ads,1,3299.0,False
+CUST-10548,Ranchi,Tier-3,2025-03-16,Instagram Ads,1,1299.0,False
+CUST-10549,Chennai,Metro,2024-11-11,Organic,1,3999.0,False
+CUST-10550,Kolkata,Metro,2024-12-14,Referral,1,2799.0,False
+CUST-10551,Indore,Tier-2,2024-09-14,Google Ads,15,48474.0,True
+CUST-10552,Chennai,Metro,2025-07-08,Organic,4,12741.0,True
+CUST-10553,Hyderabad,Metro,2025-03-21,Referral,31,138090.0,True
+CUST-10554,Raipur,Tier-3,2025-10-17,Google Ads,1,2624.0,False
+CUST-10555,Kochi,Tier-2,2025-12-07,Organic,1,4199.0,False
+CUST-10556,Surat,Tier-2,2025-06-23,Referral,1,974.0,False
+CUST-10557,Jaipur,Tier-2,2025-04-26,Organic,46,164885.0,True
+CUST-10558,Surat,Tier-2,2024-09-17,Organic,1,1999.0,False
+CUST-10559,Surat,Tier-2,2024-05-19,Instagram Ads,1,1444.0,False
+CUST-10560,Chandigarh,Tier-2,2024-06-11,Organic,1,0.0,False
+CUST-10561,Lucknow,Tier-2,2025-03-26,Organic,16,100638.0,True
+CUST-10562,Kolkata,Metro,2025-05-27,Instagram Ads,1,1169.0,False
+CUST-10563,Chandigarh,Tier-2,2025-01-17,Instagram Ads,4,8291.0,True
+CUST-10564,Hyderabad,Metro,2025-10-30,Instagram Ads,1,17548.0,False
+CUST-10565,Chennai,Metro,2025-09-27,Organic,39,127588.0,True
+CUST-10566,Kolkata,Metro,2025-04-09,Instagram Ads,1,3149.0,False
+CUST-10567,Lucknow,Tier-2,2024-03-12,Google Ads,1,1899.0,False
+CUST-10568,Bengaluru,Metro,2024-11-06,Google Ads,8,12652.0,True
+CUST-10569,Surat,Tier-2,2024-03-16,Referral,39,195634.0,True
+CUST-10570,Delhi,Metro,2025-01-06,Instagram Ads,1,1799.0,False
+CUST-10571,Chandigarh,Tier-2,2025-04-23,Instagram Ads,1,2249.0,False
+CUST-10572,Mumbai,Metro,2024-02-28,Instagram Ads,1,3999.0,False
+CUST-10573,Agra,Tier-3,2025-03-27,Instagram Ads,7,22666.0,True
+CUST-10574,Indore,Tier-2,2025-12-11,Google Ads,1,4249.0,False
+CUST-10575,Indore,Tier-2,2024-11-22,Instagram Ads,1,0.0,False
+CUST-10576,Hyderabad,Metro,2025-09-27,Google Ads,1,4124.0,False
+CUST-10577,Delhi,Metro,2025-04-18,Instagram Ads,1,4499.0,False
+CUST-10578,Mumbai,Metro,2025-12-09,Instagram Ads,1,1399.0,False
+CUST-10579,Jaipur,Tier-2,2025-02-24,Google Ads,1,1899.0,False
+CUST-10580,Mumbai,Metro,2025-12-15,Organic,1,3999.0,False
+CUST-10581,Chennai,Metro,2024-08-03,Instagram Ads,1,1104.0,False
+CUST-10582,Jaipur,Tier-2,2025-07-15,Google Ads,1,2974.0,False
+CUST-10583,Varanasi,Tier-3,2025-04-08,Organic,4,10206.0,True
+CUST-10584,Delhi,Metro,2025-01-01,Google Ads,12,77630.0,True
+CUST-10585,Kochi,Tier-2,2025-05-07,Instagram Ads,1,1199.0,False
+CUST-10586,Chennai,Metro,2024-10-03,Instagram Ads,1,1999.0,False
+CUST-10587,Indore,Tier-2,2024-05-09,Google Ads,1,21999.0,False
+CUST-10588,Hyderabad,Metro,2025-11-23,Google Ads,24,106611.0,True
+CUST-10589,Jodhpur,Tier-3,2024-11-14,Instagram Ads,1,2099.0,False
+CUST-10590,Chennai,Metro,2025-09-26,Google Ads,1,1874.0,False
+CUST-10591,Pune,Tier-2,2024-11-21,Instagram Ads,1,3849.0,False
+CUST-10592,Mumbai,Metro,2024-12-01,Instagram Ads,1,3518.0,False
+CUST-10593,Meerut,Tier-3,2025-04-29,Google Ads,1,2499.0,False
+CUST-10594,Kochi,Tier-2,2024-12-15,Google Ads,1,8124.0,False
+CUST-10595,Gwalior,Tier-3,2025-07-22,Organic,1,6499.0,False
+CUST-10596,Kolkata,Metro,2024-06-19,Google Ads,15,48318.0,True
+CUST-10597,Delhi,Metro,2024-09-06,Instagram Ads,1,4299.0,False
+CUST-10598,Kochi,Tier-2,2025-06-30,Organic,1,1079.0,False
+CUST-10599,Surat,Tier-2,2025-10-30,Instagram Ads,1,1519.0,False
+CUST-10600,Delhi,Metro,2025-10-22,Instagram Ads,1,1274.0,False
+CUST-10601,Bengaluru,Metro,2025-11-01,Instagram Ads,1,2718.0,False
+CUST-10602,Bengaluru,Metro,2025-07-11,Instagram Ads,1,17599.0,False
+CUST-10603,Chennai,Metro,2024-06-25,Instagram Ads,1,3499.0,False
+CUST-10604,Meerut,Tier-3,2024-01-13,Google Ads,1,4499.0,False
+CUST-10605,Lucknow,Tier-2,2025-08-06,Google Ads,1,1979.0,False
+CUST-10606,Chennai,Metro,2025-03-18,Organic,1,1799.0,False
+CUST-10607,Mumbai,Metro,2025-08-05,Instagram Ads,1,1599.0,False
+CUST-10608,Bengaluru,Metro,2025-02-21,Instagram Ads,1,1529.0,False
+CUST-10609,Chennai,Metro,2025-03-21,Organic,1,5999.0,False
+CUST-10610,Surat,Tier-2,2024-04-04,Google Ads,1,1799.0,False
+CUST-10611,Pune,Tier-2,2024-12-30,Organic,11,86629.0,True
+CUST-10612,Kochi,Tier-2,2024-07-02,Instagram Ads,1,1699.0,False
+CUST-10613,Dehradun,Tier-3,2025-09-10,Google Ads,1,19799.0,False
+CUST-10614,Meerut,Tier-3,2024-04-22,Referral,121,556860.0,True
+CUST-10615,Kolkata,Metro,2025-08-09,Google Ads,1,7799.0,False
+CUST-10616,Ranchi,Tier-3,2024-08-04,Instagram Ads,1,2999.0,False
+CUST-10617,Chennai,Metro,2024-06-10,Instagram Ads,1,1079.0,False
+CUST-10618,Jaipur,Tier-2,2024-08-01,Google Ads,1,19799.0,False
+CUST-10619,Pune,Tier-2,2025-07-03,Google Ads,1,4299.0,False
+CUST-10620,Kochi,Tier-2,2025-10-25,Organic,1,584.0,False
+CUST-10621,Pune,Tier-2,2025-10-06,Google Ads,12,37388.0,True
+CUST-10622,Delhi,Metro,2025-02-19,Organic,1,2499.0,False
+CUST-10623,Kochi,Tier-2,2025-01-09,Organic,1,3499.0,False
+CUST-10624,Mumbai,Metro,2024-10-02,Google Ads,1,19599.0,False
+CUST-10625,Chennai,Metro,2024-11-29,Instagram Ads,1,1359.0,False
+CUST-10626,Jaipur,Tier-2,2024-10-05,Instagram Ads,1,11699.0,False
+CUST-10627,Pune,Tier-2,2024-07-31,Organic,1,12749.0,False
+CUST-10628,Bengaluru,Metro,2024-08-22,Referral,1,1104.0,False
+CUST-10629,Kochi,Tier-2,2025-09-28,Instagram Ads,1,839.0,False
+CUST-10630,Indore,Tier-2,2025-11-14,Organic,12,98004.0,True
+CUST-10631,Lucknow,Tier-2,2025-12-08,Instagram Ads,1,0.0,False
+CUST-10632,Chennai,Metro,2025-11-05,Instagram Ads,2,7498.0,True
+CUST-10633,Indore,Tier-2,2024-10-08,Instagram Ads,5,15553.0,True
+CUST-10634,Bengaluru,Metro,2025-09-23,Referral,9,31956.0,True
+CUST-10635,Chennai,Metro,2025-01-23,Referral,1,2799.0,False
+CUST-10636,Agra,Tier-3,2025-11-30,Organic,1,0.0,False
+CUST-10637,Chennai,Metro,2025-02-07,Organic,1,1799.0,False
+CUST-10638,Chandigarh,Tier-2,2025-03-12,Instagram Ads,1,1899.0,False
+CUST-10639,Ahmedabad,Tier-2,2024-11-15,Google Ads,1,1759.0,False
+CUST-10640,Surat,Tier-2,2025-11-04,Google Ads,5,26015.0,True
+CUST-10641,Pune,Tier-2,2025-01-21,Referral,13,44416.0,True
+CUST-10642,Pune,Tier-2,2025-06-06,Instagram Ads,1,5524.0,False
+CUST-10643,Bengaluru,Metro,2025-02-12,Google Ads,6,16897.0,True
+CUST-10644,Mumbai,Metro,2024-10-30,Referral,27,178347.0,True
+CUST-10645,Ahmedabad,Tier-2,2024-03-27,Instagram Ads,1,959.0,False
+CUST-10646,Pune,Tier-2,2024-06-15,Instagram Ads,1,14999.0,False
+CUST-10647,Delhi,Metro,2025-08-03,Instagram Ads,1,2549.0,False
+CUST-10648,Lucknow,Tier-2,2025-02-26,Organic,1,2399.0,False
+CUST-10649,Lucknow,Tier-2,2025-12-10,Instagram Ads,4,11366.0,True
+CUST-10650,Delhi,Metro,2025-07-15,Instagram Ads,6,12234.0,True
+CUST-10651,Gwalior,Tier-3,2024-02-25,Organic,1,1439.0,False
+CUST-10652,Mumbai,Metro,2024-12-21,Organic,1,4199.0,False
+CUST-10653,Varanasi,Tier-3,2025-04-07,Instagram Ads,1,1619.0,False
+CUST-10654,Ranchi,Tier-3,2025-11-25,Instagram Ads,1,10499.0,False
+CUST-10655,Jodhpur,Tier-3,2025-06-19,Organic,15,84181.0,True
+CUST-10656,Kolkata,Metro,2025-07-02,Google Ads,1,3149.0,False
+CUST-10657,Delhi,Metro,2024-08-29,Instagram Ads,1,2799.0,False
+CUST-10658,Hyderabad,Metro,2025-10-16,Instagram Ads,1,0.0,False
+CUST-10659,Mumbai,Metro,2024-06-17,Instagram Ads,1,1299.0,False
+CUST-10660,Chennai,Metro,2025-09-12,Instagram Ads,1,3999.0,False
+CUST-10661,Kolkata,Metro,2025-10-18,Google Ads,15,70160.0,True
+CUST-10662,Chandigarh,Tier-2,2024-01-29,Google Ads,18,65757.0,True
+CUST-10663,Bengaluru,Metro,2024-08-14,Google Ads,1,2974.0,False
+CUST-10664,Mumbai,Metro,2024-05-15,Instagram Ads,8,29962.0,True
+CUST-10665,Ahmedabad,Tier-2,2025-04-08,Google Ads,1,6374.0,False
+CUST-10666,Ranchi,Tier-3,2025-06-09,Referral,2,6198.0,True
+CUST-10667,Bengaluru,Metro,2024-08-11,Google Ads,1,3499.0,False
+CUST-10668,Delhi,Metro,2025-10-10,Organic,1,1679.0,False
+CUST-10669,Hyderabad,Metro,2025-07-10,Organic,1,4999.0,False
+CUST-10670,Pune,Tier-2,2024-09-25,Google Ads,1,5999.0,False
+CUST-10671,Bengaluru,Metro,2025-07-19,Google Ads,13,69576.0,True
+CUST-10672,Hyderabad,Metro,2024-11-25,Instagram Ads,1,2144.0,False
+CUST-10673,Meerut,Tier-3,2024-03-17,Instagram Ads,1,1699.0,False
+CUST-10674,Chennai,Metro,2024-09-22,Instagram Ads,4,13862.0,True
+CUST-10675,Lucknow,Tier-2,2024-03-02,Instagram Ads,1,1439.0,False
+CUST-10676,Delhi,Metro,2024-11-19,Instagram Ads,1,959.0,False
+CUST-10677,Lucknow,Tier-2,2024-12-11,Google Ads,1,1039.0,False
+CUST-10678,Delhi,Metro,2025-11-30,Google Ads,1,1499.0,False
+CUST-10679,Kolkata,Metro,2025-04-13,Instagram Ads,1,4049.0,False
+CUST-10680,Chandigarh,Tier-2,2025-02-04,Instagram Ads,1,6749.0,False
+CUST-10681,Ahmedabad,Tier-2,2025-05-27,Referral,32,225029.0,True
+CUST-10682,Hyderabad,Metro,2025-07-31,Instagram Ads,1,0.0,False
+CUST-10683,Pune,Tier-2,2025-12-03,Referral,17,71909.0,True
+CUST-10684,Indore,Tier-2,2024-02-09,Instagram Ads,1,2499.0,False
+CUST-10685,Hyderabad,Metro,2025-07-03,Google Ads,11,45868.0,True
+CUST-10686,Chennai,Metro,2025-04-26,Organic,1,6999.0,False
+CUST-10687,Kolkata,Metro,2024-04-06,Google Ads,22,70021.0,True
+CUST-10688,Bengaluru,Metro,2025-09-28,Instagram Ads,1,1599.0,False
+CUST-10689,Delhi,Metro,2024-07-13,Referral,1,3149.0,False
+CUST-10690,Hyderabad,Metro,2024-02-09,Google Ads,14,49644.0,True
+CUST-10691,Dehradun,Tier-3,2025-09-25,Organic,1,1519.0,False
+CUST-10692,Bhopal,Tier-3,2024-08-17,Instagram Ads,1,7649.0,False
+CUST-10693,Chennai,Metro,2025-07-24,Instagram Ads,1,1539.0,False
+CUST-10694,Chennai,Metro,2025-09-30,Instagram Ads,1,1259.0,False
+CUST-10695,Delhi,Metro,2025-01-07,Instagram Ads,11,92532.0,True
+CUST-10696,Meerut,Tier-3,2024-02-07,Instagram Ads,1,2549.0,False
+CUST-10697,Indore,Tier-2,2024-07-14,Organic,1,9999.0,False
+CUST-10698,Jodhpur,Tier-3,2025-06-28,Organic,1,1979.0,False
+CUST-10699,Ranchi,Tier-3,2024-08-26,Organic,29,92336.0,True
+CUST-10700,Kochi,Tier-2,2024-11-26,Instagram Ads,1,674.0,False
+CUST-10701,Ranchi,Tier-3,2024-10-07,Instagram Ads,1,0.0,False
+CUST-10702,Kolkata,Metro,2025-10-17,Google Ads,7,18173.0,True
+CUST-10703,Hyderabad,Metro,2024-12-24,Google Ads,1,1799.0,False
+CUST-10704,Agra,Tier-3,2024-03-22,Google Ads,9,20907.0,True
+CUST-10705,Hyderabad,Metro,2025-01-29,Instagram Ads,1,4999.0,False
+CUST-10706,Hyderabad,Metro,2025-11-02,Referral,1,28599.0,False
+CUST-10707,Surat,Tier-2,2025-10-06,Organic,1,1699.0,False
+CUST-10708,Chennai,Metro,2024-05-21,Google Ads,1,3654.0,False
+CUST-10709,Meerut,Tier-3,2024-08-30,Referral,12,35764.0,True
+CUST-10710,Chandigarh,Tier-2,2024-06-15,Google Ads,1,14999.0,False
+CUST-10711,Bengaluru,Metro,2025-07-16,Google Ads,1,719.0,False
+CUST-10712,Mumbai,Metro,2025-02-04,Instagram Ads,2,2338.0,True
+CUST-10713,Delhi,Metro,2024-06-27,Instagram Ads,1,2999.0,False
+CUST-10714,Bengaluru,Metro,2025-03-06,Organic,11,37380.0,True
+CUST-10715,Jodhpur,Tier-3,2025-05-04,Instagram Ads,1,1999.0,False
+CUST-10716,Lucknow,Tier-2,2024-01-01,Instagram Ads,1,10624.0,False
+CUST-10717,Jodhpur,Tier-3,2025-08-31,Google Ads,1,2249.0,False
+CUST-10718,Hyderabad,Metro,2025-11-16,Instagram Ads,1,3439.0,False
+CUST-10719,Hyderabad,Metro,2024-09-18,Google Ads,20,84926.0,True
+CUST-10720,Meerut,Tier-3,2024-05-28,Google Ads,1,2239.0,False
+CUST-10721,Bengaluru,Metro,2025-08-21,Google Ads,1,2124.0,False
+CUST-10722,Delhi,Metro,2025-05-10,Instagram Ads,1,2249.0,False
+CUST-10723,Chennai,Metro,2025-05-13,Organic,42,180779.0,True
+CUST-10724,Indore,Tier-2,2025-05-04,Organic,1,27999.0,False
+CUST-10725,Jaipur,Tier-2,2025-06-24,Google Ads,1,21999.0,False
+CUST-10726,Surat,Tier-2,2024-09-24,Organic,1,1274.0,False
+CUST-10727,Mumbai,Metro,2025-05-14,Instagram Ads,1,19799.0,False
+CUST-10728,Dehradun,Tier-3,2024-02-10,Google Ads,1,3869.0,False
+CUST-10729,Bengaluru,Metro,2024-05-29,Instagram Ads,1,2499.0,False
+CUST-10730,Dehradun,Tier-3,2024-04-16,Instagram Ads,1,8099.0,False
+CUST-10731,Agra,Tier-3,2025-10-07,Instagram Ads,1,3499.0,False
+CUST-10732,Gwalior,Tier-3,2025-11-25,Instagram Ads,2,4683.0,True
+CUST-10733,Agra,Tier-3,2025-10-10,Instagram Ads,1,1539.0,False
+CUST-10734,Hyderabad,Metro,2024-06-23,Google Ads,6,47973.0,True
+CUST-10735,Pune,Tier-2,2025-02-05,Organic,1,1759.0,False
+CUST-10736,Hyderabad,Metro,2025-10-05,Instagram Ads,2,11348.0,True
+CUST-10737,Mumbai,Metro,2024-05-07,Organic,1,3654.0,False
+CUST-10738,Delhi,Metro,2024-09-14,Instagram Ads,1,8798.0,False
+CUST-10739,Mumbai,Metro,2025-04-19,Instagram Ads,1,4499.0,False
+CUST-10740,Kolkata,Metro,2024-05-22,Google Ads,1,1104.0,False
+CUST-10741,Kochi,Tier-2,2024-08-19,Instagram Ads,1,3999.0,False
+CUST-10742,Surat,Tier-2,2025-01-20,Instagram Ads,1,2249.0,False
+CUST-10743,Raipur,Tier-3,2025-11-08,Instagram Ads,1,19599.0,False
+CUST-10744,Mumbai,Metro,2025-08-26,Instagram Ads,1,1499.0,False
+CUST-10745,Kolkata,Metro,2025-05-03,Organic,1,1299.0,False
+CUST-10746,Chennai,Metro,2024-08-13,Google Ads,1,0.0,False
+CUST-10747,Jodhpur,Tier-3,2025-03-18,Organic,2,7387.0,True
+CUST-10748,Chennai,Metro,2025-11-17,Google Ads,1,764.0,False
+CUST-10749,Delhi,Metro,2024-10-15,Google Ads,13,94310.0,True
+CUST-10750,Patna,Tier-3,2024-07-01,Instagram Ads,1,2124.0,False
+CUST-10751,Bengaluru,Metro,2025-06-17,Google Ads,1,3824.0,False
+CUST-10752,Mumbai,Metro,2025-04-17,Organic,31,147140.0,True
+CUST-10753,Chennai,Metro,2024-11-10,Instagram Ads,1,4798.0,False
+CUST-10754,Kolkata,Metro,2025-08-11,Google Ads,1,1039.0,False
+CUST-10755,Mumbai,Metro,2024-12-05,Instagram Ads,1,1259.0,False
+CUST-10756,Chandigarh,Tier-2,2024-10-26,Organic,47,180280.0,True
+CUST-10757,Kolkata,Metro,2024-11-20,Organic,88,418186.0,True
+CUST-10758,Hyderabad,Metro,2024-06-21,Instagram Ads,2,5948.0,True
+CUST-10759,Dehradun,Tier-3,2025-04-03,Instagram Ads,1,1799.0,False
+CUST-10760,Surat,Tier-2,2025-05-26,Instagram Ads,5,11256.0,True
+CUST-10761,Hyderabad,Metro,2025-09-14,Google Ads,1,13499.0,False
+CUST-10762,Hyderabad,Metro,2024-02-15,Instagram Ads,1,8998.0,False
+CUST-10763,Bengaluru,Metro,2025-03-14,Organic,14,49408.0,True
+CUST-10764,Kochi,Tier-2,2024-01-29,Instagram Ads,1,1169.0,False
+CUST-10765,Kolkata,Metro,2025-10-07,Google Ads,1,2144.0,False
+CUST-10766,Indore,Tier-2,2024-01-03,Referral,1,1999.0,False
+CUST-10767,Indore,Tier-2,2024-07-08,Google Ads,1,3499.0,False
+CUST-10768,Kolkata,Metro,2025-09-03,Referral,32,86932.0,True
+CUST-10769,Surat,Tier-2,2025-06-05,Instagram Ads,1,1709.0,False
+CUST-10770,Chandigarh,Tier-2,2025-07-01,Google Ads,1,17599.0,False
+CUST-10771,Bengaluru,Metro,2025-04-08,Instagram Ads,1,8099.0,False
+CUST-10772,Bengaluru,Metro,2024-04-11,Organic,11,75315.0,True
+CUST-10773,Lucknow,Tier-2,2024-05-26,Instagram Ads,1,2399.0,False
+CUST-10774,Ahmedabad,Tier-2,2024-12-13,Instagram Ads,1,1979.0,False
+CUST-10775,Kolkata,Metro,2024-06-07,Instagram Ads,1,5524.0,False
+CUST-10776,Lucknow,Tier-2,2024-11-10,Google Ads,1,719.0,False
+CUST-10777,Bengaluru,Metro,2024-06-11,Google Ads,1,8749.0,False
+CUST-10778,Delhi,Metro,2024-10-28,Instagram Ads,1,8998.0,False
+CUST-10779,Jaipur,Tier-2,2024-11-28,Organic,1,1999.0,False
+CUST-10780,Lucknow,Tier-2,2025-11-06,Google Ads,23,95811.0,True
+CUST-10781,Lucknow,Tier-2,2025-06-05,Instagram Ads,1,5999.0,False
+CUST-10782,Jodhpur,Tier-3,2025-04-04,Google Ads,1,8999.0,False
+CUST-10783,Bengaluru,Metro,2024-05-31,Instagram Ads,1,9999.0,False
+CUST-10784,Kolkata,Metro,2025-01-03,Instagram Ads,1,1359.0,False
+CUST-10785,Hyderabad,Metro,2024-06-01,Instagram Ads,1,6499.0,False
+CUST-10786,Chandigarh,Tier-2,2025-07-10,Instagram Ads,1,1079.0,False
+CUST-10787,Ahmedabad,Tier-2,2025-03-03,Instagram Ads,1,1619.0,False
+CUST-10788,Varanasi,Tier-3,2025-07-05,Organic,23,61420.0,True
+CUST-10789,Chandigarh,Tier-2,2025-04-13,Instagram Ads,1,1079.0,False
+CUST-10790,Mumbai,Metro,2024-08-06,Referral,1,18699.0,False
+CUST-10791,Indore,Tier-2,2024-12-16,Google Ads,1,1424.0,False
+CUST-10792,Mumbai,Metro,2025-11-17,Instagram Ads,1,3899.0,False
+CUST-10793,Bengaluru,Metro,2024-12-02,Google Ads,1,4399.0,False
+CUST-10794,Bhopal,Tier-3,2024-02-24,Google Ads,19,66495.0,True
+CUST-10795,Kolkata,Metro,2024-03-01,Instagram Ads,1,2624.0,False
+CUST-10796,Jaipur,Tier-2,2025-04-24,Instagram Ads,1,4999.0,False
+CUST-10797,Chandigarh,Tier-2,2025-05-23,Google Ads,1,764.0,False
+CUST-10798,Delhi,Metro,2025-11-21,Instagram Ads,1,1979.0,False
+CUST-10799,Pune,Tier-2,2024-07-27,Google Ads,1,26998.0,False
+CUST-10800,Hyderabad,Metro,2024-03-23,Organic,1,4049.0,False
+CUST-10801,Bengaluru,Metro,2025-09-05,Instagram Ads,1,6374.0,False
+CUST-10802,Kolkata,Metro,2025-11-11,Google Ads,1,4199.0,False
+CUST-10803,Jaipur,Tier-2,2025-04-28,Google Ads,21,93381.0,True
+CUST-10804,Kolkata,Metro,2024-08-23,Referral,1,4499.0,False
+CUST-10805,Surat,Tier-2,2024-10-31,Google Ads,1,1499.0,False
+CUST-10806,Ahmedabad,Tier-2,2025-05-02,Instagram Ads,1,8124.0,False
+CUST-10807,Bhopal,Tier-3,2024-07-10,Instagram Ads,1,4999.0,False
+CUST-10808,Gwalior,Tier-3,2024-02-10,Google Ads,1,719.0,False
+CUST-10809,Chandigarh,Tier-2,2025-08-20,Organic,21,77252.0,True
+CUST-10810,Jodhpur,Tier-3,2025-09-10,Google Ads,56,233554.0,True
+CUST-10811,Surat,Tier-2,2025-10-23,Google Ads,1,974.0,False
+CUST-10812,Surat,Tier-2,2025-10-05,Instagram Ads,1,1888.0,False
+CUST-10813,Bengaluru,Metro,2024-10-06,Instagram Ads,6,35677.0,True
+CUST-10814,Jaipur,Tier-2,2025-08-17,Instagram Ads,1,5997.0,False
+CUST-10815,Pune,Tier-2,2024-08-18,Instagram Ads,1,14398.0,False
+CUST-10816,Chandigarh,Tier-2,2025-07-08,Referral,15,91188.0,True
+CUST-10817,Chennai,Metro,2025-03-19,Instagram Ads,4,9146.0,True
+CUST-10818,Patna,Tier-3,2025-10-04,Instagram Ads,1,15399.0,False
+CUST-10819,Delhi,Metro,2024-01-10,Instagram Ads,1,1799.0,False
+CUST-10820,Kochi,Tier-2,2025-04-28,Referral,7,34544.0,True
+CUST-10821,Surat,Tier-2,2024-07-06,Instagram Ads,8,35910.0,True
+CUST-10822,Delhi,Metro,2025-12-01,Instagram Ads,1,8999.0,False
+CUST-10823,Gwalior,Tier-3,2024-12-21,Google Ads,1,1599.0,False
+CUST-10824,Kolkata,Metro,2025-05-04,Instagram Ads,1,6749.0,False
+CUST-10825,Pune,Tier-2,2024-02-07,Google Ads,1,12499.0,False
+CUST-10826,Mumbai,Metro,2024-08-30,Organic,1,3149.0,False
+CUST-10827,Mumbai,Metro,2024-11-09,Instagram Ads,1,1399.0,False
+CUST-10828,Chandigarh,Tier-2,2025-01-19,Organic,71,407021.0,True
+CUST-10829,Delhi,Metro,2025-02-06,Google Ads,1,10198.0,False
+CUST-10830,Lucknow,Tier-2,2024-04-20,Referral,5,15630.0,True
+CUST-10831,Delhi,Metro,2025-08-28,Instagram Ads,13,54128.0,True
+CUST-10832,Hyderabad,Metro,2024-12-20,Google Ads,38,180250.0,True
+CUST-10833,Kochi,Tier-2,2025-08-05,Google Ads,1,1529.0,False
+CUST-10834,Hyderabad,Metro,2025-07-31,Organic,1,1424.0,False
+CUST-10835,Lucknow,Tier-2,2025-05-25,Google Ads,4,24396.0,True
+CUST-10836,Hyderabad,Metro,2025-04-30,Instagram Ads,1,3499.0,False
+CUST-10837,Kochi,Tier-2,2024-10-11,Instagram Ads,1,6299.0,False
+CUST-10838,Chennai,Metro,2025-07-14,Google Ads,1,1169.0,False
+CUST-10839,Surat,Tier-2,2025-06-04,Instagram Ads,1,7499.0,False
+CUST-10840,Agra,Tier-3,2025-05-22,Instagram Ads,1,1759.0,False
+CUST-10841,Kochi,Tier-2,2025-04-16,Organic,1,2999.0,False
+CUST-10842,Agra,Tier-3,2025-08-01,Google Ads,1,3869.0,False
+CUST-10843,Hyderabad,Metro,2025-06-04,Instagram Ads,1,6499.0,False
+CUST-10844,Pune,Tier-2,2024-04-22,Instagram Ads,1,4049.0,False
+CUST-10845,Ahmedabad,Tier-2,2025-11-23,Instagram Ads,1,8749.0,False
+CUST-10846,Lucknow,Tier-2,2024-01-20,Google Ads,4,18585.0,True
+CUST-10847,Kolkata,Metro,2024-10-25,Instagram Ads,1,5849.0,False
+CUST-10848,Lucknow,Tier-2,2025-08-17,Referral,13,38293.0,True
+CUST-10849,Bengaluru,Metro,2025-10-08,Organic,1,2799.0,False
+CUST-10850,Kolkata,Metro,2025-07-01,Organic,17,88049.0,True
+CUST-10851,Ahmedabad,Tier-2,2025-07-20,Instagram Ads,3,23697.0,True
+CUST-10852,Ranchi,Tier-3,2024-08-24,Google Ads,1,0.0,False
+CUST-10853,Lucknow,Tier-2,2025-10-11,Referral,1,2399.0,False
+CUST-10854,Jaipur,Tier-2,2024-06-17,Organic,3,29706.0,True
+CUST-10855,Hyderabad,Metro,2025-08-16,Google Ads,1,1104.0,False
+CUST-10856,Delhi,Metro,2025-07-08,Instagram Ads,1,7499.0,False
+CUST-10857,Jaipur,Tier-2,2025-04-23,Organic,20,109013.0,True
+CUST-10858,Bhopal,Tier-3,2025-08-03,Instagram Ads,3,23306.0,True
+CUST-10859,Chennai,Metro,2024-07-01,Instagram Ads,1,2499.0,False
+CUST-10860,Chennai,Metro,2025-01-14,Organic,1,1529.0,False
+CUST-10861,Gwalior,Tier-3,2025-05-05,Google Ads,60,177107.0,True
+CUST-10862,Surat,Tier-2,2024-06-10,Google Ads,1,3599.0,False
+CUST-10863,Bengaluru,Metro,2024-06-24,Referral,1,2499.0,False
+CUST-10864,Pune,Tier-2,2025-08-27,Organic,14,34676.0,True
+CUST-10865,Lucknow,Tier-2,2025-08-04,Organic,9,17907.0,True
+CUST-10866,Agra,Tier-3,2024-08-26,Instagram Ads,3,15197.0,True
+CUST-10867,Kolkata,Metro,2024-12-11,Instagram Ads,1,6999.0,False
+CUST-10868,Bengaluru,Metro,2025-07-07,Organic,1,2639.0,False
+CUST-10869,Jodhpur,Tier-3,2024-10-03,Google Ads,14,142258.0,True
+CUST-10870,Ahmedabad,Tier-2,2025-11-09,Google Ads,1,1259.0,False
+CUST-10871,Kolkata,Metro,2024-04-22,Organic,1,23799.0,False
+CUST-10872,Lucknow,Tier-2,2024-11-02,Google Ads,29,148035.0,True
+CUST-10873,Chandigarh,Tier-2,2025-11-25,Instagram Ads,1,5999.0,False
+CUST-10874,Lucknow,Tier-2,2024-03-26,Referral,18,141293.0,True
+CUST-10875,Chennai,Metro,2024-04-20,Organic,1,3149.0,False
+CUST-10876,Delhi,Metro,2024-11-12,Referral,1,1539.0,False
+CUST-10877,Hyderabad,Metro,2025-07-15,Instagram Ads,1,11997.0,False
+CUST-10878,Varanasi,Tier-3,2024-03-15,Google Ads,38,178749.0,True
+CUST-10879,Jaipur,Tier-2,2025-04-28,Instagram Ads,2,6548.0,True
+CUST-10880,Bengaluru,Metro,2025-07-16,Instagram Ads,1,2974.0,False
+CUST-10881,Mumbai,Metro,2025-10-21,Referral,1,1529.0,False
+CUST-10882,Delhi,Metro,2025-06-22,Organic,1,0.0,False
+CUST-10883,Delhi,Metro,2024-03-17,Google Ads,1,2199.0,False
+CUST-10884,Mumbai,Metro,2025-08-11,Instagram Ads,1,1999.0,False
+CUST-10885,Chandigarh,Tier-2,2024-05-26,Google Ads,7,26764.0,True
+CUST-10886,Hyderabad,Metro,2024-05-31,Organic,1,2379.0,False
+CUST-10887,Chandigarh,Tier-2,2024-04-17,Instagram Ads,4,8290.0,True
+CUST-10888,Jodhpur,Tier-3,2024-08-15,Instagram Ads,1,4949.0,False
+CUST-10889,Delhi,Metro,2025-03-14,Organic,1,21999.0,False
+CUST-10890,Chennai,Metro,2025-03-14,Instagram Ads,1,3312.0,False
+CUST-10891,Chandigarh,Tier-2,2024-10-25,Instagram Ads,1,2099.0,False
+CUST-10892,Meerut,Tier-3,2024-01-04,Referral,1,23799.0,False
+CUST-10893,Bengaluru,Metro,2025-04-28,Instagram Ads,1,3654.0,False
+CUST-10894,Hyderabad,Metro,2025-11-09,Organic,1,5249.0,False
+CUST-10895,Raipur,Tier-3,2024-07-06,Instagram Ads,4,6147.0,True
+CUST-10896,Chennai,Metro,2024-11-15,Referral,1,1429.0,False
+CUST-10897,Chennai,Metro,2024-04-28,Google Ads,1,4498.0,False
+CUST-10898,Patna,Tier-3,2025-05-04,Organic,1,5399.0,False
+CUST-10899,Hyderabad,Metro,2025-09-11,Instagram Ads,1,8999.0,False
+CUST-10900,Pune,Tier-2,2024-10-15,Instagram Ads,1,1959.0,False
+CUST-10901,Kochi,Tier-2,2024-05-21,Instagram Ads,1,1699.0,False
+CUST-10902,Kolkata,Metro,2025-01-15,Instagram Ads,1,1599.0,False
+CUST-10903,Dehradun,Tier-3,2025-09-16,Instagram Ads,1,1274.0,False
+CUST-10904,Gwalior,Tier-3,2025-04-06,Instagram Ads,1,0.0,False
+CUST-10905,Bengaluru,Metro,2025-01-17,Referral,1,10624.0,False
+CUST-10906,Pune,Tier-2,2024-10-19,Organic,17,101376.0,True
+CUST-10907,Delhi,Metro,2024-06-04,Instagram Ads,1,3499.0,False
+CUST-10908,Mumbai,Metro,2024-07-24,Instagram Ads,1,8999.0,False
+CUST-10909,Pune,Tier-2,2024-05-03,Google Ads,1,18699.0,False
+CUST-10910,Kolkata,Metro,2024-05-07,Google Ads,1,1799.0,False
+CUST-10911,Bengaluru,Metro,2025-01-28,Google Ads,1,1999.0,False
+CUST-10912,Hyderabad,Metro,2025-02-09,Instagram Ads,1,10497.0,False
+CUST-10913,Delhi,Metro,2024-10-07,Instagram Ads,1,5499.0,False
+CUST-10914,Mumbai,Metro,2025-07-02,Google Ads,1,11999.0,False
+CUST-10915,Jodhpur,Tier-3,2024-08-08,Instagram Ads,1,1699.0,False
+CUST-10916,Raipur,Tier-3,2024-01-31,Google Ads,1,2699.0,False
+CUST-10917,Kolkata,Metro,2025-05-27,Instagram Ads,1,3499.0,False
+CUST-10918,Jodhpur,Tier-3,2025-09-22,Organic,1,0.0,False
+CUST-10919,Chandigarh,Tier-2,2024-08-08,Instagram Ads,1,1799.0,False
+CUST-10920,Mumbai,Metro,2025-04-13,Instagram Ads,1,1619.0,False
+CUST-10921,Gwalior,Tier-3,2024-12-02,Google Ads,1,1749.0,False
+CUST-10922,Chennai,Metro,2024-04-27,Instagram Ads,1,1699.0,False
+CUST-10923,Surat,Tier-2,2025-01-22,Organic,1,5598.0,False
+CUST-10924,Delhi,Metro,2025-06-01,Instagram Ads,1,3499.0,False
+CUST-10925,Chennai,Metro,2024-04-20,Google Ads,1,1869.0,False
+CUST-10926,Indore,Tier-2,2025-10-09,Instagram Ads,1,1614.0,False
+CUST-10927,Meerut,Tier-3,2024-09-05,Organic,1,0.0,False
+CUST-10928,Indore,Tier-2,2025-09-19,Organic,1,2799.0,False
+CUST-10929,Bengaluru,Metro,2025-11-25,Instagram Ads,1,3499.0,False
+CUST-10930,Patna,Tier-3,2025-10-29,Instagram Ads,1,5999.0,False
+CUST-10931,Jaipur,Tier-2,2024-12-13,Google Ads,1,6874.0,False
+CUST-10932,Dehradun,Tier-3,2025-01-20,Google Ads,10,27950.0,True
+CUST-10933,Chennai,Metro,2024-03-27,Instagram Ads,1,1999.0,False
+CUST-10934,Kolkata,Metro,2025-09-06,Google Ads,1,2878.0,False
+CUST-10935,Surat,Tier-2,2025-07-17,Organic,11,35814.0,True
+CUST-10936,Bengaluru,Metro,2025-11-17,Google Ads,18,91842.0,True
+CUST-10937,Kolkata,Metro,2024-11-10,Instagram Ads,1,2449.0,False
+CUST-10938,Kochi,Tier-2,2025-11-10,Instagram Ads,1,1614.0,False
+CUST-10939,Pune,Tier-2,2025-05-20,Instagram Ads,1,2969.0,False
+CUST-10940,Surat,Tier-2,2024-04-07,Google Ads,1,1169.0,False
+CUST-10941,Ahmedabad,Tier-2,2024-05-07,Referral,28,138942.0,True
+CUST-10942,Bengaluru,Metro,2025-07-23,Google Ads,1,1299.0,False
+CUST-10943,Bengaluru,Metro,2025-05-04,Google Ads,1,719.0,False
+CUST-10944,Bengaluru,Metro,2025-10-30,Instagram Ads,1,4499.0,False
+CUST-10945,Ahmedabad,Tier-2,2024-03-22,Instagram Ads,1,2499.0,False
+CUST-10946,Kochi,Tier-2,2024-11-03,Instagram Ads,1,3499.0,False
+CUST-10947,Pune,Tier-2,2025-10-05,Google Ads,1,2518.0,False
+CUST-10948,Kolkata,Metro,2024-10-22,Instagram Ads,1,3599.0,False
+CUST-10949,Hyderabad,Metro,2025-07-25,Instagram Ads,1,3499.0,False
+CUST-10950,Chennai,Metro,2024-08-27,Instagram Ads,3,10272.0,True
+CUST-10951,Chennai,Metro,2025-08-13,Instagram Ads,1,1799.0,False
+CUST-10952,Delhi,Metro,2024-11-17,Instagram Ads,2,5307.0,True
+CUST-10953,Mumbai,Metro,2024-08-06,Instagram Ads,6,16934.0,True
+CUST-10954,Raipur,Tier-3,2024-06-29,Referral,1,1599.0,False
+CUST-10955,Indore,Tier-2,2024-05-22,Instagram Ads,1,1999.0,False
+CUST-10956,Hyderabad,Metro,2024-12-06,Instagram Ads,5,38055.0,True
+CUST-10957,Surat,Tier-2,2024-04-26,Instagram Ads,1,11249.0,False
+CUST-10958,Surat,Tier-2,2025-10-12,Google Ads,16,53549.0,True
+CUST-10959,Pune,Tier-2,2025-10-13,Referral,1,1274.0,False
+CUST-10960,Lucknow,Tier-2,2024-12-10,Organic,21,55656.0,True
+CUST-10961,Chandigarh,Tier-2,2025-06-21,Instagram Ads,1,1169.0,False
+CUST-10962,Raipur,Tier-3,2024-03-15,Organic,1,2309.0,False
+CUST-10963,Jaipur,Tier-2,2025-12-08,Instagram Ads,1,1749.0,False
+CUST-10964,Bengaluru,Metro,2024-07-16,Google Ads,23,155940.0,True
+CUST-10965,Chennai,Metro,2025-11-12,Google Ads,1,1874.0,False
+CUST-10966,Kolkata,Metro,2025-01-11,Organic,6,27599.0,True
+CUST-10967,Chennai,Metro,2024-06-28,Referral,1,3299.0,False
+CUST-10968,Ahmedabad,Tier-2,2024-10-06,Instagram Ads,1,1999.0,False
+CUST-10969,Pune,Tier-2,2024-10-18,Referral,23,119328.0,True
+CUST-10970,Lucknow,Tier-2,2024-01-15,Instagram Ads,3,11995.0,True
+CUST-10971,Jaipur,Tier-2,2024-10-20,Organic,11,32457.0,True
+CUST-10972,Agra,Tier-3,2025-06-14,Instagram Ads,4,41324.0,True
+CUST-10973,Hyderabad,Metro,2025-01-23,Organic,1,10499.0,False
+CUST-10974,Delhi,Metro,2025-03-08,Organic,1,25199.0,False
+CUST-10975,Hyderabad,Metro,2024-01-10,Instagram Ads,3,16721.0,True
+CUST-10976,Chennai,Metro,2024-09-05,Google Ads,1,1079.0,False
+CUST-10977,Ahmedabad,Tier-2,2025-07-15,Instagram Ads,1,1979.0,False
+CUST-10978,Mumbai,Metro,2024-07-01,Instagram Ads,1,3149.0,False
+CUST-10979,Ahmedabad,Tier-2,2024-09-30,Google Ads,1,2144.0,False
+CUST-10980,Chennai,Metro,2025-11-05,Google Ads,1,1349.0,False
+CUST-10981,Patna,Tier-3,2024-12-22,Google Ads,1,4399.0,False
+CUST-10982,Kolkata,Metro,2025-11-24,Organic,1,5849.0,False
+CUST-10983,Ranchi,Tier-3,2024-11-11,Google Ads,2,4468.0,True
+CUST-10984,Jodhpur,Tier-3,2024-07-27,Instagram Ads,1,4299.0,False
+CUST-10985,Chandigarh,Tier-2,2025-03-21,Instagram Ads,1,2699.0,False
+CUST-10986,Raipur,Tier-3,2024-07-19,Instagram Ads,1,1979.0,False
+CUST-10987,Chandigarh,Tier-2,2025-11-21,Google Ads,1,22399.0,False
+CUST-10988,Chennai,Metro,2025-10-31,Organic,1,4249.0,False
+CUST-10989,Surat,Tier-2,2024-08-14,Instagram Ads,1,1999.0,False
+CUST-10990,Chennai,Metro,2025-03-27,Instagram Ads,1,1274.0,False
+CUST-10991,Lucknow,Tier-2,2024-08-29,Instagram Ads,1,3654.0,False
+CUST-10992,Chennai,Metro,2024-08-19,Google Ads,1,3198.0,False
+CUST-10993,Hyderabad,Metro,2024-01-25,Google Ads,1,3499.0,False
+CUST-10994,Mumbai,Metro,2025-02-28,Google Ads,1,0.0,False
+CUST-10995,Chennai,Metro,2024-11-15,Google Ads,1,1199.0,False
+CUST-10996,Varanasi,Tier-3,2024-05-08,Referral,1,6998.0,False
+CUST-10997,Gwalior,Tier-3,2025-06-26,Instagram Ads,1,8099.0,False
+CUST-10998,Hyderabad,Metro,2024-06-05,Google Ads,1,4798.0,False
+CUST-10999,Kolkata,Metro,2024-01-01,Google Ads,4,21486.0,True
+CUST-11000,Ranchi,Tier-3,2025-09-26,Google Ads,1,2249.0,False
+CUST-11001,Ahmedabad,Tier-2,2025-05-28,Google Ads,1,1349.0,False
+CUST-11002,Chandigarh,Tier-2,2025-04-29,Instagram Ads,1,1999.0,False
+CUST-11003,Chennai,Metro,2025-09-24,Organic,1,3399.0,False
+CUST-11004,Dehradun,Tier-3,2025-01-17,Instagram Ads,1,2519.0,False
+CUST-11005,Hyderabad,Metro,2024-06-15,Instagram Ads,10,24051.0,True
+CUST-11006,Chandigarh,Tier-2,2025-09-07,Organic,1,23998.0,False
+CUST-11007,Bhopal,Tier-3,2024-08-23,Google Ads,19,58471.0,True
+CUST-11008,Bengaluru,Metro,2024-12-02,Organic,100,433331.0,True
+CUST-11009,Agra,Tier-3,2025-06-25,Instagram Ads,1,4299.0,False
+CUST-11010,Hyderabad,Metro,2025-04-20,Google Ads,14,62692.0,True
+CUST-11011,Surat,Tier-2,2025-04-23,Instagram Ads,1,4299.0,False
+CUST-11012,Jaipur,Tier-2,2025-02-04,Instagram Ads,1,2999.0,False
+CUST-11013,Jodhpur,Tier-3,2024-02-19,Instagram Ads,1,8999.0,False
+CUST-11014,Surat,Tier-2,2025-02-04,Google Ads,37,174893.0,True
+CUST-11015,Indore,Tier-2,2025-11-01,Instagram Ads,9,29196.0,True
+CUST-11016,Dehradun,Tier-3,2025-09-20,Google Ads,1,2974.0,False
+CUST-11017,Hyderabad,Metro,2024-11-03,Instagram Ads,1,1439.0,False
+CUST-11018,Hyderabad,Metro,2024-06-06,Instagram Ads,1,2999.0,False
+CUST-11019,Chennai,Metro,2024-03-06,Instagram Ads,1,22498.0,False
+CUST-11020,Jodhpur,Tier-3,2024-03-18,Organic,1,1999.0,False
+CUST-11021,Dehradun,Tier-3,2024-05-16,Organic,15,64151.0,True
+CUST-11022,Mumbai,Metro,2024-01-24,Instagram Ads,1,5849.0,False
+CUST-11023,Kolkata,Metro,2024-08-09,Organic,1,719.0,False
+CUST-11024,Lucknow,Tier-2,2025-11-01,Google Ads,1,3298.0,False
+CUST-11025,Kochi,Tier-2,2025-08-27,Google Ads,19,69347.0,True
+CUST-11026,Mumbai,Metro,2025-02-25,Google Ads,1,8998.0,False
+CUST-11027,Chennai,Metro,2025-09-03,Instagram Ads,4,40821.0,True
+CUST-11028,Delhi,Metro,2025-01-31,Google Ads,1,719.0,False
+CUST-11029,Dehradun,Tier-3,2025-06-04,Organic,1,4674.0,False
+CUST-11030,Surat,Tier-2,2024-06-14,Organic,23,93529.0,True
+CUST-11031,Kochi,Tier-2,2025-03-12,Google Ads,12,42017.0,True
+CUST-11032,Chennai,Metro,2024-12-18,Google Ads,1,2239.0,False
+CUST-11033,Kolkata,Metro,2025-04-03,Google Ads,1,1169.0,False
+CUST-11034,Kolkata,Metro,2025-10-04,Instagram Ads,4,8471.0,True
+CUST-11035,Jaipur,Tier-2,2025-05-16,Organic,1,8999.0,False
+CUST-11036,Chennai,Metro,2024-04-24,Instagram Ads,1,9598.0,False
+CUST-11037,Pune,Tier-2,2025-07-11,Organic,1,3499.0,False
+CUST-11038,Jaipur,Tier-2,2025-09-30,Instagram Ads,1,6448.0,False
+CUST-11039,Raipur,Tier-3,2024-10-05,Instagram Ads,1,1999.0,False
+CUST-11040,Gwalior,Tier-3,2025-04-24,Instagram Ads,1,3599.0,False
+CUST-11041,Indore,Tier-2,2025-03-27,Instagram Ads,1,27999.0,False
+CUST-11042,Patna,Tier-3,2025-11-30,Google Ads,1,2274.0,False
+CUST-11043,Chennai,Metro,2025-02-27,Google Ads,1,1699.0,False
+CUST-11044,Delhi,Metro,2025-05-23,Referral,21,81249.0,True
+CUST-11045,Hyderabad,Metro,2025-09-21,Google Ads,24,73843.0,True
+CUST-11046,Chennai,Metro,2025-05-15,Google Ads,1,3824.0,False
+CUST-11047,Bhopal,Tier-3,2024-01-26,Organic,1,5278.0,False
+CUST-11048,Ranchi,Tier-3,2024-01-03,Instagram Ads,1,4499.0,False
+CUST-11049,Meerut,Tier-3,2024-02-03,Instagram Ads,3,22382.0,True
+CUST-11050,Ranchi,Tier-3,2024-09-23,Organic,1,1519.0,False
+CUST-11051,Delhi,Metro,2024-06-23,Instagram Ads,1,5499.0,False
+CUST-11052,Chennai,Metro,2025-11-09,Instagram Ads,1,1869.0,False
+CUST-11053,Chandigarh,Tier-2,2025-09-11,Organic,1,1979.0,False
+CUST-11054,Indore,Tier-2,2024-12-02,Instagram Ads,7,25042.0,True
+CUST-11055,Kochi,Tier-2,2025-08-09,Google Ads,4,8416.0,True
+CUST-11056,Kolkata,Metro,2025-02-05,Instagram Ads,1,1329.0,False
+CUST-11057,Patna,Tier-3,2024-11-14,Google Ads,1,2124.0,False
+CUST-11058,Indore,Tier-2,2025-04-21,Organic,1,1979.0,False
+CUST-11059,Raipur,Tier-3,2025-06-04,Instagram Ads,1,12747.0,False
+CUST-11060,Chennai,Metro,2024-04-23,Organic,12,59626.0,True
+CUST-11061,Bengaluru,Metro,2024-09-15,Instagram Ads,1,3499.0,False
+CUST-11062,Jodhpur,Tier-3,2024-03-24,Instagram Ads,1,10624.0,False
+CUST-11063,Pune,Tier-2,2025-06-14,Organic,1,1619.0,False
+CUST-11064,Hyderabad,Metro,2024-05-29,Referral,1,21999.0,False
+CUST-11065,Delhi,Metro,2024-03-02,Referral,8,18236.0,True
+CUST-11066,Mumbai,Metro,2024-10-30,Google Ads,1,20999.0,False
+CUST-11067,Kolkata,Metro,2025-11-04,Instagram Ads,1,2274.0,False
+CUST-11068,Kolkata,Metro,2025-11-17,Instagram Ads,1,2624.0,False
+CUST-11069,Chandigarh,Tier-2,2025-06-30,Instagram Ads,1,2699.0,False
+CUST-11070,Varanasi,Tier-3,2025-05-29,Organic,17,43374.0,True
+CUST-11071,Ahmedabad,Tier-2,2025-07-17,Google Ads,1,3299.0,False
+CUST-11072,Chennai,Metro,2024-12-18,Organic,1,1649.0,False
+CUST-11073,Ahmedabad,Tier-2,2025-01-21,Referral,1,19799.0,False
+CUST-11074,Patna,Tier-3,2024-10-25,Instagram Ads,1,1329.0,False
+CUST-11075,Chennai,Metro,2025-11-13,Instagram Ads,1,1424.0,False
+CUST-11076,Mumbai,Metro,2025-01-27,Referral,1,2639.0,False
+CUST-11077,Kolkata,Metro,2025-08-23,Organic,1,11249.0,False
+CUST-11078,Agra,Tier-3,2025-01-25,Instagram Ads,1,4499.0,False
+CUST-11079,Pune,Tier-2,2025-02-26,Instagram Ads,1,4499.0,False
+CUST-11080,Pune,Tier-2,2025-09-08,Referral,9,46311.0,True
+CUST-11081,Dehradun,Tier-3,2025-08-31,Referral,4,10295.0,True
+CUST-11082,Delhi,Metro,2025-01-31,Instagram Ads,1,1039.0,False
+CUST-11083,Agra,Tier-3,2025-11-01,Google Ads,1,6298.0,False
+CUST-11084,Dehradun,Tier-3,2025-08-14,Organic,2,25373.0,True
+CUST-11085,Indore,Tier-2,2024-07-19,Referral,1,3399.0,False
+CUST-11086,Chennai,Metro,2024-06-25,Google Ads,5,10195.0,True
+CUST-11087,Mumbai,Metro,2024-05-31,Instagram Ads,1,4949.0,False
+CUST-11088,Lucknow,Tier-2,2025-02-14,Organic,1,1274.0,False
+CUST-11089,Hyderabad,Metro,2025-01-15,Google Ads,13,66010.0,True
+CUST-11090,Chennai,Metro,2024-12-07,Instagram Ads,1,7149.0,False
+CUST-11091,Jaipur,Tier-2,2024-04-29,Instagram Ads,4,11994.0,True
+CUST-11092,Ranchi,Tier-3,2025-11-19,Instagram Ads,1,3374.0,False
+CUST-11093,Jaipur,Tier-2,2025-12-16,Google Ads,1,7499.0,False
+CUST-11094,Delhi,Metro,2025-05-03,Organic,5,45109.0,True
+CUST-11095,Kochi,Tier-2,2024-09-10,Instagram Ads,1,2999.0,False
+CUST-11096,Gwalior,Tier-3,2025-06-04,Instagram Ads,1,5097.0,False
+CUST-11097,Lucknow,Tier-2,2025-02-01,Instagram Ads,1,764.0,False
+CUST-11098,Jodhpur,Tier-3,2024-10-24,Google Ads,1,3249.0,False
+CUST-11099,Jaipur,Tier-2,2024-07-19,Google Ads,7,14879.0,True
+CUST-11100,Varanasi,Tier-3,2025-01-11,Instagram Ads,5,32895.0,True
+CUST-11101,Surat,Tier-2,2024-10-02,Google Ads,1,8999.0,False
+CUST-11102,Kolkata,Metro,2025-02-24,Organic,1,2549.0,False
+CUST-11103,Bengaluru,Metro,2025-08-12,Referral,1,1499.0,False
+CUST-11104,Jodhpur,Tier-3,2025-07-29,Google Ads,1,1299.0,False
+CUST-11105,Bengaluru,Metro,2025-01-12,Referral,6,47363.0,True
+CUST-11106,Pune,Tier-2,2024-03-02,Google Ads,1,974.0,False
+CUST-11107,Chennai,Metro,2025-10-30,Instagram Ads,1,2549.0,False
+CUST-11108,Bengaluru,Metro,2025-02-19,Instagram Ads,1,1599.0,False
+CUST-11109,Kolkata,Metro,2025-12-14,Organic,10,40069.0,True
+CUST-11110,Jaipur,Tier-2,2025-09-14,Organic,1,6499.0,False
+CUST-11111,Ahmedabad,Tier-2,2025-05-06,Google Ads,13,58523.0,True
+CUST-11112,Surat,Tier-2,2024-04-14,Organic,1,764.0,False
+CUST-11113,Bengaluru,Metro,2025-11-20,Organic,8,51202.0,True
+CUST-11114,Gwalior,Tier-3,2025-07-20,Organic,6,11644.0,True
+CUST-11115,Agra,Tier-3,2025-09-06,Organic,1,5499.0,False
+CUST-11116,Kochi,Tier-2,2025-12-06,Google Ads,6,24138.0,True
+CUST-11117,Agra,Tier-3,2024-12-25,Instagram Ads,1,1499.0,False
+CUST-11118,Chennai,Metro,2025-02-25,Google Ads,1,13499.0,False
+CUST-11119,Bengaluru,Metro,2025-11-17,Google Ads,1,5399.0,False
+CUST-11120,Lucknow,Tier-2,2024-12-13,Instagram Ads,1,0.0,False
+CUST-11121,Chennai,Metro,2025-01-11,Referral,1,2379.0,False
+CUST-11122,Jodhpur,Tier-3,2025-02-09,Organic,13,55223.0,True
+CUST-11123,Delhi,Metro,2025-10-20,Organic,1,1599.0,False
+CUST-11124,Mumbai,Metro,2025-04-16,Organic,29,98634.0,True
+CUST-11125,Chennai,Metro,2025-01-02,Instagram Ads,1,5248.0,False
+CUST-11126,Indore,Tier-2,2025-08-08,Instagram Ads,1,6299.0,False
+CUST-11127,Chandigarh,Tier-2,2025-02-13,Organic,6,18719.0,True
+CUST-11128,Chandigarh,Tier-2,2025-03-17,Organic,1,899.0,False
+CUST-11129,Bhopal,Tier-3,2025-07-03,Referral,6,21965.0,True
+CUST-11130,Meerut,Tier-3,2025-02-12,Google Ads,1,5999.0,False
+CUST-11131,Agra,Tier-3,2024-02-12,Organic,7,68951.0,True
+CUST-11132,Delhi,Metro,2024-09-22,Organic,1,4999.0,False
+CUST-11133,Hyderabad,Metro,2025-02-02,Instagram Ads,1,1709.0,False
+CUST-11134,Kolkata,Metro,2025-03-01,Instagram Ads,2,4038.0,True
+CUST-11135,Pune,Tier-2,2025-08-18,Instagram Ads,1,2974.0,False
+CUST-11136,Hyderabad,Metro,2025-07-15,Google Ads,10,50801.0,True
+CUST-11137,Surat,Tier-2,2025-07-17,Instagram Ads,1,1749.0,False
+CUST-11138,Bengaluru,Metro,2024-06-05,Organic,1,21999.0,False
+CUST-11139,Mumbai,Metro,2025-01-23,Organic,33,165325.0,True
+CUST-11140,Hyderabad,Metro,2025-07-05,Instagram Ads,1,4498.0,False
+CUST-11141,Bengaluru,Metro,2024-12-31,Referral,1,5999.0,False
+CUST-11142,Mumbai,Metro,2024-05-22,Google Ads,1,1519.0,False
+CUST-11143,Kolkata,Metro,2025-08-07,Google Ads,19,86596.0,True
+CUST-11144,Mumbai,Metro,2025-01-15,Instagram Ads,1,1979.0,False
+CUST-11145,Chandigarh,Tier-2,2025-01-01,Instagram Ads,1,3499.0,False
+CUST-11146,Jaipur,Tier-2,2024-07-07,Instagram Ads,1,2969.0,False
+CUST-11147,Ahmedabad,Tier-2,2025-12-02,Instagram Ads,1,3298.0,False
+CUST-11148,Kolkata,Metro,2025-08-04,Instagram Ads,1,2799.0,False
+CUST-11149,Kolkata,Metro,2025-01-05,Organic,2,15468.0,True
+CUST-11150,Delhi,Metro,2024-02-17,Google Ads,1,809.0,False
+CUST-11151,Bengaluru,Metro,2024-09-14,Instagram Ads,1,4499.0,False
+CUST-11152,Surat,Tier-2,2025-05-28,Google Ads,2,5137.0,True
+CUST-11153,Delhi,Metro,2024-01-25,Instagram Ads,1,2199.0,False
+CUST-11154,Hyderabad,Metro,2025-07-23,Organic,1,8499.0,False
+CUST-11155,Bengaluru,Metro,2024-11-11,Instagram Ads,1,4124.0,False
+CUST-11156,Jaipur,Tier-2,2025-03-14,Instagram Ads,1,8998.0,False
+CUST-11157,Delhi,Metro,2024-06-20,Instagram Ads,10,81256.0,True
+CUST-11158,Bengaluru,Metro,2025-10-04,Referral,97,319585.0,True
+CUST-11159,Bengaluru,Metro,2024-08-20,Instagram Ads,1,5997.0,False
+CUST-11160,Kochi,Tier-2,2025-04-14,Organic,1,1274.0,False
+CUST-11161,Mumbai,Metro,2025-07-15,Instagram Ads,1,1539.0,False
+CUST-11162,Mumbai,Metro,2024-08-21,Google Ads,1,1799.0,False
+CUST-11163,Jaipur,Tier-2,2025-10-15,Instagram Ads,1,2099.0,False
+CUST-11164,Hyderabad,Metro,2024-12-20,Organic,1,3499.0,False
+CUST-11165,Dehradun,Tier-3,2025-07-23,Organic,1,1169.0,False
+CUST-11166,Hyderabad,Metro,2025-10-31,Organic,1,3499.0,False
+CUST-11167,Chandigarh,Tier-2,2025-05-06,Instagram Ads,1,3654.0,False
+CUST-11168,Ranchi,Tier-3,2024-01-04,Instagram Ads,17,36020.0,True
+CUST-11169,Bengaluru,Metro,2025-10-06,Referral,1,2124.0,False
+CUST-11170,Chennai,Metro,2024-12-22,Google Ads,1,20998.0,False
+CUST-11171,Bengaluru,Metro,2025-10-03,Google Ads,1,2624.0,False
+CUST-11172,Dehradun,Tier-3,2025-06-09,Instagram Ads,1,0.0,False
+CUST-11173,Ahmedabad,Tier-2,2025-05-05,Organic,1,3499.0,False
+CUST-11174,Jodhpur,Tier-3,2024-05-11,Google Ads,8,16542.0,True
+CUST-11175,Patna,Tier-3,2025-01-02,Instagram Ads,1,13499.0,False
+CUST-11176,Jaipur,Tier-2,2024-08-08,Instagram Ads,1,1899.0,False
+CUST-11177,Mumbai,Metro,2024-02-07,Instagram Ads,3,21157.0,True
+CUST-11178,Kolkata,Metro,2024-07-10,Google Ads,11,56519.0,True
+CUST-11179,Kolkata,Metro,2025-12-07,Referral,2,5517.0,True
+CUST-11180,Kochi,Tier-2,2025-09-29,Google Ads,1,5399.0,False
+CUST-11181,Hyderabad,Metro,2025-11-03,Instagram Ads,1,11999.0,False
+CUST-11182,Bengaluru,Metro,2025-05-04,Organic,26,94138.0,True
+CUST-11183,Delhi,Metro,2025-03-15,Organic,1,5999.0,False
+CUST-11184,Chennai,Metro,2024-06-12,Google Ads,6,18963.0,True
+CUST-11185,Delhi,Metro,2025-08-14,Instagram Ads,1,1599.0,False
+CUST-11186,Bengaluru,Metro,2024-08-29,Google Ads,1,2699.0,False
+CUST-11187,Ahmedabad,Tier-2,2025-03-21,Google Ads,24,79917.0,True
+CUST-11188,Chennai,Metro,2025-03-05,Google Ads,1,2799.0,False
+CUST-11189,Bengaluru,Metro,2025-09-16,Instagram Ads,1,4299.0,False
+CUST-11190,Agra,Tier-3,2025-11-19,Referral,17,42456.0,True
+CUST-11191,Kochi,Tier-2,2025-09-10,Organic,15,29195.0,True
+CUST-11192,Kolkata,Metro,2025-08-01,Google Ads,1,8499.0,False
+CUST-11193,Bengaluru,Metro,2024-09-28,Google Ads,1,1799.0,False
+CUST-11194,Patna,Tier-3,2024-11-09,Instagram Ads,1,2309.0,False
+CUST-11195,Kolkata,Metro,2024-11-24,Organic,1,2309.0,False
+CUST-11196,Mumbai,Metro,2025-07-05,Organic,1,23799.0,False
+CUST-11197,Surat,Tier-2,2025-03-05,Referral,1,2999.0,False
+CUST-11198,Delhi,Metro,2024-05-06,Instagram Ads,1,2799.0,False
+CUST-11199,Indore,Tier-2,2025-06-13,Google Ads,1,1359.0,False
+CUST-11200,Hyderabad,Metro,2024-11-15,Instagram Ads,7,37168.0,True
+CUST-11201,Mumbai,Metro,2025-03-05,Google Ads,1,3897.0,False
+CUST-11202,Ahmedabad,Tier-2,2025-10-01,Google Ads,1,974.0,False
+CUST-11203,Kolkata,Metro,2025-07-01,Google Ads,8,14398.0,True
+CUST-11204,Chennai,Metro,2025-03-25,Google Ads,1,2427.0,False
+CUST-11205,Kolkata,Metro,2025-04-29,Instagram Ads,3,7417.0,True
+CUST-11206,Chandigarh,Tier-2,2025-05-23,Referral,1,2999.0,False
+CUST-11207,Kolkata,Metro,2024-07-21,Referral,14,54780.0,True
+CUST-11208,Meerut,Tier-3,2025-01-26,Google Ads,1,3998.0,False
+CUST-11209,Delhi,Metro,2025-04-16,Google Ads,1,7648.0,False
+CUST-11210,Mumbai,Metro,2025-06-20,Instagram Ads,1,1759.0,False
+CUST-11211,Pune,Tier-2,2025-03-20,Google Ads,14,46756.0,True
+CUST-11212,Delhi,Metro,2025-05-22,Referral,1,2124.0,False
+CUST-11213,Chandigarh,Tier-2,2024-07-22,Instagram Ads,2,8336.0,True
+CUST-11214,Chennai,Metro,2024-11-15,Instagram Ads,1,3508.0,False
+CUST-11215,Ahmedabad,Tier-2,2024-12-03,Instagram Ads,1,3639.0,False
+CUST-11216,Ahmedabad,Tier-2,2024-07-20,Google Ads,31,168620.0,True
+CUST-11217,Mumbai,Metro,2024-06-25,Instagram Ads,9,38060.0,True
+CUST-11218,Hyderabad,Metro,2024-10-11,Instagram Ads,1,1259.0,False
+CUST-11219,Ranchi,Tier-3,2025-11-26,Referral,1,4674.0,False
+CUST-11220,Chennai,Metro,2025-07-21,Google Ads,1,674.0,False
+CUST-11221,Jodhpur,Tier-3,2025-06-30,Referral,1,0.0,False
+CUST-11222,Bengaluru,Metro,2024-07-31,Google Ads,2,19996.0,True
+CUST-11223,Kochi,Tier-2,2024-09-30,Google Ads,1,3998.0,False
+CUST-11224,Jaipur,Tier-2,2025-02-21,Instagram Ads,1,1699.0,False
+CUST-11225,Chennai,Metro,2024-12-09,Google Ads,1,3249.0,False
+CUST-11226,Kolkata,Metro,2025-06-22,Google Ads,1,2799.0,False
+CUST-11227,Ahmedabad,Tier-2,2024-11-19,Organic,1,1424.0,False
+CUST-11228,Chennai,Metro,2025-03-05,Google Ads,27,120172.0,True
+CUST-11229,Kochi,Tier-2,2025-09-21,Google Ads,1,5937.0,False
+CUST-11230,Bengaluru,Metro,2024-10-17,Instagram Ads,1,3224.0,False
+CUST-11231,Pune,Tier-2,2025-11-16,Google Ads,1,1169.0,False
+CUST-11232,Kolkata,Metro,2025-02-09,Google Ads,1,1299.0,False
+CUST-11233,Dehradun,Tier-3,2025-05-30,Organic,1,809.0,False
+CUST-11234,Lucknow,Tier-2,2024-12-09,Organic,1,1874.0,False
+CUST-11235,Surat,Tier-2,2024-08-09,Google Ads,1,5849.0,False
+CUST-11236,Surat,Tier-2,2025-10-08,Google Ads,1,1104.0,False
+CUST-11237,Lucknow,Tier-2,2024-03-19,Google Ads,1,8499.0,False
+CUST-11238,Bengaluru,Metro,2025-03-19,Instagram Ads,1,0.0,False
+CUST-11239,Ahmedabad,Tier-2,2024-04-22,Organic,11,55979.0,True
+CUST-11240,Indore,Tier-2,2024-01-26,Organic,1,1619.0,False
+CUST-11241,Hyderabad,Metro,2025-02-10,Instagram Ads,1,5999.0,False
+CUST-11242,Kolkata,Metro,2024-04-05,Instagram Ads,1,14299.0,False
+CUST-11243,Bengaluru,Metro,2024-11-24,Organic,1,719.0,False
+CUST-11244,Delhi,Metro,2024-11-15,Instagram Ads,1,2274.0,False
+CUST-11245,Chennai,Metro,2024-04-11,Instagram Ads,3,8457.0,True
+CUST-11246,Chandigarh,Tier-2,2025-08-16,Instagram Ads,1,12499.0,False
+CUST-11247,Lucknow,Tier-2,2025-01-30,Instagram Ads,1,2799.0,False
+CUST-11248,Ahmedabad,Tier-2,2024-02-28,Instagram Ads,1,10624.0,False
+CUST-11249,Surat,Tier-2,2024-08-10,Organic,1,11999.0,False
+CUST-11250,Ahmedabad,Tier-2,2025-10-01,Organic,62,293090.0,True
+CUST-11251,Kolkata,Metro,2024-07-26,Organic,2,13623.0,True
+CUST-11252,Mumbai,Metro,2024-12-30,Instagram Ads,1,7649.0,False
+CUST-11253,Gwalior,Tier-3,2025-05-08,Instagram Ads,1,6299.0,False
+CUST-11254,Pune,Tier-2,2024-09-03,Instagram Ads,1,4478.0,False
+CUST-11255,Pune,Tier-2,2024-05-17,Instagram Ads,1,2158.0,False
+CUST-11256,Bengaluru,Metro,2025-03-11,Instagram Ads,1,3499.0,False
+CUST-11257,Mumbai,Metro,2024-08-09,Google Ads,1,3399.0,False
+CUST-11258,Jaipur,Tier-2,2025-04-29,Instagram Ads,1,7198.0,False
+CUST-11259,Hyderabad,Metro,2024-11-07,Google Ads,4,61235.0,True
+CUST-11260,Varanasi,Tier-3,2025-04-18,Google Ads,1,0.0,False
+CUST-11261,Delhi,Metro,2024-04-29,Instagram Ads,6,17528.0,True
+CUST-11262,Raipur,Tier-3,2024-11-13,Instagram Ads,1,1499.0,False
+CUST-11263,Mumbai,Metro,2024-10-01,Organic,16,71713.0,True
+CUST-11264,Lucknow,Tier-2,2025-11-21,Google Ads,10,52007.0,True
+CUST-11265,Mumbai,Metro,2024-06-24,Google Ads,1,1169.0,False
+CUST-11266,Dehradun,Tier-3,2025-08-28,Organic,1,5199.0,False
+CUST-11267,Mumbai,Metro,2024-06-26,Google Ads,19,113789.0,True
+CUST-11268,Hyderabad,Metro,2025-03-07,Instagram Ads,1,2338.0,False
+CUST-11269,Pune,Tier-2,2024-10-16,Instagram Ads,1,1869.0,False
+CUST-11270,Bengaluru,Metro,2025-12-16,Instagram Ads,1,11999.0,False
+CUST-11271,Jaipur,Tier-2,2025-02-14,Google Ads,1,12499.0,False
+CUST-11272,Ranchi,Tier-3,2024-04-28,Organic,1,2249.0,False
+CUST-11273,Raipur,Tier-3,2025-11-13,Instagram Ads,1,4799.0,False
+CUST-11274,Bengaluru,Metro,2025-05-19,Google Ads,7,39816.0,True
+CUST-11275,Ranchi,Tier-3,2025-03-19,Referral,1,16998.0,False
+CUST-11276,Ahmedabad,Tier-2,2024-10-05,Instagram Ads,4,17196.0,True
+CUST-11277,Kolkata,Metro,2024-02-07,Instagram Ads,1,3399.0,False
+CUST-11278,Pune,Tier-2,2024-12-20,Instagram Ads,1,4949.0,False
+CUST-11279,Jaipur,Tier-2,2024-01-21,Instagram Ads,1,2974.0,False
+CUST-11280,Delhi,Metro,2024-06-29,Google Ads,1,1999.0,False
+CUST-11281,Dehradun,Tier-3,2024-02-19,Google Ads,1,25199.0,False
+CUST-11282,Mumbai,Metro,2024-02-25,Organic,1,1169.0,False
+CUST-11283,Hyderabad,Metro,2025-03-21,Organic,1,8499.0,False
+CUST-11284,Indore,Tier-2,2024-07-18,Referral,14,70224.0,True
+CUST-11285,Bhopal,Tier-3,2024-11-18,Referral,1,3749.0,False
+CUST-11286,Ranchi,Tier-3,2025-05-27,Organic,1,18699.0,False
+CUST-11287,Chandigarh,Tier-2,2025-04-26,Instagram Ads,1,764.0,False
+CUST-11288,Bhopal,Tier-3,2025-04-17,Organic,51,213860.0,True
+CUST-11289,Mumbai,Metro,2025-07-08,Instagram Ads,1,2799.0,False
+CUST-11290,Meerut,Tier-3,2024-11-18,Instagram Ads,1,839.0,False
+CUST-11291,Ahmedabad,Tier-2,2025-07-16,Instagram Ads,1,7499.0,False
+CUST-11292,Kolkata,Metro,2025-02-21,Instagram Ads,1,19998.0,False
+CUST-11293,Patna,Tier-3,2025-09-13,Google Ads,1,0.0,False
+CUST-11294,Jodhpur,Tier-3,2025-09-22,Organic,1,2338.0,False
+CUST-11295,Surat,Tier-2,2025-11-25,Organic,41,150310.0,True
+CUST-11296,Indore,Tier-2,2025-12-10,Google Ads,1,2099.0,False
+CUST-11297,Raipur,Tier-3,2025-02-19,Instagram Ads,1,8099.0,False
+CUST-11298,Ahmedabad,Tier-2,2025-02-13,Instagram Ads,1,3149.0,False
+CUST-11299,Chennai,Metro,2024-11-25,Instagram Ads,3,10157.0,True
+CUST-11300,Hyderabad,Metro,2025-08-02,Google Ads,19,104879.0,True
+CUST-11301,Lucknow,Tier-2,2025-12-04,Instagram Ads,1,3298.0,False
+CUST-11302,Hyderabad,Metro,2024-11-18,Google Ads,1,1749.0,False
+CUST-11303,Bhopal,Tier-3,2025-09-17,Instagram Ads,1,4499.0,False
+CUST-11304,Raipur,Tier-3,2025-10-10,Instagram Ads,1,909.0,False
+CUST-11305,Chandigarh,Tier-2,2025-01-10,Instagram Ads,1,2699.0,False
+CUST-11306,Surat,Tier-2,2025-09-04,Instagram Ads,1,15399.0,False
+CUST-11307,Kolkata,Metro,2024-03-31,Instagram Ads,1,4999.0,False
+CUST-11308,Delhi,Metro,2024-06-15,Instagram Ads,1,2698.0,False
+CUST-11309,Pune,Tier-2,2024-04-17,Organic,1,3958.0,False
+CUST-11310,Chennai,Metro,2025-11-12,Instagram Ads,1,12099.0,False
+CUST-11311,Kochi,Tier-2,2025-08-07,Google Ads,24,72432.0,True
+CUST-11312,Kochi,Tier-2,2025-02-22,Google Ads,1,18699.0,False
+CUST-11313,Ahmedabad,Tier-2,2025-11-30,Instagram Ads,1,4124.0,False
+CUST-11314,Chennai,Metro,2025-05-06,Google Ads,1,1799.0,False
+CUST-11315,Jodhpur,Tier-3,2024-11-04,Google Ads,1,2124.0,False
+CUST-11316,Patna,Tier-3,2025-01-19,Referral,1,1349.0,False
+CUST-11317,Ahmedabad,Tier-2,2025-03-25,Organic,1,1899.0,False
+CUST-11318,Bengaluru,Metro,2024-07-26,Instagram Ads,1,1039.0,False
+CUST-11319,Jaipur,Tier-2,2024-03-17,Instagram Ads,1,14999.0,False
+CUST-11320,Ahmedabad,Tier-2,2024-09-29,Organic,36,194403.0,True
+CUST-11321,Mumbai,Metro,2025-11-26,Google Ads,1,3629.0,False
+CUST-11322,Bengaluru,Metro,2025-11-21,Referral,1,1499.0,False
+CUST-11323,Hyderabad,Metro,2025-09-06,Google Ads,2,7997.0,True
+CUST-11324,Gwalior,Tier-3,2025-10-10,Google Ads,1,3999.0,False
+CUST-11325,Hyderabad,Metro,2024-06-03,Instagram Ads,1,3999.0,False
+CUST-11326,Kolkata,Metro,2024-12-04,Instagram Ads,1,1359.0,False
+CUST-11327,Dehradun,Tier-3,2025-10-28,Instagram Ads,1,4124.0,False
+CUST-11328,Kochi,Tier-2,2025-09-05,Organic,1,4949.0,False
+CUST-11329,Hyderabad,Metro,2025-05-01,Instagram Ads,4,11891.0,True
+CUST-11330,Chandigarh,Tier-2,2024-09-10,Instagram Ads,1,3149.0,False
+CUST-11331,Jodhpur,Tier-3,2025-05-08,Google Ads,1,4499.0,False
+CUST-11332,Kochi,Tier-2,2024-12-23,Instagram Ads,1,1189.0,False
+CUST-11333,Ahmedabad,Tier-2,2025-12-04,Instagram Ads,1,1599.0,False
+CUST-11334,Patna,Tier-3,2024-03-24,Organic,43,234416.0,True
+CUST-11335,Lucknow,Tier-2,2025-07-09,Google Ads,1,1299.0,False
+CUST-11336,Kochi,Tier-2,2024-11-29,Google Ads,1,1399.0,False
+CUST-11337,Jodhpur,Tier-3,2024-03-23,Google Ads,1,1999.0,False
+CUST-11338,Mumbai,Metro,2024-08-22,Organic,1,1999.0,False
+CUST-11339,Meerut,Tier-3,2025-03-25,Organic,22,94867.0,True
+CUST-11340,Indore,Tier-2,2024-01-25,Organic,1,4998.0,False
+CUST-11341,Surat,Tier-2,2025-10-08,Instagram Ads,1,1349.0,False
+CUST-11342,Kochi,Tier-2,2025-01-22,Instagram Ads,1,2199.0,False
+CUST-11343,Chennai,Metro,2025-05-01,Organic,1,3798.0,False
+CUST-11344,Patna,Tier-3,2025-01-15,Instagram Ads,1,1869.0,False
+CUST-11345,Bengaluru,Metro,2024-04-29,Organic,1,5524.0,False
+CUST-11346,Chennai,Metro,2024-09-19,Google Ads,27,101262.0,True
+CUST-11347,Dehradun,Tier-3,2024-04-05,Referral,1,7873.0,False
+CUST-11348,Agra,Tier-3,2024-10-02,Instagram Ads,1,3749.0,False
+CUST-11349,Bengaluru,Metro,2025-02-28,Instagram Ads,5,11022.0,True
+CUST-11350,Jaipur,Tier-2,2024-10-31,Organic,15,82152.0,True
+CUST-11351,Jodhpur,Tier-3,2025-11-16,Referral,1,1874.0,False
+CUST-11352,Ahmedabad,Tier-2,2024-03-23,Organic,1,4499.0,False
+CUST-11353,Patna,Tier-3,2025-03-28,Referral,1,2499.0,False
+CUST-11354,Delhi,Metro,2025-01-11,Instagram Ads,1,3149.0,False
+CUST-11355,Delhi,Metro,2025-01-23,Instagram Ads,1,22399.0,False
+CUST-11356,Chennai,Metro,2025-09-17,Referral,11,28157.0,True
+CUST-11357,Delhi,Metro,2024-08-17,Organic,69,346353.0,True
+CUST-11358,Indore,Tier-2,2024-10-09,Instagram Ads,1,20999.0,False
+CUST-11359,Mumbai,Metro,2024-12-22,Google Ads,7,10874.0,True
+CUST-11360,Hyderabad,Metro,2025-02-05,Instagram Ads,1,1199.0,False
+CUST-11361,Delhi,Metro,2024-06-22,Google Ads,1,3999.0,False
+CUST-11362,Hyderabad,Metro,2024-09-28,Referral,63,263604.0,True
+CUST-11363,Indore,Tier-2,2025-04-23,Instagram Ads,1,2624.0,False
+CUST-11364,Kolkata,Metro,2025-02-18,Referral,4,26746.0,True
+CUST-11365,Delhi,Metro,2024-12-03,Referral,1,2274.0,False
+CUST-11366,Chennai,Metro,2024-02-02,Instagram Ads,1,809.0,False
+CUST-11367,Bengaluru,Metro,2025-04-13,Google Ads,8,46545.0,True
+CUST-11368,Kolkata,Metro,2025-04-11,Instagram Ads,1,13499.0,False
+CUST-11369,Kochi,Tier-2,2025-01-13,Google Ads,8,15753.0,True
+CUST-11370,Pune,Tier-2,2025-05-24,Instagram Ads,1,5999.0,False
+CUST-11371,Chandigarh,Tier-2,2024-11-15,Referral,16,37290.0,True
+CUST-11372,Hyderabad,Metro,2024-05-30,Organic,3,7322.0,True
+CUST-11373,Bengaluru,Metro,2024-06-08,Organic,1,0.0,False
+CUST-11374,Indore,Tier-2,2025-08-12,Instagram Ads,1,0.0,False
+CUST-11375,Delhi,Metro,2025-05-31,Referral,13,36058.0,True
+CUST-11376,Hyderabad,Metro,2025-09-07,Instagram Ads,1,3499.0,False
+CUST-11377,Lucknow,Tier-2,2024-09-13,Instagram Ads,1,7649.0,False
+CUST-11378,Mumbai,Metro,2025-05-24,Instagram Ads,1,2549.0,False
+CUST-11379,Surat,Tier-2,2025-02-25,Instagram Ads,1,1799.0,False
+CUST-11380,Varanasi,Tier-3,2025-07-19,Google Ads,1,4049.0,False
+CUST-11381,Delhi,Metro,2025-05-03,Google Ads,1,1999.0,False
+CUST-11382,Bengaluru,Metro,2024-05-03,Organic,1,1699.0,False
+CUST-11383,Hyderabad,Metro,2024-12-16,Instagram Ads,1,719.0,False
+CUST-11384,Bengaluru,Metro,2025-01-10,Instagram Ads,1,764.0,False
+CUST-11385,Delhi,Metro,2025-08-05,Instagram Ads,1,2999.0,False
+CUST-11386,Bengaluru,Metro,2025-01-18,Instagram Ads,1,10798.0,False
+CUST-11387,Hyderabad,Metro,2025-08-22,Instagram Ads,1,3999.0,False
+CUST-11388,Mumbai,Metro,2024-08-11,Google Ads,1,12499.0,False
+CUST-11389,Kochi,Tier-2,2024-09-07,Instagram Ads,1,2499.0,False
+CUST-11390,Hyderabad,Metro,2024-04-17,Google Ads,1,2398.0,False
+CUST-11391,Pune,Tier-2,2024-11-05,Instagram Ads,1,6299.0,False
+CUST-11392,Gwalior,Tier-3,2024-10-01,Instagram Ads,1,1679.0,False
+CUST-11393,Agra,Tier-3,2025-04-12,Google Ads,1,5524.0,False
+CUST-11394,Bhopal,Tier-3,2025-07-09,Google Ads,1,0.0,False
+CUST-11395,Jaipur,Tier-2,2025-08-21,Instagram Ads,1,4249.0,False
+CUST-11396,Bengaluru,Metro,2025-04-25,Google Ads,1,4199.0,False
+CUST-11397,Kolkata,Metro,2025-08-27,Referral,48,184680.0,True
+CUST-11398,Bengaluru,Metro,2025-11-08,Google Ads,1,1999.0,False
+CUST-11399,Bengaluru,Metro,2024-12-07,Organic,27,119520.0,True
+CUST-11400,Bengaluru,Metro,2024-02-14,Instagram Ads,1,3499.0,False
+CUST-11401,Delhi,Metro,2024-06-17,Instagram Ads,3,10447.0,True
+CUST-11402,Mumbai,Metro,2024-09-27,Instagram Ads,1,1349.0,False
+CUST-11403,Mumbai,Metro,2024-11-02,Instagram Ads,1,8124.0,False
+CUST-11404,Hyderabad,Metro,2025-12-07,Google Ads,1,2274.0,False
+CUST-11405,Kolkata,Metro,2024-12-12,Instagram Ads,1,8399.0,False
+CUST-11406,Kochi,Tier-2,2024-12-08,Organic,1,719.0,False
+CUST-11407,Delhi,Metro,2024-06-11,Google Ads,1,13499.0,False
+CUST-11408,Ranchi,Tier-3,2025-06-22,Instagram Ads,1,11249.0,False
+CUST-11409,Pune,Tier-2,2024-09-09,Instagram Ads,1,1619.0,False
+CUST-11410,Ahmedabad,Tier-2,2024-02-28,Google Ads,9,19621.0,True
+CUST-11411,Lucknow,Tier-2,2025-01-30,Organic,1,1199.0,False
+CUST-11412,Chennai,Metro,2025-01-30,Instagram Ads,3,4177.0,True
+CUST-11413,Chennai,Metro,2025-03-01,Instagram Ads,1,5524.0,False
+CUST-11414,Surat,Tier-2,2025-08-19,Instagram Ads,1,1299.0,False
+CUST-11415,Dehradun,Tier-3,2025-11-27,Organic,1,764.0,False
+CUST-11416,Ranchi,Tier-3,2025-05-22,Instagram Ads,1,0.0,False
+CUST-11417,Dehradun,Tier-3,2024-11-02,Instagram Ads,1,629.0,False
+CUST-11418,Chandigarh,Tier-2,2024-04-12,Instagram Ads,1,2974.0,False
+CUST-11419,Kolkata,Metro,2024-09-17,Instagram Ads,1,6499.0,False
+CUST-11420,Indore,Tier-2,2025-11-02,Referral,1,3599.0,False
+CUST-11421,Ahmedabad,Tier-2,2024-06-23,Google Ads,1,10499.0,False
+CUST-11422,Delhi,Metro,2025-04-27,Referral,9,30957.0,True
+CUST-11423,Ranchi,Tier-3,2025-10-09,Google Ads,1,0.0,False
+CUST-11424,Jaipur,Tier-2,2025-02-28,Instagram Ads,1,4249.0,False
+CUST-11425,Hyderabad,Metro,2024-11-02,Instagram Ads,1,6599.0,False
+CUST-11426,Delhi,Metro,2025-08-16,Instagram Ads,7,21898.0,True
+CUST-11427,Patna,Tier-3,2024-11-17,Organic,1,4499.0,False
+CUST-11428,Chandigarh,Tier-2,2024-07-18,Google Ads,8,50207.0,True
+CUST-11429,Surat,Tier-2,2024-12-15,Instagram Ads,1,8749.0,False
+CUST-11430,Kochi,Tier-2,2025-01-22,Organic,41,188243.0,True
+CUST-11431,Surat,Tier-2,2024-05-31,Google Ads,3,8722.0,True
+CUST-11432,Gwalior,Tier-3,2025-12-07,Instagram Ads,1,1104.0,False
+CUST-11433,Surat,Tier-2,2025-08-06,Organic,5,9125.0,True
+CUST-11434,Meerut,Tier-3,2024-05-06,Instagram Ads,5,12775.0,True
+CUST-11435,Chandigarh,Tier-2,2025-07-13,Instagram Ads,1,11249.0,False
+CUST-11436,Mumbai,Metro,2025-11-30,Referral,1,3009.0,False
+CUST-11437,Hyderabad,Metro,2025-07-13,Google Ads,1,8499.0,False
+CUST-11438,Patna,Tier-3,2025-04-05,Instagram Ads,1,1299.0,False
+CUST-11439,Dehradun,Tier-3,2024-10-23,Instagram Ads,1,1439.0,False
+CUST-11440,Meerut,Tier-3,2025-10-29,Google Ads,13,58738.0,True
+CUST-11441,Delhi,Metro,2025-03-06,Referral,1,4299.0,False
+CUST-11442,Bengaluru,Metro,2025-03-14,Instagram Ads,1,1999.0,False
+CUST-11443,Kolkata,Metro,2024-11-21,Google Ads,1,2249.0,False
+CUST-11444,Kolkata,Metro,2024-08-17,Google Ads,1,8099.0,False
+CUST-11445,Surat,Tier-2,2025-10-10,Instagram Ads,1,5598.0,False
+CUST-11446,Hyderabad,Metro,2024-03-24,Instagram Ads,1,0.0,False
+CUST-11447,Kolkata,Metro,2025-07-29,Google Ads,1,4499.0,False
+CUST-11448,Chandigarh,Tier-2,2024-12-07,Google Ads,1,1234.0,False
+CUST-11449,Pune,Tier-2,2025-09-17,Google Ads,1,4299.0,False
+CUST-11450,Mumbai,Metro,2025-03-04,Instagram Ads,3,9075.0,True
+CUST-11451,Chennai,Metro,2024-06-17,Organic,1,2799.0,False
+CUST-11452,Pune,Tier-2,2025-08-22,Instagram Ads,1,1699.0,False
+CUST-11453,Pune,Tier-2,2025-04-08,Organic,1,3869.0,False
+CUST-11454,Mumbai,Metro,2024-06-06,Instagram Ads,1,4499.0,False
+CUST-11455,Agra,Tier-3,2025-05-17,Instagram Ads,1,2398.0,False
+CUST-11456,Mumbai,Metro,2024-06-17,Instagram Ads,1,1349.0,False
+CUST-11457,Ranchi,Tier-3,2025-02-08,Referral,19,70038.0,True
+CUST-11458,Bengaluru,Metro,2024-04-28,Instagram Ads,1,2144.0,False
+CUST-11459,Bengaluru,Metro,2025-11-09,Google Ads,17,67222.0,True
+CUST-11460,Bengaluru,Metro,2025-10-19,Instagram Ads,3,9072.0,True
+CUST-11461,Patna,Tier-3,2025-07-18,Google Ads,1,3998.0,False
+CUST-11462,Pune,Tier-2,2025-11-14,Organic,23,78464.0,True
+CUST-11463,Chennai,Metro,2024-11-20,Instagram Ads,1,26399.0,False
+CUST-11464,Kolkata,Metro,2024-06-01,Google Ads,1,1999.0,False
+CUST-11465,Chennai,Metro,2025-09-28,Instagram Ads,1,779.0,False
+CUST-11466,Jaipur,Tier-2,2024-02-21,Instagram Ads,1,5999.0,False
+CUST-11467,Mumbai,Metro,2024-04-03,Referral,1,5499.0,False
+CUST-11468,Kochi,Tier-2,2025-12-09,Google Ads,1,8999.0,False
+CUST-11469,Hyderabad,Metro,2025-02-26,Google Ads,1,1499.0,False
+CUST-11470,Varanasi,Tier-3,2024-07-27,Instagram Ads,1,4249.0,False
+CUST-11471,Indore,Tier-2,2024-07-18,Organic,19,40510.0,True
+CUST-11472,Patna,Tier-3,2025-07-03,Google Ads,1,1699.0,False
+CUST-11473,Chennai,Metro,2025-03-31,Organic,4,25851.0,True
+CUST-11474,Bhopal,Tier-3,2025-10-23,Instagram Ads,1,13498.0,False
+CUST-11475,Chennai,Metro,2024-10-06,Instagram Ads,1,1039.0,False
+CUST-11476,Pune,Tier-2,2025-11-06,Organic,5,27170.0,True
+CUST-11477,Jodhpur,Tier-3,2024-06-08,Instagram Ads,1,1499.0,False
+CUST-11478,Ahmedabad,Tier-2,2025-10-21,Instagram Ads,1,18199.0,False
+CUST-11479,Indore,Tier-2,2024-09-09,Google Ads,1,2999.0,False
+CUST-11480,Gwalior,Tier-3,2024-02-06,Instagram Ads,3,7297.0,True
+CUST-11481,Kochi,Tier-2,2025-10-22,Organic,23,105997.0,True
+CUST-11482,Kochi,Tier-2,2025-03-16,Instagram Ads,5,13034.0,True
+CUST-11483,Kochi,Tier-2,2024-12-07,Organic,6,13789.0,True
+CUST-11484,Chandigarh,Tier-2,2025-12-07,Instagram Ads,1,14299.0,False
+CUST-11485,Delhi,Metro,2024-03-13,Organic,22,96608.0,True
+CUST-11486,Kochi,Tier-2,2025-07-26,Google Ads,1,4499.0,False
+CUST-11487,Pune,Tier-2,2025-08-23,Instagram Ads,1,3824.0,False
+CUST-11488,Indore,Tier-2,2025-05-19,Organic,4,24836.0,True
+CUST-11489,Mumbai,Metro,2024-12-18,Instagram Ads,1,2249.0,False
+CUST-11490,Gwalior,Tier-3,2024-07-12,Instagram Ads,1,3599.0,False
+CUST-11491,Chennai,Metro,2025-04-08,Referral,13,67403.0,True
+CUST-11492,Kolkata,Metro,2025-07-31,Organic,5,20584.0,True
+CUST-11493,Indore,Tier-2,2024-09-05,Google Ads,1,7649.0,False
+CUST-11494,Patna,Tier-3,2025-08-22,Google Ads,1,1999.0,False
+CUST-11495,Chennai,Metro,2025-04-11,Organic,1,5038.0,False
+CUST-11496,Patna,Tier-3,2024-02-27,Instagram Ads,1,2924.0,False
+CUST-11497,Mumbai,Metro,2025-07-31,Instagram Ads,1,5499.0,False
+CUST-11498,Meerut,Tier-3,2024-08-03,Referral,22,83019.0,True
+CUST-11499,Hyderabad,Metro,2025-11-26,Organic,13,41762.0,True
+CUST-11500,Chennai,Metro,2025-08-26,Referral,1,4499.0,False
+CUST-11501,Hyderabad,Metro,2025-03-17,Google Ads,1,12499.0,False
+CUST-11502,Delhi,Metro,2025-02-28,Referral,1,4049.0,False
+CUST-11503,Kochi,Tier-2,2024-08-09,Instagram Ads,1,4499.0,False
+CUST-11504,Chandigarh,Tier-2,2025-07-11,Organic,9,45141.0,True
+CUST-11505,Indore,Tier-2,2024-08-02,Instagram Ads,5,14338.0,True
+CUST-11506,Mumbai,Metro,2025-11-22,Google Ads,1,1874.0,False
+CUST-11507,Dehradun,Tier-3,2025-01-18,Organic,3,18897.0,True
+CUST-11508,Ranchi,Tier-3,2024-07-18,Google Ads,1,10499.0,False
+CUST-11509,Patna,Tier-3,2024-02-20,Instagram Ads,1,3654.0,False
+CUST-11510,Ahmedabad,Tier-2,2025-08-27,Instagram Ads,1,7199.0,False
+CUST-11511,Hyderabad,Metro,2025-03-17,Referral,76,291377.0,True
+CUST-11512,Hyderabad,Metro,2025-01-14,Organic,1,2124.0,False
+CUST-11513,Lucknow,Tier-2,2025-02-23,Instagram Ads,8,36872.0,True
+CUST-11514,Bengaluru,Metro,2024-08-26,Instagram Ads,1,1529.0,False
+CUST-11515,Bengaluru,Metro,2024-10-27,Google Ads,1,2449.0,False
+CUST-11516,Ranchi,Tier-3,2024-07-16,Google Ads,1,1999.0,False
+CUST-11517,Mumbai,Metro,2025-03-16,Referral,1,12998.0,False
+CUST-11518,Patna,Tier-3,2025-10-16,Instagram Ads,1,1599.0,False
+CUST-11519,Ranchi,Tier-3,2024-02-02,Organic,62,300093.0,True
+CUST-11520,Bengaluru,Metro,2025-03-01,Instagram Ads,1,1529.0,False
+CUST-11521,Mumbai,Metro,2024-07-20,Instagram Ads,1,1359.0,False
+CUST-11522,Mumbai,Metro,2024-11-15,Organic,1,1819.0,False
+CUST-11523,Hyderabad,Metro,2025-12-11,Instagram Ads,1,15399.0,False
+CUST-11524,Mumbai,Metro,2024-10-24,Instagram Ads,1,2399.0,False
+CUST-11525,Kolkata,Metro,2025-01-01,Organic,1,2519.0,False
+CUST-11526,Delhi,Metro,2025-06-15,Instagram Ads,1,1699.0,False
+CUST-11527,Mumbai,Metro,2024-02-11,Instagram Ads,1,1699.0,False
+CUST-11528,Kolkata,Metro,2025-01-28,Google Ads,1,3499.0,False
+CUST-11529,Chennai,Metro,2025-12-01,Instagram Ads,1,3998.0,False
+CUST-11530,Surat,Tier-2,2025-11-17,Instagram Ads,1,1874.0,False
+CUST-11531,Surat,Tier-2,2025-10-24,Organic,10,41231.0,True
+CUST-11532,Gwalior,Tier-3,2024-01-13,Instagram Ads,1,1104.0,False
+CUST-11533,Indore,Tier-2,2025-01-14,Instagram Ads,1,1299.0,False
+CUST-11534,Indore,Tier-2,2025-07-28,Instagram Ads,1,2519.0,False
+CUST-11535,Mumbai,Metro,2025-12-07,Organic,1,2144.0,False
+CUST-11536,Chennai,Metro,2024-02-22,Instagram Ads,1,5999.0,False
+CUST-11537,Ahmedabad,Tier-2,2025-12-16,Referral,141,565994.0,True
+CUST-11538,Surat,Tier-2,2024-09-15,Instagram Ads,1,4299.0,False
+CUST-11539,Surat,Tier-2,2025-01-11,Instagram Ads,1,1619.0,False
+CUST-11540,Kolkata,Metro,2025-09-16,Organic,24,102625.0,True
+CUST-11541,Bengaluru,Metro,2024-03-04,Instagram Ads,1,4799.0,False
+CUST-11542,Chandigarh,Tier-2,2024-02-23,Google Ads,6,16865.0,True
+CUST-11543,Gwalior,Tier-3,2024-03-16,Organic,19,87299.0,True
+CUST-11544,Bhopal,Tier-3,2025-11-15,Instagram Ads,1,7499.0,False
+CUST-11545,Bengaluru,Metro,2024-12-09,Organic,24,165499.0,True
+CUST-11546,Ahmedabad,Tier-2,2025-01-17,Instagram Ads,1,6374.0,False
+CUST-11547,Bengaluru,Metro,2025-09-27,Instagram Ads,1,4498.0,False
+CUST-11548,Chennai,Metro,2025-12-12,Instagram Ads,1,2449.0,False
+CUST-11549,Surat,Tier-2,2024-12-06,Instagram Ads,1,1039.0,False
+CUST-11550,Pune,Tier-2,2025-05-19,Instagram Ads,1,1599.0,False
+CUST-11551,Delhi,Metro,2024-07-14,Instagram Ads,1,1274.0,False
+CUST-11552,Indore,Tier-2,2024-09-28,Organic,1,17599.0,False
+CUST-11553,Bengaluru,Metro,2025-06-10,Organic,11,51636.0,True
+CUST-11554,Ahmedabad,Tier-2,2025-08-01,Organic,1,0.0,False
+CUST-11555,Ahmedabad,Tier-2,2025-06-12,Referral,1,3999.0,False
+CUST-11556,Kochi,Tier-2,2024-11-17,Organic,1,1234.0,False
+CUST-11557,Surat,Tier-2,2025-07-07,Instagram Ads,1,1019.0,False
+CUST-11558,Hyderabad,Metro,2024-12-09,Organic,1,2799.0,False
+CUST-11559,Hyderabad,Metro,2024-10-06,Google Ads,1,3439.0,False
+CUST-11560,Kolkata,Metro,2025-09-14,Instagram Ads,1,8907.0,False
+CUST-11561,Pune,Tier-2,2024-05-04,Google Ads,1,4049.0,False
+CUST-11562,Chennai,Metro,2024-08-30,Google Ads,1,2699.0,False
+CUST-11563,Gwalior,Tier-3,2025-03-07,Instagram Ads,1,1799.0,False
+CUST-11564,Kolkata,Metro,2024-06-01,Google Ads,6,50423.0,True
+CUST-11565,Lucknow,Tier-2,2024-12-04,Organic,1,3749.0,False
+CUST-11566,Dehradun,Tier-3,2025-07-29,Google Ads,1,8412.0,False
+CUST-11567,Surat,Tier-2,2025-03-14,Google Ads,1,1169.0,False
+CUST-11568,Raipur,Tier-3,2024-08-09,Instagram Ads,4,25546.0,True
+CUST-11569,Mumbai,Metro,2025-07-22,Organic,15,65520.0,True
+CUST-11570,Delhi,Metro,2025-10-12,Instagram Ads,1,4399.0,False
+CUST-11571,Chennai,Metro,2025-10-13,Instagram Ads,2,18998.0,True
+CUST-11572,Patna,Tier-3,2024-12-22,Referral,1,1699.0,False
+CUST-11573,Bengaluru,Metro,2024-02-15,Google Ads,1,2799.0,False
+CUST-11574,Kolkata,Metro,2024-08-31,Instagram Ads,4,15295.0,True
+CUST-11575,Patna,Tier-3,2025-02-21,Instagram Ads,1,2998.0,False
+CUST-11576,Hyderabad,Metro,2025-05-13,Referral,1,2639.0,False
+CUST-11577,Kolkata,Metro,2025-07-13,Referral,10,29314.0,True
+CUST-11578,Ranchi,Tier-3,2025-02-20,Referral,1,4399.0,False
+CUST-11579,Pune,Tier-2,2024-05-23,Instagram Ads,1,1234.0,False
+CUST-11580,Lucknow,Tier-2,2024-02-01,Instagram Ads,1,2549.0,False
+CUST-11581,Jodhpur,Tier-3,2024-11-13,Instagram Ads,1,2699.0,False
+CUST-11582,Surat,Tier-2,2025-06-23,Instagram Ads,1,4497.0,False
+CUST-11583,Hyderabad,Metro,2025-07-23,Organic,86,441853.0,True
+CUST-11584,Raipur,Tier-3,2024-12-28,Referral,1,1759.0,False
+CUST-11585,Hyderabad,Metro,2025-01-17,Instagram Ads,1,17599.0,False
+CUST-11586,Jaipur,Tier-2,2024-03-05,Instagram Ads,1,8999.0,False
+CUST-11587,Bengaluru,Metro,2025-09-23,Instagram Ads,1,1444.0,False
+CUST-11588,Bengaluru,Metro,2025-07-09,Referral,8,19872.0,True
+CUST-11589,Agra,Tier-3,2024-05-12,Google Ads,1,1359.0,False
+CUST-11590,Chennai,Metro,2024-09-18,Instagram Ads,1,0.0,False
+CUST-11591,Kochi,Tier-2,2025-01-21,Referral,32,140885.0,True
+CUST-11592,Bengaluru,Metro,2024-12-10,Instagram Ads,1,3439.0,False
+CUST-11593,Gwalior,Tier-3,2025-08-09,Google Ads,20,71780.0,True
+CUST-11594,Pune,Tier-2,2025-06-30,Organic,1,19799.0,False
+CUST-11595,Kolkata,Metro,2025-05-07,Referral,66,285257.0,True
+CUST-11596,Indore,Tier-2,2024-05-22,Instagram Ads,1,3654.0,False
+CUST-11597,Patna,Tier-3,2025-04-03,Instagram Ads,1,2799.0,False
+CUST-11598,Indore,Tier-2,2025-06-21,Referral,20,96344.0,True
+CUST-11599,Delhi,Metro,2024-01-30,Instagram Ads,1,2878.0,False
+CUST-11600,Hyderabad,Metro,2024-11-04,Google Ads,1,1749.0,False
+CUST-11601,Kolkata,Metro,2025-05-03,Instagram Ads,1,1439.0,False
+CUST-11602,Kochi,Tier-2,2025-03-20,Organic,31,107438.0,True
+CUST-11603,Chandigarh,Tier-2,2024-10-08,Organic,1,14299.0,False
+CUST-11604,Chandigarh,Tier-2,2025-01-22,Google Ads,1,1169.0,False
+CUST-11605,Jaipur,Tier-2,2025-06-17,Instagram Ads,1,3439.0,False
+CUST-11606,Bengaluru,Metro,2025-02-10,Google Ads,3,16737.0,True
+CUST-11607,Patna,Tier-3,2024-05-02,Instagram Ads,1,2639.0,False
+CUST-11608,Hyderabad,Metro,2024-03-08,Instagram Ads,1,8099.0,False
+CUST-11609,Kolkata,Metro,2024-05-21,Google Ads,1,17998.0,False
+CUST-11610,Jaipur,Tier-2,2025-12-06,Google Ads,1,1529.0,False
+CUST-11611,Bengaluru,Metro,2025-03-16,Instagram Ads,1,5099.0,False
+CUST-11612,Chandigarh,Tier-2,2025-08-14,Organic,1,1699.0,False
+CUST-11613,Kolkata,Metro,2024-01-09,Google Ads,1,3599.0,False
+CUST-11614,Kolkata,Metro,2024-04-14,Instagram Ads,1,4499.0,False
+CUST-11615,Kochi,Tier-2,2025-11-18,Instagram Ads,1,1749.0,False
+CUST-11616,Ranchi,Tier-3,2025-01-04,Instagram Ads,1,0.0,False
+CUST-11617,Ahmedabad,Tier-2,2024-06-02,Instagram Ads,1,2974.0,False
+CUST-11618,Agra,Tier-3,2024-05-10,Instagram Ads,1,21999.0,False
+CUST-11619,Hyderabad,Metro,2025-09-01,Google Ads,1,5998.0,False
+CUST-11620,Chennai,Metro,2025-03-02,Organic,1,6749.0,False
+CUST-11621,Kolkata,Metro,2024-11-17,Instagram Ads,1,6999.0,False
+CUST-11622,Bengaluru,Metro,2025-05-03,Google Ads,14,40668.0,True
+CUST-11623,Jaipur,Tier-2,2025-03-13,Referral,1,2999.0,False
+CUST-11624,Ahmedabad,Tier-2,2025-11-27,Organic,13,57279.0,True
+CUST-11625,Kochi,Tier-2,2024-12-19,Organic,1,1399.0,False
+CUST-11626,Raipur,Tier-3,2024-02-15,Google Ads,1,1709.0,False
+CUST-11627,Indore,Tier-2,2024-04-09,Instagram Ads,1,7499.0,False
+CUST-11628,Pune,Tier-2,2025-07-26,Instagram Ads,9,30986.0,True
+CUST-11629,Bengaluru,Metro,2024-09-23,Instagram Ads,1,9673.0,False
+CUST-11630,Agra,Tier-3,2025-11-17,Instagram Ads,5,38315.0,True
+CUST-11631,Jaipur,Tier-2,2024-03-02,Google Ads,1,809.0,False
+CUST-11632,Lucknow,Tier-2,2024-05-04,Instagram Ads,3,14226.0,True
+CUST-11633,Bengaluru,Metro,2024-03-22,Google Ads,1,5849.0,False
+CUST-11634,Jodhpur,Tier-3,2025-02-25,Instagram Ads,1,1869.0,False
+CUST-11635,Lucknow,Tier-2,2025-09-14,Instagram Ads,1,2249.0,False
+CUST-11636,Varanasi,Tier-3,2025-10-08,Organic,1,674.0,False
+CUST-11637,Mumbai,Metro,2024-08-06,Instagram Ads,1,3998.0,False
+CUST-11638,Mumbai,Metro,2024-01-28,Referral,1,1019.0,False
+CUST-11639,Delhi,Metro,2024-10-04,Instagram Ads,1,3959.0,False
+CUST-11640,Chandigarh,Tier-2,2025-11-17,Google Ads,1,5248.0,False
+CUST-11641,Ahmedabad,Tier-2,2025-07-05,Organic,9,59846.0,True
+CUST-11642,Pune,Tier-2,2025-05-30,Instagram Ads,1,1999.0,False
+CUST-11643,Kolkata,Metro,2025-11-06,Google Ads,10,27814.0,True
+CUST-11644,Bengaluru,Metro,2025-02-11,Instagram Ads,1,1529.0,False
+CUST-11645,Hyderabad,Metro,2025-04-19,Google Ads,1,1799.0,False
+CUST-11646,Mumbai,Metro,2025-02-26,Instagram Ads,1,2249.0,False
+CUST-11647,Hyderabad,Metro,2025-07-03,Instagram Ads,7,29834.0,True
+CUST-11648,Kochi,Tier-2,2025-01-16,Google Ads,5,38065.0,True
+CUST-11649,Ranchi,Tier-3,2025-04-16,Instagram Ads,1,2208.0,False
+CUST-11650,Mumbai,Metro,2025-11-30,Referral,1,13199.0,False
+CUST-11651,Jaipur,Tier-2,2024-10-30,Google Ads,1,13199.0,False
+CUST-11652,Jaipur,Tier-2,2024-06-07,Google Ads,24,119946.0,True
+CUST-11653,Surat,Tier-2,2024-07-01,Instagram Ads,1,4299.0,False
+CUST-11654,Delhi,Metro,2025-07-05,Referral,11,32346.0,True
+CUST-11655,Chennai,Metro,2024-05-04,Referral,1,5099.0,False
+CUST-11656,Bengaluru,Metro,2024-02-06,Instagram Ads,1,2799.0,False
+CUST-11657,Lucknow,Tier-2,2024-10-07,Organic,10,49219.0,True
+CUST-11658,Jodhpur,Tier-3,2025-12-18,Referral,16,39189.0,True
+CUST-11659,Hyderabad,Metro,2024-11-03,Instagram Ads,1,5098.0,False
+CUST-11660,Agra,Tier-3,2025-01-07,Organic,1,2969.0,False
+CUST-11661,Surat,Tier-2,2025-03-06,Google Ads,1,14999.0,False
+CUST-11662,Lucknow,Tier-2,2025-12-07,Organic,1,1234.0,False
+CUST-11663,Lucknow,Tier-2,2024-12-09,Google Ads,1,2399.0,False
+CUST-11664,Bengaluru,Metro,2025-11-07,Google Ads,1,4318.0,False
+CUST-11665,Surat,Tier-2,2025-08-08,Google Ads,14,67876.0,True
+CUST-11666,Lucknow,Tier-2,2025-10-27,Google Ads,1,2474.0,False
+CUST-11667,Dehradun,Tier-3,2024-06-05,Instagram Ads,1,2239.0,False
+CUST-11668,Gwalior,Tier-3,2024-11-13,Instagram Ads,1,2549.0,False
+CUST-11669,Chennai,Metro,2024-05-04,Google Ads,1,3199.0,False
+CUST-11670,Surat,Tier-2,2025-06-27,Organic,1,8499.0,False
+CUST-11671,Bengaluru,Metro,2025-01-14,Instagram Ads,1,2549.0,False
+CUST-11672,Kochi,Tier-2,2024-07-23,Organic,1,1104.0,False
+CUST-11673,Hyderabad,Metro,2025-01-29,Instagram Ads,1,21999.0,False
+CUST-11674,Hyderabad,Metro,2024-03-11,Organic,29,128864.0,True
+CUST-11675,Kochi,Tier-2,2025-05-02,Google Ads,1,0.0,False
+CUST-11676,Mumbai,Metro,2025-08-30,Referral,1,2249.0,False
+CUST-11677,Mumbai,Metro,2025-07-18,Google Ads,11,62384.0,True
+CUST-11678,Hyderabad,Metro,2025-03-19,Referral,1,3499.0,False
+CUST-11679,Jaipur,Tier-2,2025-05-13,Instagram Ads,1,0.0,False
+CUST-11680,Chandigarh,Tier-2,2025-08-26,Google Ads,1,1039.0,False
+CUST-11681,Delhi,Metro,2024-02-12,Instagram Ads,1,4049.0,False
+CUST-11682,Kolkata,Metro,2025-08-09,Google Ads,3,7577.0,True
+CUST-11683,Surat,Tier-2,2025-08-13,Instagram Ads,4,13695.0,True
+CUST-11684,Dehradun,Tier-3,2025-03-12,Instagram Ads,1,2974.0,False
+CUST-11685,Hyderabad,Metro,2024-03-25,Organic,1,3299.0,False
+CUST-11686,Ahmedabad,Tier-2,2025-04-03,Instagram Ads,1,27999.0,False
+CUST-11687,Kolkata,Metro,2024-07-05,Instagram Ads,1,1519.0,False
+CUST-11688,Raipur,Tier-3,2025-06-14,Google Ads,1,1439.0,False
+CUST-11689,Ahmedabad,Tier-2,2025-10-19,Referral,1,974.0,False
+CUST-11690,Bengaluru,Metro,2024-11-02,Instagram Ads,1,839.0,False
+CUST-11691,Delhi,Metro,2025-11-16,Google Ads,9,40406.0,True
+CUST-11692,Ranchi,Tier-3,2025-01-18,Organic,1,0.0,False
+CUST-11693,Chandigarh,Tier-2,2025-01-01,Organic,1,2969.0,False
+CUST-11694,Surat,Tier-2,2024-07-16,Instagram Ads,1,1799.0,False
+CUST-11695,Raipur,Tier-3,2024-05-21,Instagram Ads,1,12499.0,False
+CUST-11696,Jaipur,Tier-2,2025-10-29,Google Ads,1,1749.0,False
+CUST-11697,Chennai,Metro,2025-09-14,Referral,27,91066.0,True
+CUST-11698,Ahmedabad,Tier-2,2024-04-23,Instagram Ads,1,2249.0,False
+CUST-11699,Varanasi,Tier-3,2025-02-20,Instagram Ads,1,1444.0,False
+CUST-11700,Surat,Tier-2,2025-01-02,Instagram Ads,1,3312.0,False
+CUST-11701,Dehradun,Tier-3,2024-04-10,Referral,10,31204.0,True
+CUST-11702,Delhi,Metro,2024-10-31,Google Ads,1,1649.0,False
+CUST-11703,Kochi,Tier-2,2025-01-21,Instagram Ads,1,3999.0,False
+CUST-11704,Pune,Tier-2,2025-11-23,Instagram Ads,1,974.0,False
+CUST-11705,Meerut,Tier-3,2025-01-05,Google Ads,1,1279.0,False
+CUST-11706,Hyderabad,Metro,2025-07-11,Instagram Ads,1,3598.0,False
+CUST-11707,Bengaluru,Metro,2024-01-29,Google Ads,12,43351.0,True
+CUST-11708,Varanasi,Tier-3,2024-05-05,Google Ads,1,1979.0,False
+CUST-11709,Kochi,Tier-2,2025-07-23,Instagram Ads,3,5847.0,True
+CUST-11710,Delhi,Metro,2025-12-01,Instagram Ads,1,8749.0,False
+CUST-11711,Bengaluru,Metro,2024-08-25,Instagram Ads,1,3598.0,False
+CUST-11712,Mumbai,Metro,2025-06-25,Instagram Ads,1,1169.0,False
+CUST-11713,Pune,Tier-2,2024-10-20,Google Ads,1,2144.0,False
+CUST-11714,Dehradun,Tier-3,2024-11-06,Referral,47,254690.0,True
+CUST-11715,Patna,Tier-3,2024-12-22,Organic,26,172810.0,True
+CUST-11716,Indore,Tier-2,2024-09-22,Referral,1,11999.0,False
+CUST-11717,Jaipur,Tier-2,2024-09-13,Referral,1,1619.0,False
+CUST-11718,Jaipur,Tier-2,2025-08-15,Referral,1,7137.0,False
+CUST-11719,Delhi,Metro,2024-10-26,Instagram Ads,1,1979.0,False
+CUST-11720,Bengaluru,Metro,2024-01-18,Instagram Ads,1,1349.0,False
+CUST-11721,Chennai,Metro,2025-03-07,Organic,1,4299.0,False
+CUST-11722,Jaipur,Tier-2,2024-10-10,Google Ads,1,9749.0,False
+CUST-11723,Kolkata,Metro,2025-01-21,Organic,1,6499.0,False
+CUST-11724,Surat,Tier-2,2024-10-24,Instagram Ads,1,1274.0,False
+CUST-11725,Surat,Tier-2,2025-07-24,Google Ads,31,153839.0,True
+CUST-11726,Hyderabad,Metro,2025-09-19,Instagram Ads,1,10624.0,False
+CUST-11727,Delhi,Metro,2024-03-17,Organic,1,4249.0,False
+CUST-11728,Delhi,Metro,2024-06-08,Google Ads,1,5697.0,False
+CUST-11729,Pune,Tier-2,2025-08-27,Organic,98,426811.0,True
+CUST-11730,Bengaluru,Metro,2024-10-27,Instagram Ads,4,3946.0,True
+CUST-11731,Mumbai,Metro,2025-09-10,Organic,1,2199.0,False
+CUST-11732,Mumbai,Metro,2024-04-22,Instagram Ads,1,0.0,False
+CUST-11733,Hyderabad,Metro,2025-07-05,Organic,1,899.0,False
+CUST-11734,Kolkata,Metro,2025-07-29,Google Ads,1,1104.0,False
+CUST-11735,Kochi,Tier-2,2024-07-01,Referral,11,69002.0,True
+CUST-11736,Ahmedabad,Tier-2,2025-04-01,Organic,41,142176.0,True
+CUST-11737,Chandigarh,Tier-2,2024-03-11,Instagram Ads,1,5524.0,False
+CUST-11738,Mumbai,Metro,2024-04-23,Google Ads,1,8097.0,False
+CUST-11739,Bengaluru,Metro,2024-06-11,Google Ads,1,1079.0,False
+CUST-11740,Delhi,Metro,2025-01-25,Instagram Ads,1,7499.0,False
+CUST-11741,Delhi,Metro,2025-06-07,Instagram Ads,1,3499.0,False
+CUST-11742,Lucknow,Tier-2,2025-04-30,Instagram Ads,1,8999.0,False
+CUST-11743,Meerut,Tier-3,2025-05-19,Instagram Ads,1,2249.0,False
+CUST-11744,Surat,Tier-2,2024-07-13,Instagram Ads,1,809.0,False
+CUST-11745,Patna,Tier-3,2025-11-21,Google Ads,19,40514.0,True
+CUST-11746,Ahmedabad,Tier-2,2024-06-16,Organic,1,1104.0,False
+CUST-11747,Surat,Tier-2,2025-04-12,Google Ads,1,10497.0,False
+CUST-11748,Pune,Tier-2,2025-03-21,Google Ads,8,45812.0,True
+CUST-11749,Lucknow,Tier-2,2024-12-06,Organic,24,99912.0,True
+CUST-11750,Kolkata,Metro,2024-05-19,Instagram Ads,8,39892.0,True
+CUST-11751,Mumbai,Metro,2024-05-06,Google Ads,1,3198.0,False
+CUST-11752,Agra,Tier-3,2024-03-10,Instagram Ads,1,1529.0,False
+CUST-11753,Chennai,Metro,2024-05-16,Instagram Ads,1,7199.0,False
+CUST-11754,Delhi,Metro,2025-01-08,Google Ads,1,7873.0,False
+CUST-11755,Indore,Tier-2,2025-06-11,Instagram Ads,1,4999.0,False
+CUST-11756,Lucknow,Tier-2,2024-11-30,Organic,7,20453.0,True
+CUST-11757,Hyderabad,Metro,2024-02-29,Google Ads,8,23297.0,True
+CUST-11758,Kochi,Tier-2,2025-08-11,Google Ads,1,1359.0,False
+CUST-11759,Ranchi,Tier-3,2024-08-06,Instagram Ads,1,14999.0,False
+CUST-11760,Kolkata,Metro,2024-04-15,Google Ads,1,3199.0,False
+CUST-11761,Kolkata,Metro,2025-01-13,Instagram Ads,3,11836.0,True
+CUST-11762,Delhi,Metro,2024-03-30,Instagram Ads,1,1759.0,False
+CUST-11763,Indore,Tier-2,2024-01-05,Instagram Ads,1,2624.0,False
+CUST-11764,Ahmedabad,Tier-2,2025-06-01,Instagram Ads,1,4999.0,False
+CUST-11765,Raipur,Tier-3,2024-09-09,Google Ads,1,1439.0,False
+CUST-11766,Hyderabad,Metro,2025-01-12,Organic,21,81635.0,True
+CUST-11767,Raipur,Tier-3,2025-02-11,Google Ads,16,48658.0,True
+CUST-11768,Pune,Tier-2,2025-08-19,Organic,1,4499.0,False
+CUST-11769,Chennai,Metro,2024-10-21,Google Ads,38,188790.0,True
+CUST-11770,Surat,Tier-2,2025-04-30,Instagram Ads,1,3499.0,False
+CUST-11771,Delhi,Metro,2024-12-21,Google Ads,1,1019.0,False
+CUST-11772,Kochi,Tier-2,2025-09-28,Google Ads,14,55090.0,True
+CUST-11773,Indore,Tier-2,2025-04-30,Instagram Ads,1,7738.0,False
+CUST-11774,Chandigarh,Tier-2,2025-07-03,Instagram Ads,1,3149.0,False
+CUST-11775,Pune,Tier-2,2025-10-01,Google Ads,1,18199.0,False
+CUST-11776,Indore,Tier-2,2024-05-02,Referral,1,1869.0,False
+CUST-11777,Delhi,Metro,2025-10-31,Referral,1,2974.0,False
+CUST-11778,Dehradun,Tier-3,2024-10-06,Instagram Ads,1,0.0,False
+CUST-11779,Lucknow,Tier-2,2025-10-25,Instagram Ads,1,2099.0,False
+CUST-11780,Kolkata,Metro,2024-03-08,Instagram Ads,1,1869.0,False
+CUST-11781,Kolkata,Metro,2025-08-12,Google Ads,1,899.0,False
+CUST-11782,Patna,Tier-3,2025-11-24,Organic,1,0.0,False
+CUST-11783,Indore,Tier-2,2025-03-12,Google Ads,1,2799.0,False
+CUST-11784,Mumbai,Metro,2024-01-05,Google Ads,1,4499.0,False
+CUST-11785,Bhopal,Tier-3,2025-06-29,Google Ads,1,2199.0,False
+CUST-11786,Bengaluru,Metro,2024-09-23,Instagram Ads,2,7448.0,True
+CUST-11787,Indore,Tier-2,2025-03-01,Instagram Ads,1,1799.0,False
+CUST-11788,Jaipur,Tier-2,2025-01-07,Instagram Ads,1,37398.0,False
+CUST-11789,Surat,Tier-2,2025-01-03,Google Ads,1,13499.0,False
+CUST-11790,Kolkata,Metro,2025-06-23,Instagram Ads,1,4999.0,False
+CUST-11791,Chennai,Metro,2025-07-20,Instagram Ads,1,3149.0,False
+CUST-11792,Kolkata,Metro,2025-09-06,Organic,1,14398.0,False
+CUST-11793,Ranchi,Tier-3,2025-09-10,Instagram Ads,1,0.0,False
+CUST-11794,Mumbai,Metro,2024-11-07,Instagram Ads,1,19599.0,False
+CUST-11795,Delhi,Metro,2025-08-10,Instagram Ads,1,14299.0,False
+CUST-11796,Kolkata,Metro,2024-12-31,Google Ads,1,6499.0,False
+CUST-11797,Chennai,Metro,2024-11-17,Instagram Ads,1,2419.0,False
+CUST-11798,Delhi,Metro,2024-11-01,Instagram Ads,1,1624.0,False
+CUST-11799,Chandigarh,Tier-2,2024-10-30,Google Ads,1,1349.0,False
+CUST-11800,Mumbai,Metro,2025-03-14,Instagram Ads,1,5399.0,False
+CUST-11801,Bhopal,Tier-3,2025-10-01,Instagram Ads,1,0.0,False
+CUST-11802,Mumbai,Metro,2024-12-31,Instagram Ads,1,1999.0,False
+CUST-11803,Delhi,Metro,2025-04-04,Instagram Ads,1,12499.0,False
+CUST-11804,Bengaluru,Metro,2025-04-21,Instagram Ads,1,4199.0,False
+CUST-11805,Agra,Tier-3,2024-10-03,Instagram Ads,1,18199.0,False
+CUST-11806,Hyderabad,Metro,2025-03-18,Organic,1,6372.0,False
+CUST-11807,Chennai,Metro,2025-08-01,Instagram Ads,1,58798.0,False
+CUST-11808,Hyderabad,Metro,2024-10-21,Organic,1,3599.0,False
+CUST-11809,Chennai,Metro,2025-10-26,Organic,8,26457.0,True
+CUST-11810,Chandigarh,Tier-2,2025-08-28,Organic,1,0.0,False
+CUST-11811,Delhi,Metro,2024-12-07,Google Ads,1,7199.0,False
+CUST-11812,Kolkata,Metro,2024-01-20,Instagram Ads,1,27999.0,False
+CUST-11813,Mumbai,Metro,2025-05-20,Instagram Ads,1,3599.0,False
+CUST-11814,Chandigarh,Tier-2,2024-03-01,Organic,1,1649.0,False
+CUST-11815,Dehradun,Tier-3,2024-08-22,Instagram Ads,1,4249.0,False
+CUST-11816,Pune,Tier-2,2024-11-04,Organic,1,2548.0,False
+CUST-11817,Indore,Tier-2,2025-12-10,Instagram Ads,1,1869.0,False
+CUST-11818,Agra,Tier-3,2024-02-29,Google Ads,41,152505.0,True
+CUST-11819,Ahmedabad,Tier-2,2024-05-13,Instagram Ads,1,3499.0,False
+CUST-11820,Bengaluru,Metro,2024-03-23,Instagram Ads,1,18699.0,False
+CUST-11821,Chennai,Metro,2024-08-14,Google Ads,12,65544.0,True
+CUST-11822,Meerut,Tier-3,2025-06-21,Instagram Ads,1,2249.0,False
+CUST-11823,Kolkata,Metro,2024-03-26,Instagram Ads,1,1039.0,False
+CUST-11824,Chennai,Metro,2025-09-09,Google Ads,1,19998.0,False
+CUST-11825,Kochi,Tier-2,2025-11-01,Referral,1,2199.0,False
+CUST-11826,Indore,Tier-2,2025-03-11,Instagram Ads,1,2499.0,False
+CUST-11827,Mumbai,Metro,2025-06-09,Instagram Ads,1,1439.0,False
+CUST-11828,Jodhpur,Tier-3,2024-10-25,Organic,1,2859.0,False
+CUST-11829,Surat,Tier-2,2024-04-02,Organic,1,1359.0,False
+CUST-11830,Indore,Tier-2,2024-04-01,Instagram Ads,1,2549.0,False
+CUST-11831,Chandigarh,Tier-2,2025-07-22,Google Ads,1,2549.0,False
+CUST-11832,Delhi,Metro,2025-06-10,Google Ads,1,21999.0,False
+CUST-11833,Kochi,Tier-2,2025-03-22,Google Ads,1,14999.0,False
+CUST-11834,Ahmedabad,Tier-2,2024-12-18,Instagram Ads,1,4224.0,False
+CUST-11835,Meerut,Tier-3,2025-05-07,Instagram Ads,1,3198.0,False
+CUST-11836,Hyderabad,Metro,2025-05-26,Organic,25,111273.0,True
+CUST-11837,Ranchi,Tier-3,2024-01-16,Instagram Ads,1,12749.0,False
+CUST-11838,Chandigarh,Tier-2,2024-01-11,Instagram Ads,3,8642.0,True
+CUST-11839,Indore,Tier-2,2025-02-26,Referral,28,116723.0,True
+CUST-11840,Delhi,Metro,2025-03-04,Instagram Ads,1,6374.0,False
+CUST-11841,Delhi,Metro,2025-08-22,Google Ads,1,50398.0,False
+CUST-11842,Bengaluru,Metro,2025-01-18,Organic,16,76228.0,True
+CUST-11843,Kolkata,Metro,2025-06-14,Google Ads,1,1444.0,False
+CUST-11844,Chandigarh,Tier-2,2024-11-16,Instagram Ads,1,8124.0,False
+CUST-11845,Chandigarh,Tier-2,2025-12-06,Instagram Ads,1,1039.0,False
+CUST-11846,Chennai,Metro,2025-06-24,Instagram Ads,1,14999.0,False
+CUST-11847,Gwalior,Tier-3,2025-04-01,Instagram Ads,1,2249.0,False
+CUST-11848,Kolkata,Metro,2025-06-08,Referral,1,6499.0,False
+CUST-11849,Chennai,Metro,2025-03-31,Instagram Ads,1,14999.0,False
+CUST-11850,Jaipur,Tier-2,2024-02-18,Instagram Ads,1,4949.0,False
+CUST-11851,Jodhpur,Tier-3,2024-07-04,Organic,1,2599.0,False
+CUST-11852,Dehradun,Tier-3,2025-10-20,Organic,37,122986.0,True
+CUST-11853,Chennai,Metro,2024-10-30,Google Ads,19,53586.0,True
+CUST-11854,Pune,Tier-2,2024-05-28,Instagram Ads,5,41118.0,True
+CUST-11855,Kolkata,Metro,2024-07-08,Instagram Ads,1,899.0,False
+CUST-11856,Indore,Tier-2,2024-05-30,Instagram Ads,1,12749.0,False
+CUST-11857,Kochi,Tier-2,2024-07-30,Google Ads,1,674.0,False
+CUST-11858,Bengaluru,Metro,2025-01-25,Instagram Ads,1,5099.0,False
+CUST-11859,Bhopal,Tier-3,2024-11-26,Referral,1,1814.0,False
+CUST-11860,Ahmedabad,Tier-2,2024-11-26,Instagram Ads,1,3654.0,False
+CUST-11861,Meerut,Tier-3,2025-05-29,Google Ads,1,0.0,False
+CUST-11862,Dehradun,Tier-3,2025-03-19,Instagram Ads,1,1709.0,False
+CUST-11863,Hyderabad,Metro,2025-05-19,Instagram Ads,6,17118.0,True
+CUST-11864,Ranchi,Tier-3,2025-01-29,Instagram Ads,1,2699.0,False
+CUST-11865,Pune,Tier-2,2025-05-22,Referral,8,59030.0,True
+CUST-11866,Mumbai,Metro,2025-06-19,Instagram Ads,1,1444.0,False
+CUST-11867,Hyderabad,Metro,2024-08-26,Referral,1,1599.0,False
+CUST-11868,Kolkata,Metro,2025-12-17,Referral,1,4949.0,False
+CUST-11869,Jodhpur,Tier-3,2025-03-26,Organic,1,0.0,False
+CUST-11870,Delhi,Metro,2024-09-18,Organic,1,7649.0,False
+CUST-11871,Mumbai,Metro,2024-01-23,Instagram Ads,3,21820.0,True
+CUST-11872,Ahmedabad,Tier-2,2025-06-10,Instagram Ads,3,9547.0,True
+CUST-11873,Lucknow,Tier-2,2025-01-03,Instagram Ads,1,4999.0,False
+CUST-11874,Kolkata,Metro,2025-09-08,Instagram Ads,1,2499.0,False
+CUST-11875,Indore,Tier-2,2024-10-21,Google Ads,1,16799.0,False
+CUST-11876,Dehradun,Tier-3,2024-07-06,Referral,1,2624.0,False
+CUST-11877,Chennai,Metro,2025-12-04,Instagram Ads,1,3999.0,False
+CUST-11878,Gwalior,Tier-3,2025-12-15,Google Ads,1,3499.0,False
+CUST-11879,Pune,Tier-2,2025-01-30,Organic,1,1979.0,False
+CUST-11880,Hyderabad,Metro,2024-06-18,Instagram Ads,1,1709.0,False
+CUST-11881,Mumbai,Metro,2024-11-03,Google Ads,1,1439.0,False
+CUST-11882,Kolkata,Metro,2024-11-29,Referral,53,207103.0,True
+CUST-11883,Chennai,Metro,2025-05-20,Instagram Ads,1,10499.0,False
+CUST-11884,Bengaluru,Metro,2025-05-25,Instagram Ads,1,1199.0,False
+CUST-11885,Indore,Tier-2,2025-12-03,Instagram Ads,1,1874.0,False
+CUST-11886,Chennai,Metro,2024-11-24,Organic,1,0.0,False
+CUST-11887,Patna,Tier-3,2024-05-04,Google Ads,1,24998.0,False
+CUST-11888,Hyderabad,Metro,2025-07-13,Google Ads,34,170915.0,True
+CUST-11889,Jaipur,Tier-2,2025-11-23,Google Ads,8,24325.0,True
+CUST-11890,Indore,Tier-2,2025-05-14,Referral,31,125602.0,True
+CUST-11891,Kochi,Tier-2,2024-02-07,Organic,17,106318.0,True
+CUST-11892,Bengaluru,Metro,2024-01-30,Instagram Ads,1,3598.0,False
+CUST-11893,Agra,Tier-3,2024-11-16,Google Ads,22,123845.0,True
+CUST-11894,Mumbai,Metro,2024-12-22,Referral,8,55936.0,True
+CUST-11895,Delhi,Metro,2024-06-21,Google Ads,14,46932.0,True
+CUST-11896,Delhi,Metro,2025-07-19,Instagram Ads,1,4499.0,False
+CUST-11897,Jaipur,Tier-2,2024-04-23,Instagram Ads,2,10438.0,True
+CUST-11898,Surat,Tier-2,2024-11-19,Organic,1,8124.0,False
+CUST-11899,Hyderabad,Metro,2025-07-18,Instagram Ads,1,1499.0,False
+CUST-11900,Meerut,Tier-3,2024-08-22,Organic,1,7649.0,False
+CUST-11901,Hyderabad,Metro,2025-10-11,Instagram Ads,1,2274.0,False
+CUST-11902,Delhi,Metro,2025-10-07,Organic,1,2878.0,False
+CUST-11903,Chandigarh,Tier-2,2024-12-16,Referral,26,127685.0,True
+CUST-11904,Bengaluru,Metro,2024-07-02,Google Ads,1,7649.0,False
+CUST-11905,Kolkata,Metro,2024-06-29,Instagram Ads,1,5249.0,False
+CUST-11906,Surat,Tier-2,2024-08-22,Instagram Ads,1,21999.0,False
+CUST-11907,Lucknow,Tier-2,2024-01-24,Organic,1,26997.0,False
+CUST-11908,Hyderabad,Metro,2025-04-18,Organic,1,10624.0,False
+CUST-11909,Bengaluru,Metro,2025-12-10,Instagram Ads,1,2924.0,False
+CUST-11910,Surat,Tier-2,2024-12-07,Instagram Ads,1,844.0,False
+CUST-11911,Varanasi,Tier-3,2025-10-18,Instagram Ads,1,10962.0,False
+CUST-11912,Ahmedabad,Tier-2,2025-05-12,Google Ads,1,3299.0,False
+CUST-11913,Ranchi,Tier-3,2024-11-10,Instagram Ads,1,2309.0,False
+CUST-11914,Delhi,Metro,2024-12-26,Referral,1,3149.0,False
+CUST-11915,Chennai,Metro,2025-04-05,Instagram Ads,1,4498.0,False
+CUST-11916,Jaipur,Tier-2,2024-10-08,Instagram Ads,1,1359.0,False
+CUST-11917,Surat,Tier-2,2024-06-22,Referral,29,81217.0,True
+CUST-11918,Patna,Tier-3,2024-06-23,Organic,1,2499.0,False
+CUST-11919,Kolkata,Metro,2025-04-17,Organic,1,899.0,False
+CUST-11920,Dehradun,Tier-3,2025-11-18,Instagram Ads,1,19498.0,False
+CUST-11921,Indore,Tier-2,2024-07-16,Google Ads,1,21999.0,False
+CUST-11922,Ahmedabad,Tier-2,2025-11-24,Instagram Ads,1,0.0,False
+CUST-11923,Hyderabad,Metro,2024-02-02,Instagram Ads,1,1299.0,False
+CUST-11924,Chandigarh,Tier-2,2024-08-02,Google Ads,1,1019.0,False
+CUST-11925,Bengaluru,Metro,2024-05-21,Organic,1,2239.0,False
+CUST-11926,Mumbai,Metro,2024-02-15,Google Ads,1,3149.0,False
+CUST-11927,Ranchi,Tier-3,2025-06-11,Instagram Ads,1,1599.0,False
+CUST-11928,Indore,Tier-2,2024-08-25,Google Ads,13,44947.0,True
+CUST-11929,Hyderabad,Metro,2024-08-11,Instagram Ads,1,4299.0,False
+CUST-11930,Varanasi,Tier-3,2025-02-12,Organic,1,1799.0,False
+CUST-11931,Delhi,Metro,2024-09-07,Instagram Ads,1,1999.0,False
+CUST-11932,Mumbai,Metro,2025-07-24,Referral,1,13499.0,False
+CUST-11933,Ranchi,Tier-3,2024-09-30,Google Ads,1,1234.0,False
+CUST-11934,Lucknow,Tier-2,2024-02-12,Google Ads,1,8907.0,False
+CUST-11935,Jodhpur,Tier-3,2025-02-01,Instagram Ads,1,3199.0,False
+CUST-11936,Delhi,Metro,2025-05-01,Organic,1,7999.0,False
+CUST-11937,Indore,Tier-2,2025-05-01,Google Ads,25,148946.0,True
+CUST-11938,Raipur,Tier-3,2024-07-06,Instagram Ads,1,1699.0,False
+CUST-11939,Indore,Tier-2,2025-08-15,Instagram Ads,1,1999.0,False
+CUST-11940,Jodhpur,Tier-3,2025-11-14,Organic,33,109068.0,True
+CUST-11941,Hyderabad,Metro,2025-03-30,Google Ads,1,1709.0,False
+CUST-11942,Jaipur,Tier-2,2024-02-15,Organic,1,5399.0,False
+CUST-11943,Hyderabad,Metro,2025-01-21,Organic,6,12908.0,True
+CUST-11944,Delhi,Metro,2025-10-24,Google Ads,1,1439.0,False
+CUST-11945,Ahmedabad,Tier-2,2025-04-07,Organic,7,11098.0,True
+CUST-11946,Chandigarh,Tier-2,2024-02-21,Referral,7,22266.0,True
+CUST-11947,Meerut,Tier-3,2025-03-13,Referral,65,389297.0,True
+CUST-11948,Kolkata,Metro,2025-07-22,Google Ads,12,39305.0,True
+CUST-11949,Jodhpur,Tier-3,2025-01-28,Referral,1,21999.0,False
+CUST-11950,Kochi,Tier-2,2024-03-11,Google Ads,1,7649.0,False
+CUST-11951,Meerut,Tier-3,2025-10-10,Instagram Ads,1,1499.0,False
+CUST-11952,Ahmedabad,Tier-2,2025-06-27,Instagram Ads,1,10198.0,False
+CUST-11953,Jaipur,Tier-2,2025-10-16,Instagram Ads,1,959.0,False
+CUST-11954,Bengaluru,Metro,2025-10-28,Instagram Ads,1,1424.0,False
+CUST-11955,Ahmedabad,Tier-2,2024-08-29,Google Ads,1,3499.0,False
+CUST-11956,Chennai,Metro,2025-09-27,Google Ads,1,3749.0,False
+CUST-11957,Chennai,Metro,2024-09-23,Google Ads,1,2699.0,False
+CUST-11958,Indore,Tier-2,2024-09-19,Google Ads,32,129668.0,True
+CUST-11959,Mumbai,Metro,2025-08-13,Instagram Ads,1,3499.0,False
+CUST-11960,Hyderabad,Metro,2025-05-27,Organic,1,1699.0,False
+CUST-11961,Kolkata,Metro,2025-07-25,Google Ads,9,16851.0,True
+CUST-11962,Jaipur,Tier-2,2024-07-17,Organic,1,18699.0,False
+CUST-11963,Ranchi,Tier-3,2025-04-11,Instagram Ads,1,8999.0,False
+CUST-11964,Chennai,Metro,2025-11-26,Google Ads,1,2249.0,False
+CUST-11965,Raipur,Tier-3,2025-10-23,Instagram Ads,1,1814.0,False
+CUST-11966,Bhopal,Tier-3,2024-10-21,Instagram Ads,1,2144.0,False
+CUST-11967,Ahmedabad,Tier-2,2025-07-26,Google Ads,1,1709.0,False
+CUST-11968,Hyderabad,Metro,2024-12-11,Referral,1,1439.0,False
+CUST-11969,Jaipur,Tier-2,2025-11-29,Google Ads,1,1624.0,False
+CUST-11970,Agra,Tier-3,2025-05-23,Organic,1,2199.0,False
+CUST-11971,Mumbai,Metro,2024-09-30,Organic,1,1374.0,False
+CUST-11972,Jaipur,Tier-2,2024-03-07,Instagram Ads,1,3198.0,False
+CUST-11973,Dehradun,Tier-3,2024-10-30,Instagram Ads,1,1274.0,False
+CUST-11974,Varanasi,Tier-3,2025-09-15,Organic,1,1799.0,False
+CUST-11975,Bengaluru,Metro,2024-12-02,Instagram Ads,2,20832.0,True
+CUST-11976,Raipur,Tier-3,2024-09-05,Instagram Ads,1,11698.0,False
+CUST-11977,Agra,Tier-3,2024-03-13,Referral,33,206494.0,True
+CUST-11978,Ahmedabad,Tier-2,2025-08-31,Instagram Ads,1,2999.0,False
+CUST-11979,Bengaluru,Metro,2025-10-20,Referral,1,6019.0,False
+CUST-11980,Lucknow,Tier-2,2024-04-30,Organic,12,73923.0,True
+CUST-11981,Kolkata,Metro,2024-07-26,Instagram Ads,1,4674.0,False
+CUST-11982,Hyderabad,Metro,2025-06-22,Google Ads,1,2158.0,False
+CUST-11983,Chandigarh,Tier-2,2025-08-21,Instagram Ads,4,9821.0,True
+CUST-11984,Mumbai,Metro,2025-11-18,Instagram Ads,1,1279.0,False
+CUST-11985,Agra,Tier-3,2024-06-16,Instagram Ads,1,3418.0,False
+CUST-11986,Gwalior,Tier-3,2025-02-25,Google Ads,23,82877.0,True
+CUST-11987,Ahmedabad,Tier-2,2025-08-29,Referral,13,62482.0,True
+CUST-11988,Hyderabad,Metro,2024-12-18,Instagram Ads,3,11347.0,True
+CUST-11989,Jaipur,Tier-2,2025-03-16,Instagram Ads,1,1799.0,False
+CUST-11990,Jaipur,Tier-2,2025-04-09,Instagram Ads,7,19668.0,True
+CUST-11991,Mumbai,Metro,2025-02-19,Referral,1,5099.0,False
+CUST-11992,Indore,Tier-2,2024-11-28,Instagram Ads,14,96104.0,True
+CUST-11993,Gwalior,Tier-3,2024-12-25,Organic,3,7098.0,True
+CUST-11994,Pune,Tier-2,2024-04-22,Instagram Ads,4,7216.0,True
+CUST-11995,Pune,Tier-2,2024-06-30,Instagram Ads,1,5998.0,False
+CUST-11996,Delhi,Metro,2024-02-01,Organic,36,212914.0,True
+CUST-11997,Pune,Tier-2,2025-11-06,Instagram Ads,1,6999.0,False
+CUST-11998,Chandigarh,Tier-2,2025-03-05,Instagram Ads,1,5999.0,False
+CUST-11999,Kolkata,Metro,2025-07-28,Instagram Ads,1,1104.0,False
+CUST-12000,Mumbai,Metro,2024-02-29,Google Ads,1,6299.0,False
+CUST-12001,Hyderabad,Metro,2025-06-22,Google Ads,10,87158.0,True
+CUST-12002,Kochi,Tier-2,2024-12-29,Google Ads,1,3599.0,False
+CUST-12003,Pune,Tier-2,2025-11-13,Google Ads,1,3899.0,False
+CUST-12004,Chennai,Metro,2024-08-16,Instagram Ads,1,1999.0,False
+CUST-12005,Chandigarh,Tier-2,2024-10-25,Instagram Ads,1,11999.0,False
+CUST-12006,Chandigarh,Tier-2,2025-12-16,Instagram Ads,1,1874.0,False
+CUST-12007,Surat,Tier-2,2025-06-17,Instagram Ads,1,2974.0,False
+CUST-12008,Mumbai,Metro,2025-09-02,Instagram Ads,1,0.0,False
+CUST-12009,Kochi,Tier-2,2024-11-08,Instagram Ads,3,7472.0,True
+CUST-12010,Agra,Tier-3,2025-01-12,Instagram Ads,1,2549.0,False
+CUST-12011,Surat,Tier-2,2025-03-06,Google Ads,1,24998.0,False
+CUST-12012,Ahmedabad,Tier-2,2025-02-26,Google Ads,1,3149.0,False
+CUST-12013,Kolkata,Metro,2025-06-10,Instagram Ads,1,7647.0,False
+CUST-12014,Pune,Tier-2,2024-06-28,Google Ads,9,108938.0,True
+CUST-12015,Ranchi,Tier-3,2025-04-04,Google Ads,1,1999.0,False
+CUST-12016,Surat,Tier-2,2024-06-04,Referral,1,2199.0,False
+CUST-12017,Kochi,Tier-2,2025-05-14,Google Ads,1,1499.0,False
+CUST-12018,Chennai,Metro,2025-01-15,Organic,13,39330.0,True
+CUST-12019,Jodhpur,Tier-3,2025-06-08,Instagram Ads,1,2338.0,False
+CUST-12020,Lucknow,Tier-2,2024-07-15,Google Ads,1,1759.0,False
+CUST-12021,Bengaluru,Metro,2025-09-21,Instagram Ads,1,809.0,False
+CUST-12022,Gwalior,Tier-3,2025-11-06,Instagram Ads,1,2624.0,False
+CUST-12023,Jaipur,Tier-2,2025-02-27,Google Ads,1,4398.0,False
+CUST-12024,Bengaluru,Metro,2024-09-12,Instagram Ads,1,25199.0,False
+CUST-12025,Kolkata,Metro,2025-02-16,Instagram Ads,1,1349.0,False
+CUST-12026,Indore,Tier-2,2024-12-24,Instagram Ads,1,2799.0,False
+CUST-12027,Kolkata,Metro,2024-08-14,Organic,1,1619.0,False
+CUST-12028,Bengaluru,Metro,2024-11-03,Instagram Ads,1,0.0,False
+CUST-12029,Kochi,Tier-2,2024-10-10,Organic,24,91190.0,True
+CUST-12030,Mumbai,Metro,2025-12-19,Google Ads,5,40977.0,True
+CUST-12031,Indore,Tier-2,2024-06-23,Instagram Ads,1,2499.0,False
+CUST-12032,Hyderabad,Metro,2025-08-13,Instagram Ads,1,7999.0,False
+CUST-12033,Ahmedabad,Tier-2,2024-09-13,Instagram Ads,1,1799.0,False
+CUST-12034,Bengaluru,Metro,2025-04-09,Organic,19,63422.0,True
+CUST-12035,Mumbai,Metro,2024-02-21,Instagram Ads,1,974.0,False
+CUST-12036,Chennai,Metro,2025-05-26,Referral,1,4499.0,False
+CUST-12037,Delhi,Metro,2025-10-25,Instagram Ads,1,1119.0,False
+CUST-12038,Agra,Tier-3,2024-04-14,Instagram Ads,1,23799.0,False
+CUST-12039,Jodhpur,Tier-3,2025-05-02,Instagram Ads,1,2499.0,False
+CUST-12040,Varanasi,Tier-3,2024-01-13,Instagram Ads,1,1614.0,False
+CUST-12041,Mumbai,Metro,2025-09-19,Instagram Ads,1,3869.0,False
+CUST-12042,Delhi,Metro,2024-12-09,Instagram Ads,1,3439.0,False
+CUST-12043,Pune,Tier-2,2025-03-20,Google Ads,10,46780.0,True
+CUST-12044,Chandigarh,Tier-2,2025-06-22,Organic,1,8099.0,False
+CUST-12045,Chennai,Metro,2024-05-09,Organic,11,55562.0,True
+CUST-12046,Kochi,Tier-2,2024-12-05,Organic,1,1259.0,False
+CUST-12047,Lucknow,Tier-2,2025-01-06,Instagram Ads,1,19799.0,False
+CUST-12048,Mumbai,Metro,2024-09-21,Google Ads,1,8798.0,False
+CUST-12049,Dehradun,Tier-3,2025-01-01,Google Ads,20,95070.0,True
+CUST-12050,Indore,Tier-2,2025-02-16,Referral,1,1869.0,False
+CUST-12051,Varanasi,Tier-3,2024-08-18,Instagram Ads,1,0.0,False
+CUST-12052,Mumbai,Metro,2025-01-12,Referral,1,2799.0,False
+CUST-12053,Surat,Tier-2,2025-04-28,Organic,44,261006.0,True
+CUST-12054,Hyderabad,Metro,2025-04-16,Referral,1,1899.0,False
+CUST-12055,Surat,Tier-2,2025-09-19,Referral,49,206316.0,True
+CUST-12056,Chennai,Metro,2025-12-15,Instagram Ads,1,3499.0,False
+CUST-12057,Bengaluru,Metro,2025-10-29,Google Ads,1,5249.0,False
+CUST-12058,Surat,Tier-2,2024-01-20,Organic,38,152369.0,True
+CUST-12059,Bhopal,Tier-3,2025-06-30,Instagram Ads,1,1444.0,False
+CUST-12060,Patna,Tier-3,2024-01-26,Instagram Ads,1,5524.0,False
+CUST-12061,Kochi,Tier-2,2024-02-17,Instagram Ads,1,2549.0,False
+CUST-12062,Hyderabad,Metro,2024-08-04,Instagram Ads,1,0.0,False
+CUST-12063,Chennai,Metro,2024-01-11,Referral,6,15073.0,True
+CUST-12064,Lucknow,Tier-2,2025-09-25,Instagram Ads,2,2943.0,True
+CUST-12065,Mumbai,Metro,2025-08-15,Google Ads,1,2549.0,False
+CUST-12066,Gwalior,Tier-3,2025-02-18,Organic,1,1299.0,False
+CUST-12067,Bengaluru,Metro,2024-01-24,Organic,1,4674.0,False
+CUST-12068,Delhi,Metro,2025-02-21,Instagram Ads,1,4499.0,False
+CUST-12069,Bhopal,Tier-3,2025-05-29,Referral,1,4299.0,False
+CUST-12070,Bengaluru,Metro,2025-12-08,Instagram Ads,1,1979.0,False
+CUST-12071,Surat,Tier-2,2024-03-21,Organic,41,168546.0,True
+CUST-12072,Hyderabad,Metro,2024-02-16,Instagram Ads,1,2239.0,False
+CUST-12073,Surat,Tier-2,2024-07-18,Referral,1,1999.0,False
+CUST-12074,Bengaluru,Metro,2025-11-21,Organic,3,7617.0,True
+CUST-12075,Pune,Tier-2,2024-12-02,Instagram Ads,1,2549.0,False
+CUST-12076,Delhi,Metro,2025-05-03,Google Ads,1,8999.0,False
+CUST-12077,Chennai,Metro,2025-08-29,Organic,10,85558.0,True
+CUST-12078,Mumbai,Metro,2025-02-12,Google Ads,1,2999.0,False
+CUST-12079,Chandigarh,Tier-2,2025-02-18,Referral,1,16197.0,False
+CUST-12080,Dehradun,Tier-3,2024-11-14,Google Ads,1,9749.0,False
+CUST-12081,Meerut,Tier-3,2025-04-04,Organic,12,31033.0,True
+CUST-12082,Bengaluru,Metro,2024-05-02,Google Ads,8,39719.0,True
+CUST-12083,Delhi,Metro,2025-06-27,Instagram Ads,7,20942.0,True
+CUST-12084,Kochi,Tier-2,2024-06-23,Referral,1,5499.0,False
+CUST-12085,Bhopal,Tier-3,2024-08-15,Referral,1,809.0,False
+CUST-12086,Hyderabad,Metro,2025-11-27,Instagram Ads,4,4791.0,True
+CUST-12087,Raipur,Tier-3,2024-06-20,Instagram Ads,1,2998.0,False
+CUST-12088,Mumbai,Metro,2024-06-14,Instagram Ads,1,1799.0,False
+CUST-12089,Bengaluru,Metro,2024-03-26,Instagram Ads,1,2249.0,False
+CUST-12090,Hyderabad,Metro,2025-02-24,Instagram Ads,1,2199.0,False
+CUST-12091,Bengaluru,Metro,2025-02-08,Google Ads,2,19868.0,True
+CUST-12092,Ahmedabad,Tier-2,2025-05-27,Instagram Ads,5,23300.0,True
+CUST-12093,Chennai,Metro,2025-02-20,Organic,1,1619.0,False
+CUST-12094,Hyderabad,Metro,2025-03-18,Organic,1,3238.0,False
+CUST-12095,Chennai,Metro,2025-06-15,Referral,1,1199.0,False
+CUST-12096,Raipur,Tier-3,2024-08-08,Instagram Ads,1,1619.0,False
+CUST-12097,Chandigarh,Tier-2,2024-12-03,Organic,29,143642.0,True
+CUST-12098,Gwalior,Tier-3,2024-10-15,Instagram Ads,1,0.0,False
+CUST-12099,Kolkata,Metro,2024-10-27,Google Ads,1,2549.0,False
+CUST-12100,Hyderabad,Metro,2025-03-20,Instagram Ads,4,19736.0,True
+CUST-12101,Delhi,Metro,2025-06-25,Google Ads,3,6657.0,True
+CUST-12102,Jaipur,Tier-2,2024-11-20,Organic,12,65342.0,True
+CUST-12103,Delhi,Metro,2025-09-11,Instagram Ads,2,5948.0,True
+CUST-12104,Chennai,Metro,2024-11-15,Instagram Ads,1,1349.0,False
+CUST-12105,Indore,Tier-2,2024-10-20,Referral,1,1624.0,False
+CUST-12106,Indore,Tier-2,2025-03-19,Google Ads,1,4249.0,False
+CUST-12107,Hyderabad,Metro,2025-04-20,Instagram Ads,1,13499.0,False
+CUST-12108,Bengaluru,Metro,2024-09-06,Instagram Ads,1,3149.0,False
+CUST-12109,Mumbai,Metro,2025-08-29,Google Ads,15,51559.0,True
+CUST-12110,Varanasi,Tier-3,2024-02-25,Instagram Ads,3,7287.0,True
+CUST-12111,Hyderabad,Metro,2025-07-19,Referral,1,1349.0,False
+CUST-12112,Hyderabad,Metro,2025-10-24,Organic,1,2549.0,False
+CUST-12113,Chennai,Metro,2024-02-27,Referral,1,1444.0,False
+CUST-12114,Pune,Tier-2,2024-06-13,Instagram Ads,1,2519.0,False
+CUST-12115,Delhi,Metro,2025-01-11,Referral,13,23909.0,True
+CUST-12116,Bhopal,Tier-3,2024-12-29,Instagram Ads,1,1539.0,False
+CUST-12117,Jaipur,Tier-2,2025-10-30,Google Ads,1,974.0,False
+CUST-12118,Kolkata,Metro,2025-08-25,Organic,1,7499.0,False
+CUST-12119,Bengaluru,Metro,2025-07-24,Organic,26,66742.0,True
+CUST-12120,Chennai,Metro,2025-10-05,Instagram Ads,1,9598.0,False
+CUST-12121,Surat,Tier-2,2025-08-05,Google Ads,14,64578.0,True
+CUST-12122,Mumbai,Metro,2024-11-10,Google Ads,1,0.0,False
+CUST-12123,Hyderabad,Metro,2025-08-04,Google Ads,5,24111.0,True
+CUST-12124,Hyderabad,Metro,2024-05-21,Instagram Ads,1,3869.0,False
+CUST-12125,Jaipur,Tier-2,2025-11-23,Google Ads,1,1749.0,False
+CUST-12126,Indore,Tier-2,2025-08-13,Instagram Ads,1,18699.0,False
+CUST-12127,Indore,Tier-2,2025-08-01,Referral,2,13647.0,True
+CUST-12128,Ranchi,Tier-3,2025-05-02,Organic,1,4049.0,False
+CUST-12129,Kochi,Tier-2,2024-03-29,Instagram Ads,1,3398.0,False
+CUST-12130,Hyderabad,Metro,2025-11-25,Instagram Ads,1,1429.0,False
+CUST-12131,Kolkata,Metro,2025-04-26,Referral,1,1274.0,False
+CUST-12132,Bengaluru,Metro,2024-09-20,Referral,1,1709.0,False
+CUST-12133,Hyderabad,Metro,2025-10-16,Google Ads,3,6512.0,True
+CUST-12134,Indore,Tier-2,2025-07-29,Instagram Ads,1,1999.0,False
+CUST-12135,Surat,Tier-2,2024-08-17,Instagram Ads,1,1799.0,False
+CUST-12136,Kolkata,Metro,2024-07-19,Google Ads,1,2499.0,False
+CUST-12137,Hyderabad,Metro,2024-07-27,Organic,1,8999.0,False
+CUST-12138,Bengaluru,Metro,2025-11-16,Instagram Ads,1,974.0,False
+CUST-12139,Chennai,Metro,2025-07-31,Instagram Ads,3,12986.0,True
+CUST-12140,Pune,Tier-2,2025-07-07,Organic,5,8731.0,True
+CUST-12141,Bengaluru,Metro,2025-04-26,Instagram Ads,1,1799.0,False
+CUST-12142,Indore,Tier-2,2025-06-30,Google Ads,4,29246.0,True
+CUST-12143,Ahmedabad,Tier-2,2025-04-04,Organic,1,7308.0,False
+CUST-12144,Kochi,Tier-2,2025-11-06,Google Ads,1,1039.0,False
+CUST-12145,Gwalior,Tier-3,2025-07-03,Instagram Ads,1,1899.0,False
+CUST-12146,Chandigarh,Tier-2,2025-08-14,Google Ads,1,2499.0,False
+CUST-12147,Bhopal,Tier-3,2025-01-29,Google Ads,1,3654.0,False
+CUST-12148,Gwalior,Tier-3,2025-01-14,Google Ads,1,3149.0,False
+CUST-12149,Jodhpur,Tier-3,2024-03-31,Organic,5,9276.0,True
+CUST-12150,Agra,Tier-3,2024-10-16,Instagram Ads,1,3599.0,False
+CUST-12151,Kolkata,Metro,2025-03-14,Organic,1,2379.0,False
+CUST-12152,Lucknow,Tier-2,2024-01-15,Instagram Ads,1,1709.0,False
+CUST-12153,Pune,Tier-2,2024-08-25,Organic,35,161004.0,True
+CUST-12154,Surat,Tier-2,2025-10-22,Google Ads,1,1349.0,False
+CUST-12155,Jaipur,Tier-2,2025-09-08,Google Ads,1,9898.0,False
+CUST-12156,Raipur,Tier-3,2025-09-05,Organic,44,168419.0,True
+CUST-12157,Kolkata,Metro,2025-02-28,Google Ads,1,3149.0,False
+CUST-12158,Kolkata,Metro,2025-06-26,Organic,1,3999.0,False
+CUST-12159,Hyderabad,Metro,2024-04-27,Instagram Ads,6,38819.0,True
+CUST-12160,Chennai,Metro,2025-11-29,Organic,7,24078.0,True
+CUST-12161,Ranchi,Tier-3,2024-12-23,Instagram Ads,1,5598.0,False
+CUST-12162,Kolkata,Metro,2025-04-19,Instagram Ads,1,0.0,False
+CUST-12163,Mumbai,Metro,2025-07-06,Instagram Ads,1,1899.0,False
+CUST-12164,Pune,Tier-2,2025-05-23,Google Ads,1,5499.0,False
+CUST-12165,Gwalior,Tier-3,2025-11-30,Organic,22,91446.0,True
+CUST-12166,Kolkata,Metro,2024-06-12,Instagram Ads,1,1799.0,False
+CUST-12167,Delhi,Metro,2024-04-13,Google Ads,15,77430.0,True
+CUST-12168,Mumbai,Metro,2024-06-15,Instagram Ads,1,4299.0,False
+CUST-12169,Pune,Tier-2,2024-05-14,Organic,1,1899.0,False
+CUST-12170,Surat,Tier-2,2025-11-09,Instagram Ads,1,2974.0,False
+CUST-12171,Bengaluru,Metro,2025-10-05,Referral,3,13972.0,True
+CUST-12172,Chennai,Metro,2024-05-25,Instagram Ads,1,1439.0,False
+CUST-12173,Ranchi,Tier-3,2024-12-02,Google Ads,1,3599.0,False
+CUST-12174,Chennai,Metro,2024-06-08,Google Ads,1,3499.0,False
+CUST-12175,Kolkata,Metro,2025-11-15,Instagram Ads,1,11999.0,False
+CUST-12176,Mumbai,Metro,2025-04-17,Google Ads,1,0.0,False
+CUST-12177,Chennai,Metro,2025-11-20,Google Ads,1,0.0,False
+CUST-12178,Surat,Tier-2,2024-03-10,Instagram Ads,1,8999.0,False
+CUST-12179,Kolkata,Metro,2024-04-03,Google Ads,1,5524.0,False
+CUST-12180,Pune,Tier-2,2024-07-12,Google Ads,4,33129.0,True
+CUST-12181,Kolkata,Metro,2024-07-23,Organic,1,2499.0,False
+CUST-12182,Mumbai,Metro,2025-03-19,Google Ads,1,764.0,False
+CUST-12183,Lucknow,Tier-2,2024-03-02,Instagram Ads,1,5524.0,False
+CUST-12184,Raipur,Tier-3,2024-10-29,Instagram Ads,3,10696.0,True
+CUST-12185,Bengaluru,Metro,2025-10-16,Instagram Ads,1,1759.0,False
+CUST-12186,Kolkata,Metro,2024-09-06,Google Ads,1,1529.0,False
+CUST-12187,Jodhpur,Tier-3,2025-02-14,Google Ads,1,29998.0,False
+CUST-12188,Hyderabad,Metro,2025-11-20,Google Ads,1,3654.0,False
+CUST-12189,Chennai,Metro,2024-12-10,Instagram Ads,1,5598.0,False
+CUST-12190,Bengaluru,Metro,2024-06-22,Google Ads,1,4499.0,False
+CUST-12191,Mumbai,Metro,2025-01-04,Google Ads,6,18704.0,True
+CUST-12192,Jodhpur,Tier-3,2025-04-26,Google Ads,1,0.0,False
+CUST-12193,Raipur,Tier-3,2025-07-16,Instagram Ads,1,3199.0,False
+CUST-12194,Bengaluru,Metro,2025-04-02,Instagram Ads,1,18699.0,False
+CUST-12195,Hyderabad,Metro,2024-10-25,Referral,22,129937.0,True
+CUST-12196,Indore,Tier-2,2025-03-03,Instagram Ads,1,1104.0,False
+CUST-12197,Agra,Tier-3,2025-10-07,Google Ads,37,168883.0,True
+CUST-12198,Hyderabad,Metro,2025-11-03,Referral,1,629.0,False
+CUST-12199,Chennai,Metro,2025-10-06,Organic,1,1349.0,False
+CUST-12200,Lucknow,Tier-2,2025-08-16,Organic,1,4999.0,False
+CUST-12201,Mumbai,Metro,2025-11-14,Google Ads,1,3224.0,False
+CUST-12202,Agra,Tier-3,2024-08-23,Organic,1,1104.0,False
+CUST-12203,Hyderabad,Metro,2025-10-12,Organic,6,26899.0,True
+CUST-12204,Chandigarh,Tier-2,2024-12-22,Instagram Ads,1,1349.0,False
+CUST-12205,Varanasi,Tier-3,2025-11-24,Instagram Ads,1,2144.0,False
+CUST-12206,Chandigarh,Tier-2,2025-05-19,Google Ads,37,221232.0,True
+CUST-12207,Bengaluru,Metro,2024-06-18,Google Ads,1,10798.0,False
+CUST-12208,Lucknow,Tier-2,2025-12-20,Instagram Ads,1,3749.0,False
+CUST-12209,Surat,Tier-2,2024-09-30,Instagram Ads,2,6999.0,True
+CUST-12210,Indore,Tier-2,2024-06-22,Instagram Ads,1,2379.0,False
+CUST-12211,Chennai,Metro,2024-03-03,Instagram Ads,1,3654.0,False
+CUST-12212,Indore,Tier-2,2024-12-04,Instagram Ads,1,1424.0,False
+CUST-12213,Chandigarh,Tier-2,2024-10-31,Google Ads,3,10072.0,True
+CUST-12214,Bengaluru,Metro,2024-04-22,Referral,22,91896.0,True
+CUST-12215,Patna,Tier-3,2025-09-10,Referral,18,42289.0,True
+CUST-12216,Hyderabad,Metro,2024-05-20,Referral,34,132051.0,True
+CUST-12217,Kolkata,Metro,2024-02-25,Instagram Ads,1,1614.0,False
+CUST-12218,Hyderabad,Metro,2025-07-08,Instagram Ads,3,9147.0,True
+CUST-12219,Kochi,Tier-2,2025-09-09,Instagram Ads,8,46077.0,True
+CUST-12220,Chennai,Metro,2024-04-05,Organic,1,2499.0,False
+CUST-12221,Bengaluru,Metro,2025-11-23,Instagram Ads,1,5624.0,False
+CUST-12222,Jaipur,Tier-2,2025-04-17,Organic,13,51941.0,True
+CUST-12223,Agra,Tier-3,2025-08-29,Referral,12,42537.0,True
+CUST-12224,Delhi,Metro,2025-09-27,Google Ads,1,3149.0,False
+CUST-12225,Chandigarh,Tier-2,2025-03-12,Instagram Ads,5,25757.0,True
+CUST-12226,Ahmedabad,Tier-2,2025-01-19,Instagram Ads,1,1529.0,False
+CUST-12227,Bengaluru,Metro,2025-06-29,Instagram Ads,1,2239.0,False
+CUST-12228,Chennai,Metro,2024-02-02,Instagram Ads,1,1799.0,False
+CUST-12229,Agra,Tier-3,2024-08-26,Instagram Ads,1,4249.0,False
+CUST-12230,Kolkata,Metro,2025-01-26,Referral,1,2799.0,False
+CUST-12231,Chennai,Metro,2024-12-18,Instagram Ads,1,9374.0,False
+CUST-12232,Varanasi,Tier-3,2024-05-14,Instagram Ads,1,5999.0,False
+CUST-12233,Mumbai,Metro,2025-10-14,Organic,1,13999.0,False
+CUST-12234,Chandigarh,Tier-2,2025-01-16,Instagram Ads,1,5524.0,False
+CUST-12235,Chandigarh,Tier-2,2025-05-07,Organic,24,130648.0,True
+CUST-12236,Mumbai,Metro,2024-02-23,Organic,1,1759.0,False
+CUST-12237,Delhi,Metro,2025-05-10,Organic,1,2969.0,False
+CUST-12238,Lucknow,Tier-2,2025-01-08,Instagram Ads,1,7499.0,False
+CUST-12239,Mumbai,Metro,2025-04-15,Organic,23,113558.0,True
+CUST-12240,Delhi,Metro,2024-08-13,Instagram Ads,1,7199.0,False
+CUST-12241,Lucknow,Tier-2,2024-04-29,Organic,11,50722.0,True
+CUST-12242,Kolkata,Metro,2025-04-06,Instagram Ads,1,2999.0,False
+CUST-12243,Lucknow,Tier-2,2025-05-20,Referral,2,7478.0,True
+CUST-12244,Bhopal,Tier-3,2025-07-08,Organic,39,178743.0,True
+CUST-12245,Patna,Tier-3,2024-11-03,Instagram Ads,3,5728.0,True
+CUST-12246,Kochi,Tier-2,2024-08-30,Google Ads,1,1619.0,False
+CUST-12247,Bengaluru,Metro,2025-06-13,Instagram Ads,1,0.0,False
+CUST-12248,Kolkata,Metro,2025-05-16,Instagram Ads,1,1699.0,False
+CUST-12249,Surat,Tier-2,2024-12-19,Instagram Ads,1,2249.0,False
+CUST-12250,Delhi,Metro,2024-08-14,Instagram Ads,1,8999.0,False
+CUST-12251,Kolkata,Metro,2025-03-11,Organic,27,134816.0,True
+CUST-12252,Mumbai,Metro,2025-02-08,Organic,1,1979.0,False
+CUST-12253,Bhopal,Tier-3,2025-04-30,Instagram Ads,1,959.0,False
+CUST-12254,Hyderabad,Metro,2024-05-03,Google Ads,1,1439.0,False
+CUST-12255,Mumbai,Metro,2025-03-24,Referral,43,146631.0,True
+CUST-12256,Chennai,Metro,2025-10-18,Instagram Ads,1,5849.0,False
+CUST-12257,Surat,Tier-2,2025-09-23,Google Ads,1,4799.0,False
+CUST-12258,Surat,Tier-2,2025-12-09,Google Ads,6,16144.0,True
+CUST-12259,Kolkata,Metro,2024-08-06,Instagram Ads,1,2999.0,False
+CUST-12260,Lucknow,Tier-2,2025-03-07,Instagram Ads,1,47598.0,False
+CUST-12261,Chandigarh,Tier-2,2024-11-25,Google Ads,1,3654.0,False
+CUST-12262,Indore,Tier-2,2025-06-08,Organic,6,14639.0,True
+CUST-12263,Agra,Tier-3,2025-06-16,Instagram Ads,1,1599.0,False
+CUST-12264,Pune,Tier-2,2025-01-10,Instagram Ads,1,0.0,False
+CUST-12265,Ahmedabad,Tier-2,2025-01-13,Instagram Ads,1,2799.0,False
+CUST-12266,Lucknow,Tier-2,2025-05-03,Instagram Ads,1,1999.0,False
+CUST-12267,Raipur,Tier-3,2025-06-10,Google Ads,1,1299.0,False
+CUST-12268,Kolkata,Metro,2024-01-14,Google Ads,7,57396.0,True
+CUST-12269,Kolkata,Metro,2025-07-28,Organic,1,4499.0,False
+CUST-12270,Pune,Tier-2,2024-08-23,Google Ads,1,3654.0,False
+CUST-12271,Jaipur,Tier-2,2025-10-22,Instagram Ads,1,1299.0,False
+CUST-12272,Chennai,Metro,2025-01-23,Instagram Ads,1,719.0,False
+CUST-12273,Jaipur,Tier-2,2025-02-11,Google Ads,35,175974.0,True
+CUST-12274,Pune,Tier-2,2025-06-13,Referral,1,9999.0,False
+CUST-12275,Kochi,Tier-2,2024-05-22,Referral,1,2699.0,False
+CUST-12276,Chennai,Metro,2024-07-29,Instagram Ads,3,16205.0,True
+CUST-12277,Mumbai,Metro,2025-06-29,Instagram Ads,1,3599.0,False
+CUST-12278,Chandigarh,Tier-2,2025-04-26,Google Ads,1,809.0,False
+CUST-12279,Pune,Tier-2,2025-09-30,Organic,1,1624.0,False
+CUST-12280,Pune,Tier-2,2025-06-01,Instagram Ads,1,4124.0,False
+CUST-12281,Chandigarh,Tier-2,2025-05-04,Instagram Ads,9,104381.0,True
+CUST-12282,Ahmedabad,Tier-2,2025-06-03,Google Ads,1,1599.0,False
+CUST-12283,Indore,Tier-2,2024-07-16,Referral,1,10398.0,False
+CUST-12284,Chandigarh,Tier-2,2025-10-14,Instagram Ads,1,2124.0,False
+CUST-12285,Chennai,Metro,2024-07-18,Instagram Ads,1,2499.0,False
+CUST-12286,Surat,Tier-2,2025-05-24,Google Ads,1,1899.0,False
+CUST-12287,Ranchi,Tier-3,2025-10-01,Google Ads,9,44991.0,True
+CUST-12288,Surat,Tier-2,2024-02-16,Referral,1,1359.0,False
+CUST-12289,Chandigarh,Tier-2,2024-08-27,Google Ads,4,38763.0,True
+CUST-12290,Mumbai,Metro,2024-02-09,Instagram Ads,4,9527.0,True
+CUST-12291,Delhi,Metro,2024-10-29,Referral,1,2718.0,False
+CUST-12292,Indore,Tier-2,2024-12-16,Instagram Ads,1,0.0,False
+CUST-12293,Jaipur,Tier-2,2024-08-24,Referral,52,251749.0,True
+CUST-12294,Surat,Tier-2,2025-03-16,Instagram Ads,1,0.0,False
+CUST-12295,Kolkata,Metro,2025-04-09,Google Ads,23,87855.0,True
+CUST-12296,Bengaluru,Metro,2024-07-18,Instagram Ads,1,11999.0,False
+CUST-12297,Kolkata,Metro,2024-02-12,Instagram Ads,1,674.0,False
+CUST-12298,Mumbai,Metro,2025-06-01,Google Ads,1,899.0,False
+CUST-12299,Pune,Tier-2,2024-08-14,Instagram Ads,1,1999.0,False
+CUST-12300,Kolkata,Metro,2025-05-24,Organic,7,19518.0,True
+CUST-12301,Bengaluru,Metro,2024-11-26,Instagram Ads,1,4198.0,False
+CUST-12302,Chandigarh,Tier-2,2025-02-25,Referral,53,224865.0,True
+CUST-12303,Lucknow,Tier-2,2024-04-14,Google Ads,1,1169.0,False
+CUST-12304,Ranchi,Tier-3,2024-05-20,Instagram Ads,3,32421.0,True
+CUST-12305,Kochi,Tier-2,2025-06-23,Organic,1,2124.0,False
+CUST-12306,Kochi,Tier-2,2025-06-26,Instagram Ads,1,22399.0,False
+CUST-12307,Hyderabad,Metro,2024-09-05,Instagram Ads,1,8099.0,False
+CUST-12308,Bengaluru,Metro,2025-02-27,Instagram Ads,1,1444.0,False
+CUST-12309,Ahmedabad,Tier-2,2025-02-11,Instagram Ads,1,2804.0,False
+CUST-12310,Kochi,Tier-2,2025-02-24,Organic,1,809.0,False
+CUST-12311,Kolkata,Metro,2024-06-27,Google Ads,1,5099.0,False
+CUST-12312,Ahmedabad,Tier-2,2025-09-28,Instagram Ads,1,3899.0,False
+CUST-12313,Ranchi,Tier-3,2025-12-15,Google Ads,1,2624.0,False
+CUST-12314,Jaipur,Tier-2,2025-06-19,Referral,1,1699.0,False
+CUST-12315,Jodhpur,Tier-3,2024-08-25,Organic,1,2124.0,False
+CUST-12316,Bengaluru,Metro,2024-07-06,Instagram Ads,1,1699.0,False
+CUST-12317,Varanasi,Tier-3,2025-03-09,Organic,1,1439.0,False
+CUST-12318,Pune,Tier-2,2024-06-02,Google Ads,1,19799.0,False
+CUST-12319,Bengaluru,Metro,2024-07-27,Instagram Ads,1,9998.0,False
+CUST-12320,Chennai,Metro,2025-03-03,Instagram Ads,1,2499.0,False
+CUST-12321,Mumbai,Metro,2025-08-13,Instagram Ads,1,2249.0,False
+CUST-12322,Chennai,Metro,2025-09-24,Organic,1,2519.0,False
+CUST-12323,Bengaluru,Metro,2024-11-19,Instagram Ads,1,6928.0,False
+CUST-12324,Dehradun,Tier-3,2025-08-06,Instagram Ads,1,3499.0,False
+CUST-12325,Bengaluru,Metro,2024-09-27,Referral,1,3199.0,False
+CUST-12326,Hyderabad,Metro,2025-02-17,Referral,1,5999.0,False
+CUST-12327,Pune,Tier-2,2025-02-10,Instagram Ads,1,11698.0,False
+CUST-12328,Bengaluru,Metro,2025-03-22,Organic,26,100064.0,True
+CUST-12329,Kolkata,Metro,2024-04-05,Google Ads,1,5399.0,False
+CUST-12330,Bengaluru,Metro,2025-03-14,Instagram Ads,1,2974.0,False
+CUST-12331,Lucknow,Tier-2,2024-12-30,Organic,44,141050.0,True
+CUST-12332,Bhopal,Tier-3,2025-09-14,Instagram Ads,1,5524.0,False
+CUST-12333,Ahmedabad,Tier-2,2025-11-03,Google Ads,1,1104.0,False
+CUST-12334,Chennai,Metro,2025-03-25,Google Ads,1,1299.0,False
+CUST-12335,Chandigarh,Tier-2,2025-07-23,Google Ads,7,30928.0,True
+CUST-12336,Jaipur,Tier-2,2025-02-24,Referral,76,480986.0,True
+CUST-12337,Kochi,Tier-2,2024-03-24,Instagram Ads,14,127290.0,True
+CUST-12338,Kolkata,Metro,2025-06-03,Instagram Ads,1,22399.0,False
+CUST-12339,Hyderabad,Metro,2024-03-18,Google Ads,1,1359.0,False
+CUST-12340,Chandigarh,Tier-2,2025-05-08,Organic,1,4499.0,False
+CUST-12341,Kolkata,Metro,2024-12-08,Organic,1,3499.0,False
+CUST-12342,Delhi,Metro,2025-11-28,Instagram Ads,1,26399.0,False
+CUST-12343,Chandigarh,Tier-2,2025-09-20,Instagram Ads,2,25098.0,True
+CUST-12344,Indore,Tier-2,2025-09-16,Instagram Ads,1,3038.0,False
+CUST-12345,Lucknow,Tier-2,2024-05-29,Organic,16,43579.0,True
+CUST-12346,Mumbai,Metro,2024-05-22,Instagram Ads,2,44996.0,True
+CUST-12347,Jaipur,Tier-2,2024-02-24,Organic,38,119522.0,True
+CUST-12348,Surat,Tier-2,2025-10-22,Organic,1,974.0,False
+CUST-12349,Mumbai,Metro,2024-04-08,Google Ads,1,8999.0,False
+CUST-12350,Chennai,Metro,2025-03-07,Organic,1,4499.0,False
+CUST-12351,Indore,Tier-2,2024-12-22,Referral,1,2469.0,False
+CUST-12352,Kochi,Tier-2,2024-05-10,Referral,1,3824.0,False
+CUST-12353,Kolkata,Metro,2025-11-27,Google Ads,1,1649.0,False
+CUST-12354,Surat,Tier-2,2024-07-07,Organic,1,3599.0,False
+CUST-12355,Lucknow,Tier-2,2024-12-13,Google Ads,1,1359.0,False
+CUST-12356,Mumbai,Metro,2025-05-30,Instagram Ads,1,1104.0,False
+CUST-12357,Ahmedabad,Tier-2,2024-05-06,Instagram Ads,1,1169.0,False
+CUST-12358,Hyderabad,Metro,2024-09-17,Organic,1,9999.0,False
+CUST-12359,Jodhpur,Tier-3,2025-06-07,Google Ads,1,3499.0,False
+CUST-12360,Hyderabad,Metro,2024-11-07,Google Ads,17,61192.0,True
+CUST-12361,Indore,Tier-2,2025-02-17,Instagram Ads,1,1169.0,False
+CUST-12362,Delhi,Metro,2025-10-29,Google Ads,1,6748.0,False
+CUST-12363,Gwalior,Tier-3,2024-08-28,Instagram Ads,1,6499.0,False
+CUST-12364,Delhi,Metro,2025-10-20,Instagram Ads,1,2799.0,False
+CUST-12365,Delhi,Metro,2024-04-23,Instagram Ads,2,5248.0,True
+CUST-12366,Hyderabad,Metro,2024-10-20,Google Ads,10,20979.0,True
+CUST-12367,Raipur,Tier-3,2025-09-11,Google Ads,1,1499.0,False
+CUST-12368,Mumbai,Metro,2025-03-30,Google Ads,1,1599.0,False
+CUST-12369,Jaipur,Tier-2,2024-06-22,Referral,1,1799.0,False
+CUST-12370,Jaipur,Tier-2,2025-06-24,Google Ads,1,2799.0,False
+CUST-12371,Bengaluru,Metro,2025-07-17,Instagram Ads,1,35198.0,False
+CUST-12372,Hyderabad,Metro,2025-05-14,Google Ads,2,9323.0,True
+CUST-12373,Chennai,Metro,2025-08-05,Instagram Ads,1,0.0,False
+CUST-12374,Ahmedabad,Tier-2,2025-07-31,Organic,1,0.0,False
+CUST-12375,Lucknow,Tier-2,2024-12-17,Google Ads,1,1049.0,False
+CUST-12376,Kolkata,Metro,2024-06-03,Referral,12,31008.0,True
+CUST-12377,Surat,Tier-2,2024-07-01,Organic,1,2379.0,False
+CUST-12378,Delhi,Metro,2024-12-19,Referral,34,194444.0,True
+CUST-12379,Hyderabad,Metro,2025-05-16,Instagram Ads,1,1349.0,False
+CUST-12380,Surat,Tier-2,2025-10-30,Instagram Ads,6,25349.0,True
+CUST-12381,Pune,Tier-2,2025-07-12,Instagram Ads,1,27999.0,False
+CUST-12382,Surat,Tier-2,2025-03-06,Google Ads,1,4999.0,False
+CUST-12383,Mumbai,Metro,2025-04-01,Instagram Ads,1,1799.0,False
+CUST-12384,Hyderabad,Metro,2025-07-07,Google Ads,1,1104.0,False
+CUST-12385,Chennai,Metro,2024-11-11,Instagram Ads,1,1539.0,False
+CUST-12386,Chennai,Metro,2025-09-26,Instagram Ads,1,21999.0,False
+CUST-12387,Hyderabad,Metro,2025-04-09,Organic,27,143972.0,True
+CUST-12388,Delhi,Metro,2025-10-25,Instagram Ads,1,5624.0,False
+CUST-12389,Surat,Tier-2,2024-07-16,Instagram Ads,9,16099.0,True
+CUST-12390,Chandigarh,Tier-2,2025-05-27,Instagram Ads,1,3237.0,False
+CUST-12391,Kolkata,Metro,2024-09-21,Instagram Ads,1,1299.0,False
+CUST-12392,Delhi,Metro,2024-08-07,Google Ads,1,809.0,False
+CUST-12393,Kochi,Tier-2,2025-08-28,Organic,1,4398.0,False
+CUST-12394,Bengaluru,Metro,2025-09-01,Referral,1,1529.0,False
+CUST-12395,Delhi,Metro,2024-05-28,Organic,1,1759.0,False
+CUST-12396,Lucknow,Tier-2,2024-05-07,Instagram Ads,1,11249.0,False
+CUST-12397,Ahmedabad,Tier-2,2025-05-09,Google Ads,1,1799.0,False
+CUST-12398,Bhopal,Tier-3,2024-07-21,Instagram Ads,1,1349.0,False
+CUST-12399,Chennai,Metro,2025-09-08,Organic,20,78697.0,True
+CUST-12400,Dehradun,Tier-3,2025-04-23,Organic,1,1039.0,False
+CUST-12401,Patna,Tier-3,2024-12-09,Google Ads,1,2599.0,False
+CUST-12402,Hyderabad,Metro,2025-10-19,Google Ads,1,1948.0,False
+CUST-12403,Delhi,Metro,2024-01-26,Referral,1,8099.0,False
+CUST-12404,Ahmedabad,Tier-2,2024-03-30,Organic,10,54785.0,True
+CUST-12405,Surat,Tier-2,2025-12-05,Instagram Ads,1,11249.0,False
+CUST-12406,Delhi,Metro,2025-04-10,Instagram Ads,1,23799.0,False
+CUST-12407,Bengaluru,Metro,2025-01-15,Organic,1,10497.0,False
+CUST-12408,Meerut,Tier-3,2024-03-07,Instagram Ads,1,1274.0,False
+CUST-12409,Jaipur,Tier-2,2024-12-14,Instagram Ads,1,10499.0,False
+CUST-12410,Ranchi,Tier-3,2024-09-10,Instagram Ads,1,1169.0,False
+CUST-12411,Kolkata,Metro,2024-07-09,Google Ads,6,14369.0,True
+CUST-12412,Kolkata,Metro,2025-03-25,Instagram Ads,1,8098.0,False
+CUST-12413,Kolkata,Metro,2025-12-18,Google Ads,1,3499.0,False
+CUST-12414,Kochi,Tier-2,2024-12-03,Instagram Ads,1,35198.0,False
+CUST-12415,Bengaluru,Metro,2024-11-07,Instagram Ads,3,26217.0,True
+CUST-12416,Chennai,Metro,2025-12-04,Instagram Ads,1,909.0,False
+CUST-12417,Jodhpur,Tier-3,2024-09-15,Instagram Ads,1,1529.0,False
+CUST-12418,Kochi,Tier-2,2024-09-10,Instagram Ads,1,1899.0,False
+CUST-12419,Meerut,Tier-3,2024-09-29,Google Ads,34,182299.0,True
+CUST-12420,Patna,Tier-3,2025-12-17,Google Ads,17,64580.0,True
+CUST-12421,Kolkata,Metro,2024-12-18,Instagram Ads,1,11249.0,False
+CUST-12422,Kolkata,Metro,2024-06-16,Instagram Ads,1,5999.0,False
+CUST-12423,Jaipur,Tier-2,2025-05-14,Instagram Ads,1,1599.0,False
+CUST-12424,Dehradun,Tier-3,2025-02-11,Organic,14,43322.0,True
+CUST-12425,Delhi,Metro,2025-03-27,Google Ads,1,4499.0,False
+CUST-12426,Ranchi,Tier-3,2025-03-01,Google Ads,10,77366.0,True
+CUST-12427,Hyderabad,Metro,2025-02-09,Instagram Ads,1,4949.0,False
+CUST-12428,Chennai,Metro,2025-04-26,Referral,1,31498.0,False
+CUST-12429,Jaipur,Tier-2,2024-09-17,Google Ads,1,4299.0,False
+CUST-12430,Kolkata,Metro,2025-03-17,Google Ads,7,29721.0,True
+CUST-12431,Varanasi,Tier-3,2024-06-02,Google Ads,1,1424.0,False
+CUST-12432,Delhi,Metro,2024-03-25,Instagram Ads,1,2499.0,False
+CUST-12433,Pune,Tier-2,2025-08-02,Instagram Ads,1,5999.0,False
+CUST-12434,Agra,Tier-3,2025-07-05,Referral,3,6207.0,True
+CUST-12435,Chennai,Metro,2024-05-29,Google Ads,1,1709.0,False
+CUST-12436,Kochi,Tier-2,2024-03-06,Google Ads,1,7998.0,False
+CUST-12437,Raipur,Tier-3,2025-04-03,Instagram Ads,1,3499.0,False
+CUST-12438,Kochi,Tier-2,2024-03-08,Google Ads,1,7499.0,False
+CUST-12439,Varanasi,Tier-3,2024-10-26,Instagram Ads,1,0.0,False
+CUST-12440,Mumbai,Metro,2025-01-25,Instagram Ads,1,1599.0,False
+CUST-12441,Surat,Tier-2,2024-08-01,Instagram Ads,1,2974.0,False
+CUST-12442,Indore,Tier-2,2025-12-18,Referral,55,213578.0,True
+CUST-12443,Ranchi,Tier-3,2024-05-25,Instagram Ads,1,1439.0,False
+CUST-12444,Agra,Tier-3,2024-08-18,Google Ads,6,11015.0,True
+CUST-12445,Mumbai,Metro,2025-08-17,Instagram Ads,1,1079.0,False
+CUST-12446,Ahmedabad,Tier-2,2025-09-22,Google Ads,1,2598.0,False
+CUST-12447,Delhi,Metro,2024-03-23,Instagram Ads,1,2379.0,False
+CUST-12448,Kochi,Tier-2,2024-06-11,Instagram Ads,1,1299.0,False
+CUST-12449,Hyderabad,Metro,2024-11-12,Organic,1,7198.0,False
+CUST-12450,Delhi,Metro,2025-11-06,Instagram Ads,1,1749.0,False
+CUST-12451,Lucknow,Tier-2,2024-10-05,Organic,3,6072.0,True
+CUST-12452,Lucknow,Tier-2,2025-05-01,Organic,3,13736.0,True
+CUST-12453,Ahmedabad,Tier-2,2025-02-22,Google Ads,1,1274.0,False
+CUST-12454,Patna,Tier-3,2024-09-29,Google Ads,1,5599.0,False
+CUST-12455,Hyderabad,Metro,2025-11-29,Instagram Ads,1,4224.0,False
+CUST-12456,Pune,Tier-2,2025-07-22,Instagram Ads,1,2124.0,False
+CUST-12457,Jodhpur,Tier-3,2025-05-21,Organic,1,6998.0,False
+CUST-12458,Hyderabad,Metro,2025-10-09,Instagram Ads,1,1999.0,False
+CUST-12459,Kolkata,Metro,2025-01-07,Organic,1,809.0,False
+CUST-12460,Bhopal,Tier-3,2025-09-01,Instagram Ads,1,0.0,False
+CUST-12461,Mumbai,Metro,2025-03-18,Google Ads,1,1439.0,False
+CUST-12462,Kolkata,Metro,2025-05-28,Instagram Ads,1,7649.0,False
+CUST-12463,Delhi,Metro,2024-06-03,Instagram Ads,11,80072.0,True
+CUST-12464,Chennai,Metro,2025-12-11,Google Ads,9,17763.0,True
+CUST-12465,Surat,Tier-2,2025-11-14,Referral,3,14172.0,True
+CUST-12466,Mumbai,Metro,2025-08-05,Instagram Ads,1,59397.0,False
+CUST-12467,Lucknow,Tier-2,2025-01-27,Instagram Ads,2,10248.0,True
+CUST-12468,Delhi,Metro,2024-09-19,Google Ads,1,10624.0,False
+CUST-12469,Mumbai,Metro,2024-03-09,Instagram Ads,1,1079.0,False
+CUST-12470,Hyderabad,Metro,2024-07-22,Google Ads,17,86494.0,True
+CUST-12471,Bengaluru,Metro,2025-06-17,Google Ads,1,4199.0,False
+CUST-12472,Lucknow,Tier-2,2024-03-18,Google Ads,7,22183.0,True
+CUST-12473,Indore,Tier-2,2025-08-12,Google Ads,1,1699.0,False
+CUST-12474,Indore,Tier-2,2025-08-15,Organic,16,86092.0,True
+CUST-12475,Mumbai,Metro,2025-05-25,Google Ads,40,169453.0,True
+CUST-12476,Bengaluru,Metro,2025-04-07,Instagram Ads,1,809.0,False
+CUST-12477,Jaipur,Tier-2,2024-01-31,Organic,1,1899.0,False
+CUST-12478,Kolkata,Metro,2024-12-16,Organic,12,104712.0,True
+CUST-12479,Hyderabad,Metro,2025-02-01,Google Ads,33,138919.0,True
+CUST-12480,Lucknow,Tier-2,2025-12-11,Referral,1,2549.0,False
+CUST-12481,Kochi,Tier-2,2024-05-31,Instagram Ads,1,1899.0,False
+CUST-12482,Bengaluru,Metro,2024-05-03,Instagram Ads,1,2974.0,False
+CUST-12483,Chandigarh,Tier-2,2024-02-26,Instagram Ads,1,1439.0,False
+CUST-12484,Pune,Tier-2,2024-03-30,Organic,1,71397.0,False
+CUST-12485,Raipur,Tier-3,2025-12-08,Google Ads,1,10798.0,False
+CUST-12486,Hyderabad,Metro,2024-02-14,Organic,13,43806.0,True
+CUST-12487,Kolkata,Metro,2024-05-11,Google Ads,24,93390.0,True
+CUST-12488,Mumbai,Metro,2025-11-20,Instagram Ads,1,2799.0,False
+CUST-12489,Kolkata,Metro,2024-06-14,Referral,1,19799.0,False
+CUST-12490,Kochi,Tier-2,2025-10-31,Instagram Ads,1,2624.0,False
+CUST-12491,Raipur,Tier-3,2025-07-07,Instagram Ads,1,2249.0,False
+CUST-12492,Chennai,Metro,2024-04-02,Referral,149,696240.0,True
+CUST-12493,Pune,Tier-2,2024-08-08,Referral,1,4499.0,False
+CUST-12494,Indore,Tier-2,2025-02-25,Organic,1,1999.0,False
+CUST-12495,Kolkata,Metro,2025-09-21,Instagram Ads,1,2499.0,False
+CUST-12496,Kochi,Tier-2,2024-07-24,Instagram Ads,1,2199.0,False
+CUST-12497,Hyderabad,Metro,2024-08-20,Instagram Ads,2,9748.0,True
+CUST-12498,Indore,Tier-2,2024-07-11,Instagram Ads,1,1799.0,False
+CUST-12499,Kolkata,Metro,2024-12-04,Organic,1,2974.0,False
+CUST-12500,Chennai,Metro,2024-08-13,Instagram Ads,1,1614.0,False
+CUST-12501,Kochi,Tier-2,2024-10-25,Google Ads,1,2399.0,False
+CUST-12502,Mumbai,Metro,2024-03-30,Instagram Ads,1,5998.0,False
+CUST-12503,Bengaluru,Metro,2025-06-09,Instagram Ads,1,1759.0,False
+CUST-12504,Meerut,Tier-3,2025-02-11,Google Ads,1,2499.0,False
+CUST-12505,Jaipur,Tier-2,2024-07-11,Instagram Ads,1,2379.0,False
+CUST-12506,Hyderabad,Metro,2025-02-27,Instagram Ads,1,6999.0,False
+CUST-12507,Chennai,Metro,2025-04-24,Instagram Ads,1,18699.0,False
+CUST-12508,Lucknow,Tier-2,2025-05-20,Instagram Ads,1,16998.0,False
+CUST-12509,Lucknow,Tier-2,2025-02-09,Google Ads,1,8999.0,False
+CUST-12510,Chandigarh,Tier-2,2025-11-13,Instagram Ads,1,3224.0,False
+CUST-12511,Kolkata,Metro,2025-09-23,Instagram Ads,1,3499.0,False
+CUST-12512,Jaipur,Tier-2,2025-04-26,Instagram Ads,1,3439.0,False
+CUST-12513,Chennai,Metro,2024-01-27,Instagram Ads,3,23036.0,True
+CUST-12514,Bhopal,Tier-3,2024-06-20,Instagram Ads,1,3599.0,False
+CUST-12515,Hyderabad,Metro,2025-05-01,Organic,1,6749.0,False
+CUST-12516,Meerut,Tier-3,2024-05-28,Instagram Ads,1,1599.0,False
+CUST-12517,Meerut,Tier-3,2024-07-14,Instagram Ads,1,719.0,False
+CUST-12518,Hyderabad,Metro,2025-09-10,Google Ads,1,3824.0,False
+CUST-12519,Jaipur,Tier-2,2024-04-11,Google Ads,1,6299.0,False
+CUST-12520,Meerut,Tier-3,2024-11-30,Organic,8,18268.0,True
+CUST-12521,Varanasi,Tier-3,2025-08-18,Google Ads,1,15297.0,False
+CUST-12522,Agra,Tier-3,2025-09-26,Google Ads,14,63376.0,True
+CUST-12523,Mumbai,Metro,2024-05-22,Organic,1,899.0,False
+CUST-12524,Bengaluru,Metro,2024-06-25,Instagram Ads,1,2379.0,False
+CUST-12525,Kolkata,Metro,2024-10-21,Referral,1,2274.0,False
+CUST-12526,Delhi,Metro,2024-07-23,Instagram Ads,1,4998.0,False
+CUST-12527,Chennai,Metro,2025-11-05,Instagram Ads,8,16017.0,True
+CUST-12528,Indore,Tier-2,2025-04-09,Organic,1,21999.0,False
+CUST-12529,Delhi,Metro,2025-01-27,Instagram Ads,1,8124.0,False
+CUST-12530,Hyderabad,Metro,2025-04-16,Google Ads,1,7649.0,False
+CUST-12531,Kolkata,Metro,2025-07-19,Google Ads,1,5199.0,False
+CUST-12532,Lucknow,Tier-2,2025-07-12,Google Ads,20,100514.0,True
+CUST-12533,Pune,Tier-2,2025-06-28,Google Ads,1,2799.0,False
+CUST-12534,Bengaluru,Metro,2025-09-04,Instagram Ads,1,7499.0,False
+CUST-12535,Chennai,Metro,2024-06-13,Instagram Ads,3,19897.0,True
+CUST-12536,Pune,Tier-2,2025-09-01,Organic,9,41462.0,True
+CUST-12537,Patna,Tier-3,2024-11-14,Organic,1,7999.0,False
+CUST-12538,Mumbai,Metro,2025-02-06,Organic,28,160185.0,True
+CUST-12539,Gwalior,Tier-3,2025-08-14,Organic,18,76205.0,True
+CUST-12540,Lucknow,Tier-2,2025-03-22,Referral,1,35998.0,False
+CUST-12541,Surat,Tier-2,2025-08-10,Instagram Ads,1,4949.0,False
+CUST-12542,Varanasi,Tier-3,2025-10-18,Instagram Ads,1,0.0,False
+CUST-12543,Dehradun,Tier-3,2025-09-26,Organic,1,1799.0,False
+CUST-12544,Chandigarh,Tier-2,2024-07-09,Instagram Ads,1,1499.0,False
+CUST-12545,Delhi,Metro,2025-07-11,Instagram Ads,1,2699.0,False
+CUST-12546,Lucknow,Tier-2,2025-07-02,Instagram Ads,1,2699.0,False
+CUST-12547,Mumbai,Metro,2024-02-12,Referral,10,43570.0,True
+CUST-12548,Patna,Tier-3,2024-03-23,Instagram Ads,1,1274.0,False
+CUST-12549,Surat,Tier-2,2024-02-20,Organic,1,3499.0,False
+CUST-12550,Varanasi,Tier-3,2024-09-02,Instagram Ads,1,7497.0,False
+CUST-12551,Lucknow,Tier-2,2024-06-25,Instagram Ads,1,1299.0,False
+CUST-12552,Kochi,Tier-2,2025-01-24,Organic,1,1899.0,False
+CUST-12553,Lucknow,Tier-2,2025-03-03,Instagram Ads,6,14604.0,True
+CUST-12554,Indore,Tier-2,2024-05-18,Instagram Ads,1,1869.0,False
+CUST-12555,Chandigarh,Tier-2,2024-09-24,Instagram Ads,1,6499.0,False
+CUST-12556,Chennai,Metro,2024-10-26,Google Ads,1,1874.0,False
+CUST-12557,Jodhpur,Tier-3,2025-01-04,Instagram Ads,1,5999.0,False
+CUST-12558,Indore,Tier-2,2024-04-27,Referral,1,9898.0,False
+CUST-12559,Bengaluru,Metro,2024-12-15,Organic,5,19170.0,True
+CUST-12560,Bengaluru,Metro,2024-07-30,Google Ads,8,20157.0,True
+CUST-12561,Indore,Tier-2,2024-09-09,Referral,1,1039.0,False
+CUST-12562,Hyderabad,Metro,2025-09-08,Referral,1,3499.0,False
+CUST-12563,Chennai,Metro,2024-08-14,Instagram Ads,1,6499.0,False
+CUST-12564,Chennai,Metro,2025-07-31,Instagram Ads,1,2799.0,False
+CUST-12565,Ahmedabad,Tier-2,2024-11-20,Google Ads,1,1539.0,False
+CUST-12566,Kolkata,Metro,2025-08-19,Referral,3,10236.0,True
+CUST-12567,Chennai,Metro,2024-03-22,Instagram Ads,1,2199.0,False
+CUST-12568,Bengaluru,Metro,2025-04-30,Google Ads,1,0.0,False
+CUST-12569,Lucknow,Tier-2,2025-06-22,Instagram Ads,1,2249.0,False
+CUST-12570,Bengaluru,Metro,2025-03-30,Instagram Ads,1,4499.0,False
+CUST-12571,Bengaluru,Metro,2024-02-24,Instagram Ads,1,4999.0,False
+CUST-12572,Chennai,Metro,2025-05-30,Instagram Ads,1,2699.0,False
+CUST-12573,Delhi,Metro,2025-04-05,Instagram Ads,1,4499.0,False
+CUST-12574,Lucknow,Tier-2,2025-01-11,Organic,1,3149.0,False
+CUST-12575,Kolkata,Metro,2024-05-01,Google Ads,3,6917.0,True
+CUST-12576,Mumbai,Metro,2025-08-02,Google Ads,8,34565.0,True
+CUST-12577,Pune,Tier-2,2024-09-21,Google Ads,1,6598.0,False
+CUST-12578,Agra,Tier-3,2025-09-19,Google Ads,16,99829.0,True
+CUST-12579,Raipur,Tier-3,2025-04-21,Google Ads,24,165294.0,True
+CUST-12580,Hyderabad,Metro,2024-09-26,Referral,1,2124.0,False
+CUST-12581,Gwalior,Tier-3,2024-04-18,Google Ads,1,2639.0,False
+CUST-12582,Kolkata,Metro,2025-04-01,Organic,1,1799.0,False
+CUST-12583,Meerut,Tier-3,2024-06-23,Google Ads,24,114768.0,True
+CUST-12584,Chandigarh,Tier-2,2024-08-27,Referral,8,43527.0,True
+CUST-12585,Mumbai,Metro,2025-11-11,Google Ads,17,46219.0,True
+CUST-12586,Mumbai,Metro,2024-09-30,Organic,1,14299.0,False
+CUST-12587,Indore,Tier-2,2025-01-27,Instagram Ads,1,6998.0,False
+CUST-12588,Mumbai,Metro,2025-09-27,Instagram Ads,1,719.0,False
+CUST-12589,Chennai,Metro,2024-06-26,Referral,51,299660.0,True
+CUST-12590,Gwalior,Tier-3,2024-05-05,Organic,1,1999.0,False
+CUST-12591,Varanasi,Tier-3,2025-03-24,Google Ads,1,1799.0,False
+CUST-12592,Chennai,Metro,2025-10-13,Google Ads,1,10798.0,False
+CUST-12593,Indore,Tier-2,2025-02-04,Organic,5,15300.0,True
+CUST-12594,Chandigarh,Tier-2,2025-11-07,Organic,1,13199.0,False
+CUST-12595,Surat,Tier-2,2024-09-23,Instagram Ads,1,1619.0,False
+CUST-12596,Kolkata,Metro,2025-05-07,Instagram Ads,1,3999.0,False
+CUST-12597,Kolkata,Metro,2024-11-29,Google Ads,1,1039.0,False
+CUST-12598,Jodhpur,Tier-3,2024-03-24,Google Ads,1,1529.0,False
+CUST-12599,Chennai,Metro,2024-06-08,Instagram Ads,1,2499.0,False
+CUST-12600,Mumbai,Metro,2025-01-30,Google Ads,1,1799.0,False
+CUST-12601,Dehradun,Tier-3,2025-10-02,Referral,1,844.0,False
+CUST-12602,Ranchi,Tier-3,2025-05-03,Instagram Ads,7,39862.0,True
+CUST-12603,Ranchi,Tier-3,2024-07-20,Instagram Ads,1,4199.0,False
+CUST-12604,Surat,Tier-2,2025-07-26,Instagram Ads,1,899.0,False
+CUST-12605,Mumbai,Metro,2024-08-01,Organic,15,41428.0,True
+CUST-12606,Hyderabad,Metro,2025-10-12,Instagram Ads,1,3654.0,False
+CUST-12607,Kolkata,Metro,2024-12-15,Instagram Ads,1,1539.0,False
+CUST-12608,Delhi,Metro,2025-12-08,Instagram Ads,1,2924.0,False
+CUST-12609,Pune,Tier-2,2025-01-04,Instagram Ads,1,4049.0,False
+CUST-12610,Ahmedabad,Tier-2,2024-12-03,Organic,1,3224.0,False
+CUST-12611,Pune,Tier-2,2025-03-18,Referral,1,1999.0,False
+CUST-12612,Bhopal,Tier-3,2025-05-04,Instagram Ads,1,959.0,False
+CUST-12613,Chennai,Metro,2025-03-16,Referral,1,1614.0,False
+CUST-12614,Jaipur,Tier-2,2024-12-31,Instagram Ads,1,6499.0,False
+CUST-12615,Varanasi,Tier-3,2024-02-04,Instagram Ads,3,4873.0,True
+CUST-12616,Ahmedabad,Tier-2,2025-04-08,Instagram Ads,1,3654.0,False
+CUST-12617,Kolkata,Metro,2024-08-07,Referral,1,1979.0,False
+CUST-12618,Jaipur,Tier-2,2025-02-01,Referral,1,1979.0,False
+CUST-12619,Delhi,Metro,2025-07-10,Instagram Ads,1,13498.0,False
+CUST-12620,Lucknow,Tier-2,2025-03-19,Instagram Ads,2,25246.0,True
+CUST-12621,Hyderabad,Metro,2025-12-02,Instagram Ads,1,2799.0,False
+CUST-12622,Jodhpur,Tier-3,2024-07-20,Instagram Ads,1,1799.0,False
+CUST-12623,Indore,Tier-2,2025-11-23,Organic,1,2399.0,False
+CUST-12624,Pune,Tier-2,2025-02-06,Instagram Ads,1,0.0,False
+CUST-12625,Surat,Tier-2,2025-10-07,Instagram Ads,1,0.0,False
+CUST-12626,Surat,Tier-2,2025-08-09,Google Ads,10,51988.0,True
+CUST-12627,Pune,Tier-2,2024-10-24,Google Ads,1,1349.0,False
+CUST-12628,Delhi,Metro,2025-10-20,Instagram Ads,1,3654.0,False
+CUST-12629,Kochi,Tier-2,2025-02-11,Organic,59,217546.0,True
+CUST-12630,Bhopal,Tier-3,2024-12-05,Instagram Ads,1,1539.0,False
+CUST-12631,Delhi,Metro,2025-05-23,Organic,19,52163.0,True
+CUST-12632,Chandigarh,Tier-2,2025-01-02,Instagram Ads,1,5397.0,False
+CUST-12633,Hyderabad,Metro,2025-08-22,Google Ads,11,55329.0,True
+CUST-12634,Bengaluru,Metro,2024-12-30,Instagram Ads,1,3299.0,False
+CUST-12635,Delhi,Metro,2025-04-20,Referral,38,170480.0,True
+CUST-12636,Hyderabad,Metro,2025-12-03,Instagram Ads,1,2449.0,False
+CUST-12637,Kolkata,Metro,2024-12-24,Organic,4,13140.0,True
+CUST-12638,Kochi,Tier-2,2025-03-20,Organic,11,52591.0,True
+CUST-12639,Mumbai,Metro,2025-12-09,Organic,1,674.0,False
+CUST-12640,Delhi,Metro,2025-10-29,Referral,23,69882.0,True
+CUST-12641,Delhi,Metro,2024-11-22,Instagram Ads,1,0.0,False
+CUST-12642,Jaipur,Tier-2,2025-05-29,Referral,20,64457.0,True
+CUST-12643,Lucknow,Tier-2,2024-03-03,Instagram Ads,1,2249.0,False
+CUST-12644,Varanasi,Tier-3,2025-05-16,Referral,1,3198.0,False
+CUST-12645,Hyderabad,Metro,2025-12-11,Organic,20,80658.0,True
+CUST-12646,Chandigarh,Tier-2,2025-08-29,Instagram Ads,1,1619.0,False
+CUST-12647,Dehradun,Tier-3,2025-07-22,Google Ads,1,4999.0,False
+CUST-12648,Agra,Tier-3,2025-05-21,Instagram Ads,1,0.0,False
+CUST-12649,Meerut,Tier-3,2024-08-25,Google Ads,1,1499.0,False
+CUST-12650,Delhi,Metro,2025-06-03,Organic,17,60453.0,True
+CUST-12651,Bengaluru,Metro,2024-12-02,Instagram Ads,1,2549.0,False
+CUST-12652,Kochi,Tier-2,2024-05-03,Organic,13,36055.0,True
+CUST-12653,Surat,Tier-2,2025-09-07,Google Ads,9,39486.0,True
+CUST-12654,Gwalior,Tier-3,2025-06-20,Organic,2,6178.0,True
+CUST-12655,Mumbai,Metro,2025-05-27,Instagram Ads,1,5399.0,False
+CUST-12656,Lucknow,Tier-2,2025-11-11,Instagram Ads,1,1599.0,False
+CUST-12657,Bengaluru,Metro,2025-01-15,Google Ads,13,41602.0,True
+CUST-12658,Kolkata,Metro,2025-01-31,Instagram Ads,1,1619.0,False
+CUST-12659,Delhi,Metro,2024-04-22,Organic,1,2499.0,False
+CUST-12660,Kolkata,Metro,2025-02-09,Instagram Ads,1,0.0,False
+CUST-12661,Pune,Tier-2,2025-04-19,Referral,26,94513.0,True
+CUST-12662,Delhi,Metro,2025-11-11,Instagram Ads,2,3827.0,True
+CUST-12663,Chennai,Metro,2025-04-27,Instagram Ads,1,1799.0,False
+CUST-12664,Chennai,Metro,2025-10-11,Instagram Ads,1,1749.0,False
+CUST-12665,Meerut,Tier-3,2024-12-23,Referral,1,0.0,False
+CUST-12666,Hyderabad,Metro,2025-09-10,Instagram Ads,1,1899.0,False
+CUST-12667,Chennai,Metro,2024-09-28,Referral,1,19499.0,False
+CUST-12668,Pune,Tier-2,2025-09-25,Google Ads,1,1699.0,False
+CUST-12669,Pune,Tier-2,2024-12-10,Referral,16,44513.0,True
+CUST-12670,Jaipur,Tier-2,2024-10-07,Referral,1,1044.0,False
+CUST-12671,Ahmedabad,Tier-2,2024-01-23,Instagram Ads,1,1439.0,False
+CUST-12672,Jodhpur,Tier-3,2025-07-22,Organic,1,2799.0,False
+CUST-12673,Chennai,Metro,2024-07-08,Instagram Ads,1,25199.0,False
+CUST-12674,Kolkata,Metro,2025-12-15,Organic,1,3499.0,False
+CUST-12675,Bengaluru,Metro,2025-11-22,Instagram Ads,1,1039.0,False
+CUST-12676,Ahmedabad,Tier-2,2025-07-23,Organic,1,1999.0,False
+CUST-12677,Pune,Tier-2,2025-01-15,Google Ads,1,4999.0,False
+CUST-12678,Lucknow,Tier-2,2024-01-29,Referral,1,1274.0,False
+CUST-12679,Lucknow,Tier-2,2024-09-08,Google Ads,1,3299.0,False
+CUST-12680,Kolkata,Metro,2024-02-08,Google Ads,1,1979.0,False
+CUST-12681,Gwalior,Tier-3,2025-06-05,Instagram Ads,1,6749.0,False
+CUST-12682,Chennai,Metro,2025-04-03,Instagram Ads,1,3149.0,False
+CUST-12683,Agra,Tier-3,2025-05-30,Instagram Ads,1,5849.0,False
+CUST-12684,Bhopal,Tier-3,2025-01-04,Organic,1,1349.0,False
+CUST-12685,Patna,Tier-3,2024-03-19,Instagram Ads,1,1979.0,False
+CUST-12686,Chandigarh,Tier-2,2025-03-31,Referral,20,119031.0,True
+CUST-12687,Hyderabad,Metro,2024-04-07,Referral,1,1199.0,False
+CUST-12688,Hyderabad,Metro,2024-07-25,Organic,1,3399.0,False
+CUST-12689,Kolkata,Metro,2024-01-03,Instagram Ads,1,1299.0,False
+CUST-12690,Delhi,Metro,2024-07-25,Instagram Ads,1,1799.0,False
+CUST-12691,Mumbai,Metro,2024-05-28,Instagram Ads,1,10198.0,False
+CUST-12692,Bengaluru,Metro,2024-09-14,Instagram Ads,1,1279.0,False
+CUST-12693,Delhi,Metro,2025-02-20,Google Ads,1,8999.0,False
+CUST-12694,Mumbai,Metro,2025-04-13,Google Ads,1,3398.0,False
+CUST-12695,Gwalior,Tier-3,2024-06-29,Google Ads,1,22947.0,False
+CUST-12696,Mumbai,Metro,2024-06-04,Instagram Ads,1,12749.0,False
+CUST-12697,Meerut,Tier-3,2024-04-29,Instagram Ads,1,5524.0,False
+CUST-12698,Patna,Tier-3,2024-01-15,Instagram Ads,1,0.0,False
+CUST-12699,Agra,Tier-3,2024-04-30,Google Ads,1,8999.0,False
+CUST-12700,Mumbai,Metro,2025-03-24,Google Ads,21,91881.0,True
+CUST-12701,Gwalior,Tier-3,2025-03-02,Instagram Ads,1,2338.0,False
+CUST-12702,Mumbai,Metro,2024-01-29,Instagram Ads,1,3998.0,False
+CUST-12703,Kochi,Tier-2,2025-03-19,Google Ads,1,1349.0,False
+CUST-12704,Indore,Tier-2,2024-09-17,Organic,85,499035.0,True
+CUST-12705,Kochi,Tier-2,2025-02-12,Instagram Ads,1,3999.0,False
+CUST-12706,Jaipur,Tier-2,2024-08-25,Organic,1,959.0,False
+CUST-12707,Kolkata,Metro,2025-05-08,Instagram Ads,1,4249.0,False
+CUST-12708,Kolkata,Metro,2025-10-22,Referral,1,0.0,False
+CUST-12709,Delhi,Metro,2024-09-10,Google Ads,15,63281.0,True
+CUST-12710,Hyderabad,Metro,2024-08-21,Referral,23,95771.0,True
+CUST-12711,Kolkata,Metro,2024-03-17,Organic,2,4298.0,True
+CUST-12712,Dehradun,Tier-3,2025-03-14,Instagram Ads,1,5399.0,False
+CUST-12713,Pune,Tier-2,2024-07-19,Organic,1,1699.0,False
+CUST-12714,Ahmedabad,Tier-2,2025-04-21,Google Ads,1,2974.0,False
+CUST-12715,Kochi,Tier-2,2025-01-28,Organic,43,198125.0,True
+CUST-12716,Lucknow,Tier-2,2024-06-05,Google Ads,1,8099.0,False
+CUST-12717,Ahmedabad,Tier-2,2025-09-03,Google Ads,11,32116.0,True
+CUST-12718,Indore,Tier-2,2024-12-23,Instagram Ads,1,1104.0,False
+CUST-12719,Kochi,Tier-2,2025-05-26,Instagram Ads,4,15221.0,True
+CUST-12720,Indore,Tier-2,2025-07-10,Google Ads,1,1599.0,False
+CUST-12721,Pune,Tier-2,2025-01-12,Instagram Ads,1,0.0,False
+CUST-12722,Agra,Tier-3,2024-12-09,Google Ads,30,142768.0,True
+CUST-12723,Surat,Tier-2,2024-02-21,Organic,59,341871.0,True
+CUST-12724,Chennai,Metro,2025-04-01,Referral,15,57886.0,True
+CUST-12725,Mumbai,Metro,2025-04-05,Google Ads,1,1299.0,False
+CUST-12726,Indore,Tier-2,2025-03-03,Instagram Ads,1,4999.0,False
+CUST-12727,Hyderabad,Metro,2024-09-25,Instagram Ads,1,1169.0,False
+CUST-12728,Chennai,Metro,2025-08-13,Organic,1,4299.0,False
+CUST-12729,Kochi,Tier-2,2024-10-02,Instagram Ads,4,24401.0,True
+CUST-12730,Ranchi,Tier-3,2024-08-23,Instagram Ads,1,1079.0,False
+CUST-12731,Kolkata,Metro,2025-06-16,Instagram Ads,1,2698.0,False
+CUST-12732,Hyderabad,Metro,2025-07-12,Google Ads,1,1709.0,False
+CUST-12733,Kochi,Tier-2,2024-12-15,Instagram Ads,1,2249.0,False
+CUST-12734,Delhi,Metro,2024-04-05,Google Ads,12,47963.0,True
+CUST-12735,Gwalior,Tier-3,2025-09-01,Instagram Ads,1,1199.0,False
+CUST-12736,Bengaluru,Metro,2024-02-24,Referral,1,2249.0,False
+CUST-12737,Lucknow,Tier-2,2025-11-18,Referral,1,1499.0,False
+CUST-12738,Patna,Tier-3,2025-04-18,Organic,33,116121.0,True
+CUST-12739,Ahmedabad,Tier-2,2024-07-24,Organic,1,1999.0,False
+CUST-12740,Chandigarh,Tier-2,2025-05-31,Instagram Ads,1,1979.0,False
+CUST-12741,Mumbai,Metro,2025-07-05,Google Ads,1,19799.0,False
+CUST-12742,Kochi,Tier-2,2025-08-01,Instagram Ads,1,1349.0,False
+CUST-12743,Ranchi,Tier-3,2024-05-29,Instagram Ads,1,9999.0,False
+CUST-12744,Kolkata,Metro,2025-05-20,Instagram Ads,1,1614.0,False
+CUST-12745,Chennai,Metro,2024-11-10,Instagram Ads,1,1439.0,False
+CUST-12746,Dehradun,Tier-3,2024-09-09,Google Ads,39,144841.0,True
+CUST-12747,Indore,Tier-2,2025-03-15,Google Ads,1,1299.0,False
+CUST-12748,Patna,Tier-3,2024-04-13,Instagram Ads,1,2624.0,False
+CUST-12749,Patna,Tier-3,2025-04-23,Referral,17,55847.0,True
+CUST-12750,Pune,Tier-2,2025-08-20,Instagram Ads,1,0.0,False
+CUST-12751,Chandigarh,Tier-2,2025-05-21,Google Ads,4,6812.0,True
+CUST-12752,Chennai,Metro,2024-01-28,Instagram Ads,1,15399.0,False
+CUST-12753,Bengaluru,Metro,2025-03-21,Instagram Ads,1,2499.0,False
+CUST-12754,Chandigarh,Tier-2,2024-07-27,Google Ads,32,170861.0,True
+CUST-12755,Delhi,Metro,2025-08-29,Google Ads,1,1699.0,False
+CUST-12756,Jaipur,Tier-2,2024-10-15,Instagram Ads,1,39199.0,False
+CUST-12757,Ahmedabad,Tier-2,2024-11-23,Organic,1,6299.0,False
+CUST-12758,Ranchi,Tier-3,2025-04-03,Google Ads,1,4249.0,False
+CUST-12759,Chennai,Metro,2024-11-23,Google Ads,1,2399.0,False
+CUST-12760,Surat,Tier-2,2025-07-20,Google Ads,4,12696.0,True
+CUST-12761,Kochi,Tier-2,2025-03-20,Organic,2,3348.0,True
+CUST-12762,Delhi,Metro,2024-05-31,Instagram Ads,1,2499.0,False
+CUST-12763,Pune,Tier-2,2025-11-23,Organic,7,30608.0,True
+CUST-12764,Patna,Tier-3,2025-05-15,Google Ads,13,130751.0,True
+CUST-12765,Dehradun,Tier-3,2024-01-29,Instagram Ads,1,0.0,False
+CUST-12766,Raipur,Tier-3,2025-07-12,Google Ads,1,2969.0,False
+CUST-12767,Delhi,Metro,2025-12-14,Google Ads,27,138796.0,True
+CUST-12768,Hyderabad,Metro,2025-06-10,Instagram Ads,1,5849.0,False
+CUST-12769,Indore,Tier-2,2024-12-06,Instagram Ads,1,1299.0,False
+CUST-12770,Kochi,Tier-2,2024-02-02,Organic,1,12747.0,False
+CUST-12771,Delhi,Metro,2025-05-22,Organic,1,1999.0,False
+CUST-12772,Agra,Tier-3,2024-11-14,Referral,108,468913.0,True
+CUST-12773,Chennai,Metro,2025-12-08,Instagram Ads,1,2549.0,False
+CUST-12774,Kochi,Tier-2,2024-06-15,Google Ads,1,2249.0,False
+CUST-12775,Patna,Tier-3,2024-12-31,Instagram Ads,1,2399.0,False
+CUST-12776,Kolkata,Metro,2024-12-17,Instagram Ads,1,0.0,False
+CUST-12777,Hyderabad,Metro,2024-08-10,Instagram Ads,1,3958.0,False
+CUST-12778,Lucknow,Tier-2,2024-09-29,Organic,1,4399.0,False
+CUST-12779,Jaipur,Tier-2,2025-11-27,Instagram Ads,1,1649.0,False
+CUST-12780,Kolkata,Metro,2025-05-09,Organic,11,45973.0,True
+CUST-12781,Chennai,Metro,2025-08-20,Google Ads,1,1169.0,False
+CUST-12782,Mumbai,Metro,2025-07-27,Google Ads,4,14711.0,True
+CUST-12783,Jaipur,Tier-2,2024-10-13,Organic,11,85325.0,True
+CUST-12784,Chandigarh,Tier-2,2024-03-06,Google Ads,1,1539.0,False
+CUST-12785,Chandigarh,Tier-2,2025-04-19,Organic,56,266470.0,True
+CUST-12786,Chandigarh,Tier-2,2025-11-28,Google Ads,1,7198.0,False
+CUST-12787,Surat,Tier-2,2025-12-03,Instagram Ads,1,14998.0,False
+CUST-12788,Mumbai,Metro,2025-01-01,Instagram Ads,1,899.0,False
+CUST-12789,Ahmedabad,Tier-2,2024-08-10,Instagram Ads,1,1079.0,False
+CUST-12790,Jaipur,Tier-2,2025-01-04,Google Ads,1,1499.0,False
+CUST-12791,Chennai,Metro,2024-08-07,Organic,1,4249.0,False
+CUST-12792,Bengaluru,Metro,2025-03-27,Google Ads,1,14997.0,False
+CUST-12793,Kochi,Tier-2,2025-07-31,Referral,1,4999.0,False
+CUST-12794,Agra,Tier-3,2025-12-10,Instagram Ads,1,4799.0,False
+CUST-12795,Chennai,Metro,2025-06-08,Google Ads,3,3732.0,True
+CUST-12796,Delhi,Metro,2025-05-17,Google Ads,1,1349.0,False
+CUST-12797,Bengaluru,Metro,2025-07-02,Organic,4,14202.0,True
+CUST-12798,Bengaluru,Metro,2025-08-05,Instagram Ads,1,2499.0,False
+CUST-12799,Mumbai,Metro,2025-01-31,Instagram Ads,1,4499.0,False
+CUST-12800,Kolkata,Metro,2025-03-17,Referral,1,2999.0,False
+CUST-12801,Surat,Tier-2,2025-05-07,Instagram Ads,1,7499.0,False
+CUST-12802,Hyderabad,Metro,2025-06-15,Instagram Ads,1,4799.0,False
+CUST-12803,Hyderabad,Metro,2025-07-24,Instagram Ads,1,5849.0,False
+CUST-12804,Lucknow,Tier-2,2024-10-08,Instagram Ads,2,6798.0,True
+CUST-12805,Chennai,Metro,2024-11-17,Instagram Ads,2,4393.0,True
+CUST-12806,Ahmedabad,Tier-2,2025-12-14,Instagram Ads,1,1039.0,False
+CUST-12807,Mumbai,Metro,2025-08-16,Google Ads,18,80974.0,True
+CUST-12808,Chandigarh,Tier-2,2025-12-04,Organic,1,1529.0,False
+CUST-12809,Delhi,Metro,2025-04-15,Organic,1,3499.0,False
+CUST-12810,Kochi,Tier-2,2025-02-05,Instagram Ads,1,1529.0,False
+CUST-12811,Bengaluru,Metro,2025-01-21,Instagram Ads,5,15147.0,True
+CUST-12812,Hyderabad,Metro,2024-05-01,Referral,4,45424.0,True
+CUST-12813,Meerut,Tier-3,2024-05-07,Organic,1,17998.0,False
+CUST-12814,Dehradun,Tier-3,2024-07-23,Organic,6,29794.0,True
+CUST-12815,Chennai,Metro,2025-02-21,Google Ads,1,2974.0,False
+CUST-12816,Indore,Tier-2,2024-10-05,Instagram Ads,1,2794.0,False
+CUST-12817,Kochi,Tier-2,2024-09-07,Instagram Ads,1,2639.0,False
+CUST-12818,Kolkata,Metro,2024-06-24,Google Ads,1,2624.0,False
+CUST-12819,Hyderabad,Metro,2025-07-14,Referral,1,3499.0,False
+CUST-12820,Mumbai,Metro,2025-12-15,Google Ads,1,0.0,False
+CUST-12821,Chandigarh,Tier-2,2025-03-29,Instagram Ads,4,9185.0,True
+CUST-12822,Indore,Tier-2,2025-05-26,Referral,1,1979.0,False
+CUST-12823,Hyderabad,Metro,2025-05-28,Organic,47,261630.0,True
+CUST-12824,Lucknow,Tier-2,2025-07-25,Google Ads,1,1349.0,False
+CUST-12825,Surat,Tier-2,2025-11-07,Organic,28,110543.0,True
+CUST-12826,Indore,Tier-2,2025-11-15,Google Ads,20,56986.0,True
+CUST-12827,Mumbai,Metro,2024-05-20,Instagram Ads,1,2974.0,False
+CUST-12828,Chennai,Metro,2024-07-25,Google Ads,19,65770.0,True
+CUST-12829,Bengaluru,Metro,2025-12-15,Google Ads,1,5849.0,False
+CUST-12830,Agra,Tier-3,2024-01-08,Google Ads,1,3999.0,False
+CUST-12831,Kolkata,Metro,2025-02-11,Instagram Ads,1,1359.0,False
+CUST-12832,Kolkata,Metro,2025-02-09,Google Ads,13,70696.0,True
+CUST-12833,Surat,Tier-2,2024-07-28,Referral,1,5399.0,False
+CUST-12834,Lucknow,Tier-2,2025-05-18,Organic,1,2549.0,False
+CUST-12835,Indore,Tier-2,2025-11-08,Instagram Ads,1,9749.0,False
+CUST-12836,Chennai,Metro,2024-03-18,Google Ads,1,3654.0,False
+CUST-12837,Bengaluru,Metro,2025-01-14,Google Ads,5,12849.0,True
+CUST-12838,Meerut,Tier-3,2024-07-02,Organic,1,0.0,False
+CUST-12839,Indore,Tier-2,2024-05-30,Organic,1,1709.0,False
+CUST-12840,Delhi,Metro,2024-12-31,Organic,1,3199.0,False
+CUST-12841,Hyderabad,Metro,2025-03-01,Organic,1,1649.0,False
+CUST-12842,Varanasi,Tier-3,2025-05-17,Google Ads,1,7199.0,False
+CUST-12843,Jaipur,Tier-2,2025-11-21,Instagram Ads,1,5624.0,False
+CUST-12844,Raipur,Tier-3,2025-12-12,Google Ads,79,254413.0,True
+CUST-12845,Delhi,Metro,2024-12-31,Organic,1,1649.0,False
+CUST-12846,Kolkata,Metro,2025-07-25,Organic,1,1499.0,False
+CUST-12847,Surat,Tier-2,2024-06-19,Instagram Ads,1,3599.0,False
+CUST-12848,Lucknow,Tier-2,2024-11-03,Google Ads,1,1299.0,False
+CUST-12849,Chennai,Metro,2024-10-03,Instagram Ads,1,1259.0,False
+CUST-12850,Bengaluru,Metro,2024-08-12,Instagram Ads,1,2379.0,False
+CUST-12851,Kolkata,Metro,2025-05-16,Google Ads,1,2699.0,False
+CUST-12852,Ahmedabad,Tier-2,2024-02-29,Referral,1,1349.0,False
+CUST-12853,Kochi,Tier-2,2025-04-06,Referral,3,19047.0,True
+CUST-12854,Kolkata,Metro,2025-07-20,Organic,1,1959.0,False
+CUST-12855,Surat,Tier-2,2025-11-17,Google Ads,15,53389.0,True
+CUST-12856,Jaipur,Tier-2,2024-11-24,Organic,1,3749.0,False
+CUST-12857,Kolkata,Metro,2024-09-01,Instagram Ads,1,2699.0,False
+CUST-12858,Chandigarh,Tier-2,2025-08-03,Instagram Ads,1,2519.0,False
+CUST-12859,Varanasi,Tier-3,2024-01-17,Instagram Ads,1,2124.0,False
+CUST-12860,Bengaluru,Metro,2024-12-30,Instagram Ads,1,974.0,False
+CUST-12861,Kolkata,Metro,2025-01-11,Organic,1,4999.0,False
+CUST-12862,Mumbai,Metro,2024-04-16,Organic,1,4799.0,False
+CUST-12863,Kochi,Tier-2,2024-04-03,Organic,7,21488.0,True
+CUST-12864,Kochi,Tier-2,2025-02-17,Instagram Ads,3,24998.0,True
+CUST-12865,Ahmedabad,Tier-2,2025-11-01,Instagram Ads,1,4124.0,False
+CUST-12866,Jodhpur,Tier-3,2024-08-08,Instagram Ads,1,2699.0,False
+CUST-12867,Surat,Tier-2,2025-10-18,Organic,1,1499.0,False
+CUST-12868,Kochi,Tier-2,2025-08-14,Instagram Ads,1,10624.0,False
+CUST-12869,Kochi,Tier-2,2024-02-01,Google Ads,1,1899.0,False
+CUST-12870,Hyderabad,Metro,2025-03-26,Instagram Ads,1,1759.0,False
+CUST-12871,Bhopal,Tier-3,2025-12-01,Google Ads,1,3149.0,False
+CUST-12872,Indore,Tier-2,2024-02-13,Google Ads,1,3499.0,False
+CUST-12873,Kolkata,Metro,2025-02-20,Instagram Ads,1,1079.0,False
+CUST-12874,Ahmedabad,Tier-2,2025-03-12,Organic,1,7497.0,False
+CUST-12875,Ahmedabad,Tier-2,2024-07-13,Instagram Ads,1,8099.0,False
+CUST-12876,Varanasi,Tier-3,2025-07-21,Instagram Ads,1,2799.0,False
+CUST-12877,Indore,Tier-2,2025-11-21,Organic,14,40665.0,True
+CUST-12878,Mumbai,Metro,2025-09-24,Google Ads,1,2549.0,False
+CUST-12879,Pune,Tier-2,2025-12-13,Instagram Ads,1,3439.0,False
+CUST-12880,Hyderabad,Metro,2024-08-10,Organic,9,32951.0,True
+CUST-12881,Kolkata,Metro,2025-08-08,Referral,5,16675.0,True
+CUST-12882,Kochi,Tier-2,2024-12-06,Instagram Ads,1,1169.0,False
+CUST-12883,Dehradun,Tier-3,2024-09-30,Organic,9,31297.0,True
+CUST-12884,Kochi,Tier-2,2024-04-17,Google Ads,1,0.0,False
+CUST-12885,Delhi,Metro,2024-04-09,Organic,1,3824.0,False
+CUST-12886,Pune,Tier-2,2024-12-08,Google Ads,1,1529.0,False
+CUST-12887,Patna,Tier-3,2025-02-08,Instagram Ads,1,12749.0,False
+CUST-12888,Chandigarh,Tier-2,2025-04-07,Google Ads,19,73638.0,True
+CUST-12889,Mumbai,Metro,2025-09-18,Organic,13,70966.0,True
+CUST-12890,Hyderabad,Metro,2025-09-19,Organic,5,6540.0,True
+CUST-12891,Kolkata,Metro,2025-01-02,Instagram Ads,1,1439.0,False
+CUST-12892,Raipur,Tier-3,2025-04-08,Referral,48,211420.0,True
+CUST-12893,Lucknow,Tier-2,2024-10-26,Instagram Ads,1,909.0,False
+CUST-12894,Chennai,Metro,2024-07-20,Google Ads,1,1799.0,False
+CUST-12895,Dehradun,Tier-3,2025-01-05,Instagram Ads,1,1104.0,False
+CUST-12896,Kochi,Tier-2,2024-06-21,Organic,9,37964.0,True
+CUST-12897,Chennai,Metro,2025-01-23,Google Ads,7,30038.0,True
+CUST-12898,Kolkata,Metro,2024-08-07,Instagram Ads,1,1499.0,False
+CUST-12899,Jaipur,Tier-2,2024-06-21,Google Ads,1,4758.0,False
+CUST-12900,Indore,Tier-2,2024-03-16,Instagram Ads,1,22399.0,False
+CUST-12901,Pune,Tier-2,2024-05-26,Organic,2,10098.0,True
+CUST-12902,Surat,Tier-2,2024-06-07,Google Ads,4,20221.0,True
+CUST-12903,Delhi,Metro,2024-08-13,Instagram Ads,1,1619.0,False
+CUST-12904,Agra,Tier-3,2024-12-18,Instagram Ads,6,9619.0,True
+CUST-12905,Meerut,Tier-3,2024-01-08,Organic,4,16701.0,True
+CUST-12906,Patna,Tier-3,2024-11-28,Instagram Ads,1,6748.0,False
+CUST-12907,Patna,Tier-3,2025-09-03,Google Ads,1,4249.0,False
+CUST-12908,Ranchi,Tier-3,2025-02-27,Organic,44,225082.0,True
+CUST-12909,Dehradun,Tier-3,2025-10-10,Instagram Ads,3,4352.0,True
+CUST-12910,Bengaluru,Metro,2025-08-23,Instagram Ads,1,1799.0,False
+CUST-12911,Indore,Tier-2,2025-05-15,Instagram Ads,1,1999.0,False
+CUST-12912,Chennai,Metro,2025-04-01,Instagram Ads,1,4299.0,False
+CUST-12913,Lucknow,Tier-2,2025-10-05,Organic,40,151454.0,True
+CUST-12914,Surat,Tier-2,2024-09-07,Google Ads,5,12485.0,True
+CUST-12915,Dehradun,Tier-3,2025-08-13,Organic,1,1349.0,False
+CUST-12916,Jodhpur,Tier-3,2024-01-27,Instagram Ads,1,2399.0,False
+CUST-12917,Ahmedabad,Tier-2,2024-12-29,Organic,29,102224.0,True
+CUST-12918,Surat,Tier-2,2024-12-16,Instagram Ads,1,8749.0,False
+CUST-12919,Jodhpur,Tier-3,2025-09-13,Google Ads,1,5524.0,False
+CUST-12920,Bengaluru,Metro,2025-10-14,Instagram Ads,1,9748.0,False
+CUST-12921,Delhi,Metro,2024-12-07,Instagram Ads,1,1539.0,False
+CUST-12922,Bengaluru,Metro,2025-05-17,Organic,6,12704.0,True
+CUST-12923,Delhi,Metro,2025-12-02,Organic,1,2799.0,False
+CUST-12924,Ahmedabad,Tier-2,2025-09-12,Instagram Ads,1,6499.0,False
+CUST-12925,Pune,Tier-2,2024-02-24,Organic,1,4499.0,False
+CUST-12926,Dehradun,Tier-3,2025-01-05,Instagram Ads,1,2499.0,False
+CUST-12927,Kolkata,Metro,2024-05-18,Organic,1,6499.0,False
+CUST-12928,Patna,Tier-3,2024-01-15,Google Ads,1,1349.0,False
+CUST-12929,Jaipur,Tier-2,2025-09-02,Instagram Ads,1,4549.0,False
+CUST-12930,Varanasi,Tier-3,2025-05-17,Organic,1,6499.0,False
+CUST-12931,Hyderabad,Metro,2025-10-10,Instagram Ads,1,1528.0,False
+CUST-12932,Mumbai,Metro,2024-08-05,Instagram Ads,1,2999.0,False
+CUST-12933,Jaipur,Tier-2,2024-03-31,Instagram Ads,1,0.0,False
+CUST-12934,Dehradun,Tier-3,2024-10-07,Google Ads,1,3999.0,False
+CUST-12935,Hyderabad,Metro,2025-05-20,Referral,9,48479.0,True
+CUST-12936,Kochi,Tier-2,2024-12-19,Instagram Ads,1,2924.0,False
+CUST-12937,Chennai,Metro,2024-07-31,Referral,1,5399.0,False
+CUST-12938,Mumbai,Metro,2025-02-22,Instagram Ads,1,7499.0,False
+CUST-12939,Chennai,Metro,2024-02-14,Instagram Ads,1,1709.0,False
+CUST-12940,Kolkata,Metro,2024-08-20,Instagram Ads,1,3869.0,False
+CUST-12941,Ranchi,Tier-3,2025-06-15,Instagram Ads,1,3654.0,False
+CUST-12942,Jaipur,Tier-2,2025-10-05,Referral,1,2549.0,False
+CUST-12943,Kolkata,Metro,2025-07-26,Organic,1,1299.0,False
+CUST-12944,Kolkata,Metro,2025-12-02,Google Ads,1,2974.0,False
+CUST-12945,Kochi,Tier-2,2024-05-22,Instagram Ads,1,1169.0,False
+CUST-12946,Meerut,Tier-3,2024-06-29,Google Ads,26,104968.0,True
+CUST-12947,Pune,Tier-2,2024-05-10,Referral,17,95397.0,True
+CUST-12948,Lucknow,Tier-2,2024-04-14,Organic,3,4727.0,True
+CUST-12949,Chennai,Metro,2024-09-11,Google Ads,1,14999.0,False
+CUST-12950,Hyderabad,Metro,2024-02-08,Google Ads,1,2519.0,False
+CUST-12951,Kochi,Tier-2,2024-03-20,Instagram Ads,1,2999.0,False
+CUST-12952,Meerut,Tier-3,2025-11-25,Instagram Ads,1,1124.0,False
+CUST-12953,Pune,Tier-2,2025-12-17,Google Ads,1,584.0,False
+CUST-12954,Kolkata,Metro,2025-01-16,Instagram Ads,1,2519.0,False
+CUST-12955,Mumbai,Metro,2024-11-07,Instagram Ads,1,2449.0,False
+CUST-12956,Lucknow,Tier-2,2025-05-19,Referral,1,6298.0,False
+CUST-12957,Agra,Tier-3,2024-04-11,Google Ads,1,4799.0,False
+CUST-12958,Kolkata,Metro,2024-06-15,Instagram Ads,1,1619.0,False
+CUST-12959,Delhi,Metro,2025-07-25,Instagram Ads,1,11249.0,False
+CUST-12960,Hyderabad,Metro,2024-08-13,Instagram Ads,1,1104.0,False
+CUST-12961,Ahmedabad,Tier-2,2024-10-24,Instagram Ads,1,1529.0,False
+CUST-12962,Raipur,Tier-3,2024-12-13,Organic,8,68915.0,True
+CUST-12963,Mumbai,Metro,2025-04-17,Instagram Ads,1,2249.0,False
+CUST-12964,Bengaluru,Metro,2025-11-29,Instagram Ads,1,10499.0,False
+CUST-12965,Bengaluru,Metro,2024-03-01,Instagram Ads,8,25529.0,True
+CUST-12966,Mumbai,Metro,2025-07-10,Instagram Ads,1,7649.0,False
+CUST-12967,Chennai,Metro,2025-01-28,Google Ads,1,6499.0,False
+CUST-12968,Patna,Tier-3,2024-08-24,Instagram Ads,1,3038.0,False
+CUST-12969,Bengaluru,Metro,2025-10-29,Organic,1,909.0,False
+CUST-12970,Surat,Tier-2,2025-10-22,Organic,1,1424.0,False
+CUST-12971,Indore,Tier-2,2024-05-19,Instagram Ads,1,2974.0,False
+CUST-12972,Gwalior,Tier-3,2025-09-16,Instagram Ads,1,4999.0,False
+CUST-12973,Meerut,Tier-3,2024-12-08,Instagram Ads,1,7199.0,False
+CUST-12974,Gwalior,Tier-3,2024-06-26,Organic,1,4248.0,False
+CUST-12975,Chennai,Metro,2025-08-27,Organic,15,53545.0,True
+CUST-12976,Hyderabad,Metro,2025-04-22,Referral,10,53450.0,True
+CUST-12977,Ahmedabad,Tier-2,2025-12-17,Organic,1,1329.0,False
+CUST-12978,Bengaluru,Metro,2024-12-25,Google Ads,1,1799.0,False
+CUST-12979,Bengaluru,Metro,2024-04-12,Instagram Ads,1,11999.0,False
+CUST-12980,Jodhpur,Tier-3,2024-05-15,Instagram Ads,1,2249.0,False
+CUST-12981,Gwalior,Tier-3,2025-09-28,Google Ads,1,2999.0,False
+CUST-12982,Mumbai,Metro,2025-11-03,Organic,24,91082.0,True
+CUST-12983,Agra,Tier-3,2024-08-13,Google Ads,6,32896.0,True
+CUST-12984,Hyderabad,Metro,2025-07-29,Organic,1,1359.0,False
+CUST-12985,Hyderabad,Metro,2025-11-11,Organic,3,13597.0,True
+CUST-12986,Ahmedabad,Tier-2,2024-04-06,Organic,1,2038.0,False
+CUST-12987,Jaipur,Tier-2,2024-05-20,Organic,3,11367.0,True
+CUST-12988,Bengaluru,Metro,2025-10-24,Instagram Ads,2,4158.0,True
+CUST-12989,Delhi,Metro,2025-08-09,Instagram Ads,1,1699.0,False
+CUST-12990,Mumbai,Metro,2024-10-24,Instagram Ads,1,0.0,False
+CUST-12991,Agra,Tier-3,2025-10-14,Organic,32,136330.0,True
+CUST-12992,Ahmedabad,Tier-2,2025-07-13,Instagram Ads,1,4799.0,False
+CUST-12993,Mumbai,Metro,2024-11-14,Referral,1,2799.0,False
+CUST-12994,Indore,Tier-2,2025-03-14,Referral,1,3499.0,False
+CUST-12995,Jaipur,Tier-2,2024-10-27,Instagram Ads,1,16799.0,False
+CUST-12996,Hyderabad,Metro,2025-10-28,Google Ads,1,1424.0,False
+CUST-12997,Chennai,Metro,2024-01-30,Instagram Ads,1,22399.0,False
+CUST-12998,Meerut,Tier-3,2024-02-21,Organic,14,75821.0,True
+CUST-12999,Jaipur,Tier-2,2024-06-24,Instagram Ads,1,3869.0,False
+CUST-13000,Kochi,Tier-2,2025-02-12,Organic,3,7052.0,True
+CUST-13001,Meerut,Tier-3,2025-06-20,Referral,23,123439.0,True
+CUST-13002,Jaipur,Tier-2,2025-05-21,Instagram Ads,1,2399.0,False
+CUST-13003,Chennai,Metro,2025-03-15,Organic,13,48766.0,True
+CUST-13004,Kolkata,Metro,2024-02-11,Organic,1,1619.0,False
+CUST-13005,Jaipur,Tier-2,2025-07-04,Google Ads,6,6890.0,True
+CUST-13006,Hyderabad,Metro,2025-01-03,Instagram Ads,1,1599.0,False
+CUST-13007,Jaipur,Tier-2,2025-02-27,Google Ads,1,5099.0,False
+CUST-13008,Jodhpur,Tier-3,2025-11-09,Google Ads,1,1349.0,False
+CUST-13009,Chandigarh,Tier-2,2024-04-25,Organic,1,1999.0,False
+CUST-13010,Mumbai,Metro,2025-05-26,Google Ads,1,1979.0,False
+CUST-13011,Ranchi,Tier-3,2024-07-20,Instagram Ads,1,13499.0,False
+CUST-13012,Indore,Tier-2,2025-02-22,Instagram Ads,1,3654.0,False
+CUST-13013,Chennai,Metro,2024-06-20,Referral,1,1799.0,False
+CUST-13014,Pune,Tier-2,2024-10-17,Organic,1,1119.0,False
+CUST-13015,Indore,Tier-2,2024-02-27,Instagram Ads,1,19998.0,False
+CUST-13016,Delhi,Metro,2024-10-06,Referral,1,4949.0,False
+CUST-13017,Chennai,Metro,2024-08-18,Google Ads,3,16816.0,True
+CUST-13018,Jaipur,Tier-2,2025-07-02,Instagram Ads,1,0.0,False
+CUST-13019,Lucknow,Tier-2,2025-09-29,Instagram Ads,1,1819.0,False
+CUST-13020,Meerut,Tier-3,2024-08-16,Instagram Ads,7,44160.0,True
+CUST-13021,Hyderabad,Metro,2025-10-18,Organic,9,25871.0,True
+CUST-13022,Raipur,Tier-3,2025-05-24,Google Ads,38,181589.0,True
+CUST-13023,Kolkata,Metro,2025-09-27,Google Ads,1,2924.0,False
+CUST-13024,Surat,Tier-2,2025-09-26,Google Ads,1,1539.0,False
+CUST-13025,Chennai,Metro,2024-08-03,Instagram Ads,1,2599.0,False
+CUST-13026,Kolkata,Metro,2024-04-26,Instagram Ads,1,29998.0,False
+CUST-13027,Surat,Tier-2,2025-01-22,Instagram Ads,1,4249.0,False
+CUST-13028,Kochi,Tier-2,2024-02-17,Google Ads,6,25582.0,True
+CUST-13029,Surat,Tier-2,2024-06-26,Organic,1,2199.0,False
+CUST-13030,Surat,Tier-2,2024-02-13,Instagram Ads,2,3958.0,True
+CUST-13031,Jaipur,Tier-2,2024-07-28,Instagram Ads,1,1499.0,False
+CUST-13032,Ahmedabad,Tier-2,2025-08-20,Instagram Ads,1,0.0,False
+CUST-13033,Hyderabad,Metro,2024-10-17,Instagram Ads,1,8124.0,False
+CUST-13034,Pune,Tier-2,2024-03-17,Instagram Ads,1,3869.0,False
+CUST-13035,Lucknow,Tier-2,2025-09-22,Instagram Ads,1,5849.0,False
+CUST-13036,Bengaluru,Metro,2024-10-03,Google Ads,1,9374.0,False
+CUST-13037,Pune,Tier-2,2024-04-26,Instagram Ads,6,36451.0,True
+CUST-13038,Agra,Tier-3,2025-08-24,Referral,1,5524.0,False
+CUST-13039,Mumbai,Metro,2025-08-22,Google Ads,8,26651.0,True
+CUST-13040,Chandigarh,Tier-2,2025-05-31,Organic,1,1869.0,False
+CUST-13041,Mumbai,Metro,2025-12-20,Google Ads,29,158077.0,True
+CUST-13042,Surat,Tier-2,2024-10-29,Organic,30,127135.0,True
+CUST-13043,Hyderabad,Metro,2025-11-28,Google Ads,1,839.0,False
+CUST-13044,Surat,Tier-2,2025-11-05,Instagram Ads,1,1199.0,False
+CUST-13045,Ahmedabad,Tier-2,2025-07-10,Instagram Ads,1,6374.0,False
+CUST-13046,Hyderabad,Metro,2024-11-04,Organic,3,4272.0,True
+CUST-13047,Delhi,Metro,2024-12-17,Instagram Ads,1,6499.0,False
+CUST-13048,Chandigarh,Tier-2,2025-04-08,Instagram Ads,1,5999.0,False
+CUST-13049,Indore,Tier-2,2025-10-13,Google Ads,1,2099.0,False
+CUST-13050,Pune,Tier-2,2025-12-08,Google Ads,1,4399.0,False

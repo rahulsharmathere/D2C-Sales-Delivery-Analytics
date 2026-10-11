@@ -1,0 +1,5 @@
+channel_id,channel_name,is_paid
+CH-01,Instagram Ads,True
+CH-02,Google Ads,True
+CH-03,Organic,False
+CH-04,Referral,False
