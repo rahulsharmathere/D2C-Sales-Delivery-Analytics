@@ -1,0 +1,34 @@
+relationship 'Orders by Customer'
+	fromColumn: fact_orders.customer_id
+	toColumn: dim_customers.customer_id
+
+relationship 'Orders by Product'
+	fromColumn: fact_orders.product_id
+	toColumn: dim_products.product_id
+
+relationship 'Orders by Date'
+	fromColumn: fact_orders.order_date
+	toColumn: dim_date.date_key
+
+relationship 'Spend by Date'
+	fromColumn: fact_marketing_spend.month
+	toColumn: dim_date.date_key
+
+relationship 'Customers by Channel'
+	fromColumn: dim_customers.acquisition_channel
+	toColumn: dim_channel.channel_name
+
+relationship 'Spend by Channel'
+	fromColumn: fact_marketing_spend.channel
+	toColumn: dim_channel.channel_name
+
+relationship 'Customer RFM Mart'
+	fromColumn: customer_rfm.customer_id
+	toColumn: dim_customers.customer_id
+	fromCardinality: one
+	crossFilteringBehavior: bothDirections
+
+relationship 'Acquisition by Date'
+	isActive: false
+	fromColumn: dim_customers.signup_date
+	toColumn: dim_date.date_key

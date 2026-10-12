@@ -1,0 +1,91 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "name": "matrix_category_discount_breakeven",
+  "position": {
+    "x": 20,
+    "y": 650,
+    "width": 880,
+    "height": 410,
+    "z": 1000
+  },
+  "visual": {
+    "visualType": "pivotTable",
+    "query": {
+      "queryState": {
+        "Rows": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Source": "dim_products"
+                    }
+                  },
+                  "Property": "category"
+                }
+              },
+              "queryRef": "dim_products.category"
+            }
+          ]
+        },
+        "Columns": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Source": "fact_orders"
+                    }
+                  },
+                  "Property": "discount_band"
+                }
+              },
+              "queryRef": "fact_orders.discount_band"
+            }
+          ]
+        },
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Source": "_Measures"
+                    }
+                  },
+                  "Property": "Contribution Margin %"
+                }
+              },
+              "queryRef": "_Measures.Contribution Margin %"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Discount Leakage Matrix: Category x Discount Band Net Margin % (Furniture/Lighting Red Zone)'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

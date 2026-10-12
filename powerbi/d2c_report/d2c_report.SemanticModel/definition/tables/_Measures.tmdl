@@ -1,0 +1,333 @@
+table _Measures
+	lineageTag: a1000008-0001-0001-0001-000000000001
+
+	measure 'Total Orders' = DISTINCTCOUNT(fact_orders[order_id])
+		formatString: #,0
+		displayFolder: 01 Core Sales & Volume
+		lineageTag: c1000008-0001-0001-0001-000000000001
+
+	measure 'Delivered Orders' = 
+		CALCULATE(
+		    [Total Orders],
+		    fact_orders[order_status] = "Delivered"
+		)
+		formatString: #,0
+		displayFolder: 01 Core Sales & Volume
+		lineageTag: c1000008-0001-0001-0001-000000000002
+
+	measure 'Returned Orders' = 
+		CALCULATE(
+		    [Total Orders],
+		    fact_orders[order_status] = "Returned"
+		)
+		formatString: #,0
+		displayFolder: 01 Core Sales & Volume
+		lineageTag: c1000008-0001-0001-0001-000000000003
+
+	measure 'Cancelled Orders' = 
+		CALCULATE(
+		    [Total Orders],
+		    fact_orders[order_status] = "Cancelled"
+		)
+		formatString: #,0
+		displayFolder: 01 Core Sales & Volume
+		lineageTag: c1000008-0001-0001-0001-000000000004
+
+	measure 'Gross Revenue' = SUM(fact_orders[selling_price])
+		formatString: ₹#,0
+		displayFolder: 01 Core Sales & Volume
+		lineageTag: c1000008-0001-0001-0001-000000000005
+
+	measure 'Net Delivered Revenue' = 
+		CALCULATE(
+		    [Gross Revenue],
+		    fact_orders[order_status] = "Delivered"
+		)
+		formatString: ₹#,0
+		displayFolder: 01 Core Sales & Volume
+		lineageTag: c1000008-0001-0001-0001-000000000006
+
+	measure 'Average Order Value (AOV)' = 
+		DIVIDE(
+		    [Gross Revenue],
+		    [Total Orders],
+		    0
+		)
+		formatString: ₹#,0
+		displayFolder: 01 Core Sales & Volume
+		lineageTag: c1000008-0001-0001-0001-000000000007
+
+	measure 'Total COGS' = 
+		SUMX(
+		    fact_orders,
+		    RELATED(dim_products[cost_price]) * fact_orders[quantity]
+		)
+		formatString: ₹#,0
+		displayFolder: 02 Margins & Profitability
+		lineageTag: c1000008-0001-0001-0001-000000000008
+
+	measure 'Total Freight Cost' = SUM(fact_orders[shipping_cost])
+		formatString: ₹#,0
+		displayFolder: 02 Margins & Profitability
+		lineageTag: c1000008-0001-0001-0001-000000000009
+
+	measure 'Gross Profit' = [Gross Revenue] - [Total COGS]
+		formatString: ₹#,0
+		displayFolder: 02 Margins & Profitability
+		lineageTag: c1000008-0001-0001-0001-00000000010
+
+	measure 'Gross Margin %' = 
+		DIVIDE(
+		    [Gross Profit],
+		    [Gross Revenue],
+		    0
+		)
+		formatString: 0.0%
+		displayFolder: 02 Margins & Profitability
+		lineageTag: c1000008-0001-0001-0001-00000000011
+
+	measure 'Contribution Profit' = [Gross Profit] - [Total Freight Cost]
+		formatString: ₹#,0
+		displayFolder: 02 Margins & Profitability
+		lineageTag: c1000008-0001-0001-0001-00000000012
+
+	measure 'Contribution Margin %' = 
+		DIVIDE(
+		    [Contribution Profit],
+		    [Gross Revenue],
+		    0
+		)
+		formatString: 0.0%
+		displayFolder: 02 Margins & Profitability
+		lineageTag: c1000008-0001-0001-0001-00000000013
+
+	measure 'Discount Leakage' = 
+		VAR TotalMRP = 
+		    SUMX(
+		        fact_orders,
+		        RELATED(dim_products[mrp]) * fact_orders[quantity]
+		    )
+		VAR ActualRevenue = [Gross Revenue]
+		RETURN
+		    TotalMRP - ActualRevenue
+		formatString: ₹#,0
+		displayFolder: 02 Margins & Profitability
+		lineageTag: c1000008-0001-0001-0001-00000000014
+
+	measure 'On-Time Delivery %' = 
+		VAR DispatchedWithTracking = 
+		    FILTER(
+		        fact_orders,
+		        fact_orders[order_status] IN {"Delivered", "Returned"} 
+		            && NOT ISBLANK(fact_orders[actual_days])
+		    )
+		VAR TotalFulfilled = COUNTROWS(DispatchedWithTracking)
+		VAR OnTimeOrders = 
+		    COUNTROWS(
+		        FILTER(
+		            DispatchedWithTracking,
+		            fact_orders[actual_days] <= fact_orders[promised_days]
+		        )
+		    )
+		RETURN
+		    DIVIDE(OnTimeOrders, TotalFulfilled, 0)
+		formatString: 0.0%
+		displayFolder: 03 Logistics & SLA Performance
+		lineageTag: c1000008-0001-0001-0001-00000000015
+
+	measure 'Return Rate %' = 
+		VAR DispatchedOrders = 
+		    CALCULATE(
+		        [Total Orders],
+		        fact_orders[order_status] IN {"Delivered", "Returned"}
+		    )
+		VAR Returns = [Returned Orders]
+		RETURN
+		    DIVIDE(Returns, DispatchedOrders, 0)
+		formatString: 0.0%
+		displayFolder: 03 Logistics & SLA Performance
+		lineageTag: c1000008-0001-0001-0001-00000000016
+
+	measure 'Cancellation Rate %' = 
+		VAR Orders = [Total Orders]
+		VAR Cancels = [Cancelled Orders]
+		RETURN
+		    DIVIDE(Cancels, Orders, 0)
+		formatString: 0.0%
+		displayFolder: 03 Logistics & SLA Performance
+		lineageTag: c1000008-0001-0001-0001-00000000017
+
+	measure 'Order Failure Rate %' = 
+		VAR Orders = [Total Orders]
+		VAR Failures = [Returned Orders] + [Cancelled Orders]
+		RETURN
+		    DIVIDE(Failures, Orders, 0)
+		formatString: 0.0%
+		displayFolder: 03 Logistics & SLA Performance
+		lineageTag: c1000008-0001-0001-0001-00000000018
+
+	measure 'Total Marketing Spend' = SUM(fact_marketing_spend[spend])
+		formatString: ₹#,0
+		displayFolder: 04 Marketing & Customer Retention
+		lineageTag: c1000008-0001-0001-0001-00000000019
+
+	measure 'New Customers' = 
+		CALCULATE(
+		    DISTINCTCOUNT(dim_customers[customer_id]),
+		    USERELATIONSHIP(dim_date[date_key], dim_customers[signup_date])
+		)
+		formatString: #,0
+		displayFolder: 04 Marketing & Customer Retention
+		lineageTag: c1000008-0001-0001-0001-00000000020
+
+	measure CAC = 
+		VAR AdSpend = [Total Marketing Spend]
+		VAR AcquiredCustomers = [New Customers]
+		RETURN
+		    DIVIDE(AdSpend, AcquiredCustomers, 0)
+		formatString: ₹#,0
+		displayFolder: 04 Marketing & Customer Retention
+		lineageTag: c1000008-0001-0001-0001-00000000021
+
+	measure ROAS = 
+		VAR Revenue = [Gross Revenue]
+		VAR AdSpend = [Total Marketing Spend]
+		RETURN
+		    DIVIDE(Revenue, AdSpend, 0)
+		formatString: 0.00"x"
+		displayFolder: 04 Marketing & Customer Retention
+		lineageTag: c1000008-0001-0001-0001-00000000022
+
+	measure 'Repeat Customer %' = 
+		VAR CustomersWithOrders = 
+		    ADDCOLUMNS(
+		        VALUES(dim_customers[customer_id]),
+		        "@Orders", CALCULATE([Total Orders])
+		    )
+		VAR TotalActiveCustomers = 
+		    COUNTROWS(FILTER(CustomersWithOrders, [@Orders] >= 1))
+		VAR RepeatCustomers = 
+		    COUNTROWS(FILTER(CustomersWithOrders, [@Orders] > 1))
+		RETURN
+		    DIVIDE(RepeatCustomers, TotalActiveCustomers, 0)
+		formatString: 0.0%
+		displayFolder: 04 Marketing & Customer Retention
+		lineageTag: c1000008-0001-0001-0001-00000000023
+
+	measure 'Revenue MoM %' = 
+		VAR CurrentRevenue = [Gross Revenue]
+		VAR PreviousMonthRevenue = 
+		    CALCULATE(
+		        [Gross Revenue],
+		        DATEADD(dim_date[date_key], -1, MONTH)
+		    )
+		RETURN
+		    DIVIDE(
+		        CurrentRevenue - PreviousMonthRevenue,
+		        PreviousMonthRevenue,
+		        0
+		    )
+		formatString: 0.0%
+		displayFolder: 05 Time Intelligence
+		lineageTag: c1000008-0001-0001-0001-00000000024
+
+	measure 'Revenue YoY %' = 
+		VAR CurrentRevenue = [Gross Revenue]
+		VAR PreviousYearRevenue = 
+		    CALCULATE(
+		        [Gross Revenue],
+		        SAMEPERIODLASTYEAR(dim_date[date_key])
+		    )
+		RETURN
+		    DIVIDE(
+		        CurrentRevenue - PreviousYearRevenue,
+		        PreviousYearRevenue,
+		        0
+		    )
+		formatString: 0.0%
+		displayFolder: 05 Time Intelligence
+		lineageTag: c1000008-0001-0001-0001-00000000025
+
+	measure 'Revenue YTD' = 
+		TOTALYTD(
+		    [Gross Revenue],
+		    dim_date[date_key]
+		)
+		formatString: ₹#,0
+		displayFolder: 05 Time Intelligence
+		lineageTag: c1000008-0001-0001-0001-00000000026
+
+	measure 'Dynamic Report Title' = 
+		VAR SelectedYear = SELECTEDVALUE(dim_date[year], "2024 - 2025")
+		VAR SelectedCategory = SELECTEDVALUE(dim_products[category], "All Categories")
+		VAR SelectedTier = SELECTEDVALUE(dim_customers[city_tier], "National")
+		RETURN
+		    "UrbanNest Sales & Delivery Diagnostic | " & SelectedCategory & " | " & SelectedTier & " (" & SelectedYear & ")"
+		displayFolder: 06 UI & Conditional Formatting
+		lineageTag: c1000008-0001-0001-0001-00000000027
+
+	measure CF_GrossMargin_Color = 
+		VAR Margin = [Gross Margin %]
+		RETURN
+		    SWITCH(
+		        TRUE(),
+		        ISBLANK(Margin), "#94A3B8",
+		        Margin < 0.15, "#DC2626",
+		        Margin < 0.30, "#D97706",
+		        "#059669"
+		    )
+		displayFolder: 06 UI & Conditional Formatting
+		lineageTag: c1000008-0001-0001-0001-00000000028
+
+	measure CF_OnTimeDelivery_Color = 
+		VAR OnTime = [On-Time Delivery %]
+		RETURN
+		    SWITCH(
+		        TRUE(),
+		        ISBLANK(OnTime), "#94A3B8",
+		        OnTime < 0.75, "#DC2626",
+		        OnTime < 0.90, "#D97706",
+		        "#059669"
+		    )
+		displayFolder: 06 UI & Conditional Formatting
+		lineageTag: c1000008-0001-0001-0001-00000000029
+
+	measure 'Average Transit Days' = 
+		AVERAGE(fact_orders[actual_days])
+		formatString: 0.0
+		displayFolder: 03 Logistics & SLA Performance
+		lineageTag: c1000008-0001-0001-0001-00000000030
+
+	measure 'Average Promised Days' = 
+		AVERAGE(fact_orders[promised_days])
+		formatString: 0.0
+		displayFolder: 03 Logistics & SLA Performance
+		lineageTag: c1000008-0001-0001-0001-00000000031
+
+	measure 'Average Delivery Delay' = 
+		[Average Transit Days] - [Average Promised Days]
+		formatString: +0.0;-0.0;0.0
+		displayFolder: 03 Logistics & SLA Performance
+		lineageTag: c1000008-0001-0001-0001-00000000032
+
+	measure 'Total Customers' = 
+		DISTINCTCOUNT(dim_customers[customer_id])
+		formatString: #,0
+		displayFolder: 04 Marketing & Customer Retention
+		lineageTag: c1000008-0001-0001-0001-00000000033
+
+	column Placeholder
+		isHidden
+		dataType: int64
+		lineageTag: b1000008-0001-0001-0001-000000000001
+		summarizeBy: none
+		sourceColumn: [Value]
+
+	partition _Measures = m
+		mode: import
+		source =
+			let
+				Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i44FAA==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Placeholder = _t]),
+				#"Changed Type" = Table.TransformColumnTypes(Source,{{"Placeholder", Int64.Type}})
+			in
+				#"Changed Type"

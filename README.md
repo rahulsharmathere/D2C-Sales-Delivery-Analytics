@@ -240,3 +240,4 @@ Build visuals following [powerbi/dashboard_spec.md](powerbi/dashboard_spec.md) a
 1. **Synthetic Nature of Data:** Data was generated using seeded pseudo-random distributions (Seed 42) designed to reflect typical Indian D2C operational dynamics (COD preference, seasonal festive peaks, regional carrier latency). Results should be interpreted as diagnostic patterns rather than empirical market data.
 2. **First-Touch Attribution:** Marketing spend is matched to customers using first-touch acquisition channel recorded at signup. Multi-touch attribution and view-through conversions are not modeled.
 3. **What-If Estimates:** Strategic impact estimates in `docs/executive_summary.md` and `checks/whatif_estimates.py` represent static sensitivity models assuming ceteris paribus conditions; actual commercial outcomes will vary depending on competitive price elasticity and market response.
+

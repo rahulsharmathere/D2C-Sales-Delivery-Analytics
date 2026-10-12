@@ -1,0 +1,126 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "name": "matrix_payment_profitability",
+  "position": {
+    "x": 960,
+    "y": 650,
+    "width": 940,
+    "height": 410,
+    "z": 1000
+  },
+  "visual": {
+    "visualType": "pivotTable",
+    "query": {
+      "queryState": {
+        "Rows": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Source": "fact_orders"
+                    }
+                  },
+                  "Property": "payment_method"
+                }
+              },
+              "queryRef": "fact_orders.payment_method"
+            }
+          ]
+        },
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Source": "_Measures"
+                    }
+                  },
+                  "Property": "Total Orders"
+                }
+              },
+              "queryRef": "_Measures.Total Orders"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Source": "_Measures"
+                    }
+                  },
+                  "Property": "Gross Revenue"
+                }
+              },
+              "queryRef": "_Measures.Gross Revenue"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Source": "_Measures"
+                    }
+                  },
+                  "Property": "Contribution Profit"
+                }
+              },
+              "queryRef": "_Measures.Contribution Profit"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Source": "_Measures"
+                    }
+                  },
+                  "Property": "Contribution Margin %"
+                }
+              },
+              "queryRef": "_Measures.Contribution Margin %"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Source": "_Measures"
+                    }
+                  },
+                  "Property": "Order Failure Rate %"
+                }
+              },
+              "queryRef": "_Measures.Order Failure Rate %"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Payment Method Performance: Revenue, Contribution Profit, Margin % & Failure Risk'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

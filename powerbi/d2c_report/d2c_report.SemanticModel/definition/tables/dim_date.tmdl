@@ -1,0 +1,80 @@
+table dim_date
+	lineageTag: a1000003-0001-0001-0001-000000000001
+	dataCategory: Time
+
+	column date_key
+		isKey
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		lineageTag: b1000003-0001-0001-0001-000000000001
+		summarizeBy: none
+		sourceColumn: date_key
+
+	column date
+		dataType: string
+		lineageTag: b1000003-0001-0001-0001-000000000002
+		summarizeBy: none
+		sourceColumn: date
+
+	column year
+		dataType: int64
+		formatString: 0
+		lineageTag: b1000003-0001-0001-0001-000000000003
+		summarizeBy: none
+		sourceColumn: year
+
+	column quarter
+		dataType: string
+		lineageTag: b1000003-0001-0001-0001-000000000004
+		summarizeBy: none
+		sourceColumn: quarter
+
+	column year_quarter
+		dataType: string
+		lineageTag: b1000003-0001-0001-0001-000000000005
+		summarizeBy: none
+		sourceColumn: year_quarter
+
+	column month_num
+		dataType: int64
+		formatString: 0
+		lineageTag: b1000003-0001-0001-0001-000000000006
+		summarizeBy: none
+		sourceColumn: month_num
+
+	column month_name
+		dataType: string
+		lineageTag: b1000003-0001-0001-0001-000000000007
+		summarizeBy: none
+		sourceColumn: month_name
+
+	column month_year
+		dataType: string
+		sortByColumn: year_month_num
+		lineageTag: b1000003-0001-0001-0001-000000000008
+		summarizeBy: none
+		sourceColumn: month_year
+
+	column year_month_num
+		dataType: int64
+		formatString: 0
+		lineageTag: b1000003-0001-0001-0001-000000000009
+		summarizeBy: none
+		sourceColumn: year_month_num
+
+	column is_festive_q4
+		dataType: int64
+		formatString: 0
+		lineageTag: b1000003-0001-0001-0001-000000000010
+		summarizeBy: none
+		sourceColumn: is_festive_q4
+
+	partition dim_date = m
+		mode: import
+		source =
+			let
+				Source = Csv.Document(File.Contents("C:\Users\rahul\OneDrive\Desktop\powerBiProject\data\processed\dim_date.csv"),[Delimiter=",", Columns=10, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				#"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				#"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"date_key", type date}, {"date", type text}, {"year", Int64.Type}, {"quarter", type text}, {"year_quarter", type text}, {"month_num", Int64.Type}, {"month_name", type text}, {"month_year", type text}, {"year_month_num", Int64.Type}, {"is_festive_q4", Int64.Type}})
+			in
+				#"Changed Type"

@@ -1,0 +1,57 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "name": "slicer_city_tier",
+  "position": {
+    "x": 1420,
+    "y": 20,
+    "width": 480,
+    "height": 95,
+    "z": 1000
+  },
+  "visual": {
+    "visualType": "slicer",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Source": "dim_customers"
+                    }
+                  },
+                  "Property": "city_tier"
+                }
+              },
+              "queryRef": "dim_customers.city_tier"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Filter: Customer City Tier'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

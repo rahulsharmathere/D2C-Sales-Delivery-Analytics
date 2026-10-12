@@ -1,0 +1,63 @@
+table customer_rfm
+	lineageTag: a1000007-0001-0001-0001-000000000001
+
+	column customer_id
+		dataType: string
+		lineageTag: b1000007-0001-0001-0001-000000000001
+		summarizeBy: none
+		sourceColumn: customer_id
+
+	column city
+		dataType: string
+		lineageTag: b1000007-0001-0001-0001-000000000002
+		summarizeBy: none
+		sourceColumn: city
+
+	column city_tier
+		dataType: string
+		lineageTag: b1000007-0001-0001-0001-000000000003
+		summarizeBy: none
+		sourceColumn: city_tier
+
+	column acquisition_channel
+		dataType: string
+		lineageTag: b1000007-0001-0001-0001-000000000004
+		summarizeBy: none
+		sourceColumn: acquisition_channel
+
+	column recency
+		dataType: int64
+		formatString: 0
+		lineageTag: b1000007-0001-0001-0001-000000000005
+		summarizeBy: average
+		sourceColumn: recency
+
+	column frequency
+		dataType: int64
+		formatString: 0
+		lineageTag: b1000007-0001-0001-0001-000000000006
+		summarizeBy: average
+		sourceColumn: frequency
+
+	column monetary
+		dataType: double
+		formatString: ₹#,0
+		lineageTag: b1000007-0001-0001-0001-000000000007
+		summarizeBy: sum
+		sourceColumn: monetary
+
+	column rfm_segment
+		dataType: string
+		lineageTag: b1000007-0001-0001-0001-000000000008
+		summarizeBy: none
+		sourceColumn: rfm_segment
+
+	partition customer_rfm = m
+		mode: import
+		source =
+			let
+				Source = Csv.Document(File.Contents("C:\Users\rahul\OneDrive\Desktop\powerBiProject\data\processed\customer_rfm.csv"),[Delimiter=",", Columns=8, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				#"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				#"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"customer_id", type text}, {"city", type text}, {"city_tier", type text}, {"acquisition_channel", type text}, {"recency", Int64.Type}, {"frequency", Int64.Type}, {"monetary", type number}, {"rfm_segment", type text}})
+			in
+				#"Changed Type"

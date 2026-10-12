@@ -1,0 +1,31 @@
+table dim_channel
+	lineageTag: a1000004-0001-0001-0001-000000000001
+
+	column channel_id
+		dataType: string
+		lineageTag: b1000004-0001-0001-0001-000000000001
+		summarizeBy: none
+		sourceColumn: channel_id
+
+	column channel_name
+		dataType: string
+		lineageTag: b1000004-0001-0001-0001-000000000002
+		summarizeBy: none
+		sourceColumn: channel_name
+
+	column is_paid
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: b1000004-0001-0001-0001-000000000003
+		summarizeBy: none
+		sourceColumn: is_paid
+
+	partition dim_channel = m
+		mode: import
+		source =
+			let
+				Source = Csv.Document(File.Contents("C:\Users\rahul\OneDrive\Desktop\powerBiProject\data\processed\dim_channel.csv"),[Delimiter=",", Columns=3, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				#"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				#"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"channel_id", type text}, {"channel_name", type text}, {"is_paid", type logical}})
+			in
+				#"Changed Type"

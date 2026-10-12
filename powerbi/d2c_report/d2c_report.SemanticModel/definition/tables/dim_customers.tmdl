@@ -1,0 +1,64 @@
+table dim_customers
+	lineageTag: a1000001-0001-0001-0001-000000000001
+
+	column customer_id
+		dataType: string
+		lineageTag: b1000001-0001-0001-0001-000000000001
+		summarizeBy: none
+		sourceColumn: customer_id
+
+	column city
+		dataType: string
+		lineageTag: b1000001-0001-0001-0001-000000000002
+		summarizeBy: none
+		sourceColumn: city
+
+	column city_tier
+		dataType: string
+		lineageTag: b1000001-0001-0001-0001-000000000003
+		summarizeBy: none
+		sourceColumn: city_tier
+
+	column signup_date
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		lineageTag: b1000001-0001-0001-0001-000000000004
+		summarizeBy: none
+		sourceColumn: signup_date
+
+	column acquisition_channel
+		dataType: string
+		lineageTag: b1000001-0001-0001-0001-000000000005
+		summarizeBy: none
+		sourceColumn: acquisition_channel
+
+	column order_cnt
+		dataType: int64
+		formatString: #,0
+		lineageTag: b1000001-0001-0001-0001-000000000006
+		summarizeBy: sum
+		sourceColumn: order_cnt
+
+	column ltv_rev
+		dataType: double
+		formatString: ₹#,0
+		lineageTag: b1000001-0001-0001-0001-000000000007
+		summarizeBy: sum
+		sourceColumn: ltv_rev
+
+	column is_repeat
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: b1000001-0001-0001-0001-000000000008
+		summarizeBy: none
+		sourceColumn: is_repeat
+
+	partition dim_customers = m
+		mode: import
+		source =
+			let
+				Source = Csv.Document(File.Contents("C:\Users\rahul\OneDrive\Desktop\powerBiProject\data\processed\dim_customers.csv"),[Delimiter=",", Columns=8, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				#"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				#"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"customer_id", type text}, {"city", type text}, {"city_tier", type text}, {"signup_date", type date}, {"acquisition_channel", type text}, {"order_cnt", Int64.Type}, {"ltv_rev", type number}, {"is_repeat", type logical}})
+			in
+				#"Changed Type"

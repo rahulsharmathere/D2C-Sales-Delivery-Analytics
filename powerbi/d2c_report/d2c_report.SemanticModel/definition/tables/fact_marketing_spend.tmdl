@@ -1,0 +1,32 @@
+table fact_marketing_spend
+	lineageTag: a1000006-0001-0001-0001-000000000001
+
+	column month
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		lineageTag: b1000006-0001-0001-0001-000000000001
+		summarizeBy: none
+		sourceColumn: month
+
+	column channel
+		dataType: string
+		lineageTag: b1000006-0001-0001-0001-000000000002
+		summarizeBy: none
+		sourceColumn: channel
+
+	column spend
+		dataType: int64
+		formatString: ₹#,0
+		lineageTag: b1000006-0001-0001-0001-000000000003
+		summarizeBy: sum
+		sourceColumn: spend
+
+	partition fact_marketing_spend = m
+		mode: import
+		source =
+			let
+				Source = Csv.Document(File.Contents("C:\Users\rahul\OneDrive\Desktop\powerBiProject\data\processed\fact_marketing_spend.csv"),[Delimiter=",", Columns=3, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				#"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				#"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"month", type date}, {"channel", type text}, {"spend", Int64.Type}})
+			in
+				#"Changed Type"
